@@ -21,3 +21,5 @@ E. J. Bjerrum
 使用DHFR inhibition data.按照1:9分成test set和training set.使用SMILES进行拓展,并且padding length是74.使用one-hot encoding向量化.使用log IC50和unit variance和mean zero进行正则化.
 
 ### LSTM neural network
+
+多层LSTM层,batch mode,输出是single linear output neuron.使用Bayesian optimization,通过Gaussian processes,在Python package GpyOpt包中提供.
