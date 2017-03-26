@@ -25,3 +25,7 @@ E. J. Bjerrum
 多层LSTM层,batch mode,输出是single linear output neuron.使用Bayesian optimization,通过Gaussian processes,在Python package GpyOpt包中提供.
 
 一个使用canonical SMILES,一个是用SMILES enumeration作为特征.
+
+## Results
+
+对于每一个canonical SMILES,增加约130倍的enumerated SMILES.
