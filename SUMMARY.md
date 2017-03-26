@@ -65,6 +65,7 @@
   * [2017](iclr2017.md)
     * [A Simple But Tough-to-beat Baseline For Sentence Embeddings](iclr2017/a-simple-but-tough-to-beat-baseline-for-sentence-embeddings.md)
     * [Optimization as a Model For Few-Shot Learning](iclr2017/optimization-as-a-model-for-few-shot-learning.md)
+    * [Towards Principled Methods For Training Generative Adversarial Networks](iclr2017/towards-principled-methods-for-training-generative-adversarial-networks.md)
   * [2016](iclr2016.md)
     * [Segmental Recurrent Neural Networks](segmental-recurrent-neural-networks.md)
     * [Order Matters: Sequence To Sequence For Sets](order_matters_sequence_to_sequence_for_sets.md)
@@ -79,6 +80,8 @@
   * [2017](wsdm/wsdm_2017.md)
     * [Recurrent Recommender Networks](arxiv_2017/recurrent-recommender-networks.md)
     * [Comparative Document Analysis for Large Text Corpora](arxiv_2017/comparative-document-analysis-for-large-text-corpora.md)
+    * [Summarizing Answers in Non-Factoid Community Question-Answering](arxiv_2017/summarizing-answers-in-non-factoid-community-question-answering.md)
+    * Task-Guided and Path-Augmented Heterogeneous Network Embedding for Author Identification
 * [AAAI](aaai.md)
   * [2017](aaai/aaai2017.md)
     * [Deep MIML Network](aaai/aaai2017/deep-miml-network.md)
