@@ -14,8 +14,10 @@ E. J. Bjerrum
 
 ### SMILES enumeration
 
-使用RDKit产生SMILES.
+使用RDKit产生SMILES.首先分子内的原子随机打乱,然后转换成RDKit molfile格式.然后重复这个一定的次数,来组合成一个新的SMILES string.
 
 ### Molecular dataset
+
+
 
 ### LSTM neural network
