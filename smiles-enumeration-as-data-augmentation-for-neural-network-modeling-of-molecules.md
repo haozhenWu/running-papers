@@ -28,4 +28,4 @@ E. J. Bjerrum
 
 ## Results
 
-对于每一个canonical SMILES,增加约130倍的enumerated SMILES.
+对于每一个canonical SMILES,增加约130倍的enumerated SMILES.分别尝试了使用canonical和enumerated SMILES进行train,使用canonical和enumerated SMILSE进行test,也就是四种不同情况,两种训练的model.结果在图三.
