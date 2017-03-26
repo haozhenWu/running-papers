@@ -2,7 +2,7 @@
 
 E. J. Bjerrum
 
-# Intro
+## Intro
 
 在其他领域,比如图片分类和语音识别,data augmentation可以通过图片的旋转,镜像,变形,缩放来增加数据.
 
@@ -10,3 +10,12 @@ E. J. Bjerrum
 
 这里使用LSTM来使用SMILES评估.
 
+## Methods
+
+### SMILES enumeration
+
+使用RDKit产生SMILES.
+
+### Molecular dataset
+
+### LSTM neural network
