@@ -27,6 +27,7 @@
   * [Generating Focussed Molecule Libraries for Drug Discovery with RNN](generating-focussed-molecule-libraries-for-drug-discovery-with-rnn.md)
   * [Boosting Docking-based Virtual Screening with Deep Learning](boosting-docking-based-virtual-screening-with-deep-learning.md)
   * [The cornucopia of meaningful leads: Applying deep adversarial autoencoders for new molecule development in oncology](the-cornucopia-of-meaningful-leads-applying-deep-adversarial-autoencoders-for-new-molecule-development-in-oncology.md)
+  * [SMILES Enumeration as Data Augmentation for Neural Network Modeling of Molecules](smiles-enumeration-as-data-augmentation-for-neural-network-modeling-of-molecules.md)
 * [DeepChem](chapter1.md)
   * [benefits of depth in neural networks](benefits-of-depth-in-neural-networks.md)
   * [massively multitask networks for drug discovery](massively_multitask_networks_for_drug_discovery.md)
