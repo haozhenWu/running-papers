@@ -18,6 +18,6 @@ E. J. Bjerrum
 
 ### Molecular dataset
 
-
+使用DHFR inhibition data.按照1:9分成test set和training set.使用SMILES进行拓展,并且padding length是74.使用one-hot encoding向量化.
 
 ### LSTM neural network
