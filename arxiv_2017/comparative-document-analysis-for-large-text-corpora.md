@@ -45,4 +45,8 @@ Phrase Distinction：给定$$(d,d')$$，当满足以下条件时，phrase $$p$$�
 
 ### Comparative Selection Optimization
 
+如何得到phrase-document relevance score $$f(p,d)$$，以及如何得到phrase set $$\{ C, Q, Q' \}$$。
+
+
+
 ### An Efficient Algorithm
