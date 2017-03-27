@@ -55,4 +55,4 @@ Phrase Distinction：给定$$(d,d')$$，当满足以下条件时，phrase $$p$$�
 
 ### An Efficient Algorithm
 
-以上优化问题是mix-integer问题,NP-hard.
+以上优化问题是mix-integer问题,NP-hard.提出了一个approximation 解决方案:迭代方法.
