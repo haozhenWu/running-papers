@@ -13,6 +13,10 @@
 
 ## Bayesian Optimization Methods for Hyperparameter Optimization
 
+定义hyperparameter为$$\lambda_1, \lambda_2, ... , \lambda_n$$,那么hyperparameter space不妨定义为$$\Lambda_1, \Lambda_2, ..., \Lambda_n $$，对于每一个hyperparameter set $$\lambda \in \Lambda$$,用$$A_\lambda$$表示.用$$\mathcal{L}(A_\lambda, D_{train}, D_{test})$$表示损失,所以k-fold cross validation的平均损失函数就是
+
+$$f(\lambda) = \frac{1}{k} \sum_i \mathcal{L}(A_\lambda, D_{train}^{(i)}, D_{test}^{(i)}) $$
+
 
 
 # Appendix
