@@ -17,7 +17,15 @@
 
 $$f(\lambda) = \frac{1}{k} \sum_i \mathcal{L}(A_\lambda, D_{train}^{(i)}, D_{test}^{(i)}) $$
 
+贝叶斯优化是基于f的point evaluation和所有的prior info,构建一个probabilistic model $$M$$,并且使用这个模型使用下一个$$\lambda$$来评估.其中,贝叶斯优化使用acquisition function $$a_M:\Lambda \to R$$,是对模型参数预测其分布,来判断$$\lambda$$有多'有用',从而选择下一个$$\lambda$$.最常用的acquisition function是expected improvement.
 
+$$E_M [I_{f_{min}}(\lambda)] = \int_{-\inf}^{f_{min}} max \{ f_{min} - f, 0 \} \cdot p_M(f|\lambda) df $$
+
+现有的贝叶斯优化算法,主要区别是使用的模型类型.这里比较三个最出名的:
+
++ Spearmint.使用高斯过程Gaussian process(GP)来给$$p_M(f|\lambda)$$建模,并且对GP的hyperparameters进行slice sampling.
++ Sequential Model-based Algorithm Configuration(SMAC).
++ Tree Parzen Estimator(TPE).
 
 # Appendix
 
