@@ -59,6 +59,7 @@
 * [ICML](icml.md)
   * [2016](icml2016.md)
     * [Learning Relational Sum-Product Networks](learning_relational_sum-product_networks.md)
+    * [Towards an Empirical Foundation for Assessing Bayesian Optimization of Hyperparameters](towards-an-empirical-foundation-for-assessing-bayesian-optimization-of-hyperparameters.md)
   * [2014](icml_2014.md)
     * [Distributed Representations of Sentences and Documents](icml_2014/distributed-representations-of-sentences-and-documents.md)
 * [ICLR](iclr.md)
