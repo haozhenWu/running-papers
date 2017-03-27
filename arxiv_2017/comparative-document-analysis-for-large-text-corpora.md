@@ -30,22 +30,24 @@ CDA的主要任务:
 
 ### Salient Phrase Generation
 
-1. Candidate Phrase Mining
-2. Salient Phrase Selection：通过找到candidate phrases算法，每一个文档都能被当作是phrases的集合，但大部分都不能给代表这篇文档。从两个不同的角度来找salient phrases：短语的interestingness和diversity。
-    1. phrase interestingness：如果一个短语在整个语料库中不是经常出现，但是在这个文档中经常出现，那么就是salient phrases。测量的方式由论文中的$$r(\cdot)$$定义。
-    2. phrase diversity：采用编辑距离作为两个词组直接的差异。也可以使用语义相似度策略，比如分布式相似度。
+提出一个data-driven的方法,同时考虑到本地语法信息和语料库级别的数据.首先使用text mining方法将文本划分到没有覆盖的段落,然后同时使用interestingness和diversity方法来过滤掉不重要的短语以及删除重复短语.
+
+1. Candidate Phrase Mining:使用了数据驱动的方法,SegPhrasen(这个是另外一篇paper,要再看一下)用了distant supervision.
+2. Salient Phrase Selection:通过找到candidate phrases算法,每一个文档都能被当作是phrases的集合，但大部分都不能给代表这篇文档.从两个不同的角度来找salient phrases：短语的interestingness和diversity.
+    1. phrase interestingness:如果一个短语在整个语料库中不是经常出现，但是在这个文档中经常出现，那么就是salient phrases.测量的方式由论文中的$$r(\cdot)$$定义.
+    2. phrase diversity：采用编辑距离作为两个词组直接的差异。也可以使用语义相似度策略，比如分布式相似度.
 
 ### Commonality and Distinction Measures
 
-使用聚类的方法来找到'commonality clusters'和'distinction clusters'，会有类似无法确定聚类数目的问题。解决方法就是考虑到不同phrases之间的语义相关性。
+使用聚类的方法来找到'commonality clusters'和'distinction clusters'，会有类似无法确定聚类数目的问题。解决方法就是考虑到不同phrases之间的语义相关性.
 
-Phrase Commonality：要求$$f(p,d)$$和$$f(p,d')$$同时很高。
+Phrase Commonality：要求$$f(p,d)$$和$$f(p,d')$$同时很高.
 
-Phrase Distinction：给定$$(d,d')$$，当满足以下条件时，phrase $$p$$有相对比较高的distinction score $$\prod(p,d|d')$$：$$f(p,d)$$比较高，相比于$$f(p,d')$$。
+Phrase Distinction：给定$$(d,d')$$，当满足以下条件时，phrase $$p$$有相对比较高的distinction score $$\prod(p,d|d')$$：$$f(p,d)$$比较高，相比于$$f(p,d')$$.
 
 ### Comparative Selection Optimization
 
-如何得到phrase-document relevance score $$f(p,d)$$，以及如何得到phrase set $$\{ C, Q, Q' \}$$。
+如何得到phrase-document relevance score $$f(p,d)$$，以及如何得到phrase set $$\{ C, Q, Q' \}$$.
 
 
 
