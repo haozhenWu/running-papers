@@ -47,8 +47,12 @@ Phrase Distinction：给定$$(d,d')$$，当满足以下条件时，phrase $$p$$�
 
 ### Comparative Selection Optimization
 
-如何得到phrase-document relevance score $$f(p,d)$$，以及如何得到phrase set $$\{ C, Q, Q' \}$$.
+如何得到phrase-document relevance score $$f(p,d)$$，以及如何得到phrase set $$\{ C, Q, Q' \}$$.解决方案是在一个构造的图上,同时对一个优化问题联合求解以上两个问题.
 
-
++ Graph-based Semantic Relevance:简单的方法是使用bag-of-words 相似度测量,但是可能会忽略掉一些语义相关内容.
+构造一个二分图,来获取phrase和document同时出现的情况(就是phrase在document中),边$$W_{ij}$$是BM25 score.然后加入regularization形成优化问题.
++ The Joint Optimization Problem:以上得到的relevance score是没有考虑到document之间的关系.解决方案的一个想法,就是利用common/distince phrases,来增强propogation,作为额外的positive labels.
 
 ### An Efficient Algorithm
+
+以上优化问题是mix-integer问题,NP-hard.
