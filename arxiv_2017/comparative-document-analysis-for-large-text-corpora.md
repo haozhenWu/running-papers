@@ -30,7 +30,10 @@ CDA的主要任务:
 
 ### Salient Phrase Generation
 
+提出一个data-driven的方法,同时考虑到本地语法信息和语料库级别的数据.首先使用text mining方法将文本划分到没有覆盖的段落,然后同时使用interestingness和diversity方法来过滤掉不重要的短语以及删除重复短语.
 
+1. Candidate Phrase Mining: 使用了数据驱动的方法,SegPhrasen(这个是另外一篇paper,要再看一下)用了distant supervisio
+2. Salient Phrase Selection: 
 
 ### Commonality and Distinction Measures
 
