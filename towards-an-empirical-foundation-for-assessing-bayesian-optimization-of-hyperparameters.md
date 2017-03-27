@@ -27,6 +27,12 @@ $$E_M [I_{f_{min}}(\lambda)] = \int_{-\inf}^{f_{min}} max \{ f_{min} - f, 0 \} \
 + Sequential Model-based Algorithm Configuration(SMAC).使用随机森林给$$p_M(f|\lambda)$$来模拟Gaussian distribution,mean和variance是随机森林的mean和variance.
 + Tree Parzen Estimator(TPE).TPE没有直接给$$p_M(f|\lambda)$$建模,而是$$p(f < f*), p(\lambda | f < f *), p(\lambda | f \ge f*)$$建模,其中$$f*$$是一个固定的分位点.
 
+# Hyperparameter Optimization Benchmarks
+
+将benchmark分为三种,低中高维度的benchmarks.
+
 # Appendix
 
 [这个ML组](http://aad.informatik.uni-freiburg.de/people/hutter/publications.html)最近几年做了很多和贝叶斯网络相关的内容.
+
+这篇论文主要贡献是将最近的贝叶斯优化的方法和benchmark进行了归纳.
