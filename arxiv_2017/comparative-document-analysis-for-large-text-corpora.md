@@ -37,6 +37,12 @@ CDA的主要任务:
 
 ### Commonality and Distinction Measures
 
+使用聚类的方法来找到'commonality clusters'和'distinction clusters'，会有类似无法确定聚类数目的问题。解决方法就是考虑到不同phrases之间的语义相关性。
+
+Phrase Commonality：要求$$f(p,d)$$和$$f(p,d')$$同时很高。
+
+Phrase Distinction：给定$$(d,d')$$，当满足以下条件时，phrase $$p$$有相对比较高的distinction score $$\prod(p,d|d')$$：$$f(p,d)$$比较高，相比于$$f(p,d')$$。
+
 ### Comparative Selection Optimization
 
 ### An Efficient Algorithm
