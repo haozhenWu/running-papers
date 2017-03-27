@@ -25,7 +25,7 @@ $$E_M [I_{f_{min}}(\lambda)] = \int_{-\inf}^{f_{min}} max \{ f_{min} - f, 0 \} \
 
 + Spearmint.使用高斯过程Gaussian process(GP)来给$$p_M(f|\lambda)$$建模,并且对GP的hyperparameters进行slice sampling.
 + Sequential Model-based Algorithm Configuration(SMAC).使用随机森林给$$p_M(f|\lambda)$$来模拟Gaussian distribution,mean和variance是随机森林的mean和variance.
-+ Tree Parzen Estimator(TPE).
++ Tree Parzen Estimator(TPE).TPE没有直接给$$p_M(f|\lambda)$$建模,而是$$p(f < f*), p(\lambda | f < f *), p(\lambda | f \ge f*)$$建模,其中$$f*$$是一个固定的分位点.
 
 # Appendix
 
