@@ -33,7 +33,7 @@ CDA的主要任务:
 1. Candidate Phrase Mining
 2. Salient Phrase Selection：通过找到candidate phrases算法，每一个文档都能被当作是phrases的集合，但大部分都不能给代表这篇文档。从两个不同的角度来找salient phrases：短语的interestingness和diversity。
     1. phrase interestingness：如果一个短语在整个语料库中不是经常出现，但是在这个文档中经常出现，那么就是salient phrases。测量的方式由论文中的$$r(\cdot)$$定义。
-    2. phrase diversity：采用编辑距离作为两个词组直接的差异。
+    2. phrase diversity：采用编辑距离作为两个词组直接的差异。也可以使用语义相似度策略，比如分布式相似度。
 
 ### Commonality and Distinction Measures
 
