@@ -24,7 +24,7 @@ $$E_M [I_{f_{min}}(\lambda)] = \int_{-\inf}^{f_{min}} max \{ f_{min} - f, 0 \} \
 现有的贝叶斯优化算法,主要区别是使用的模型类型.这里比较三个最出名的:
 
 + Spearmint.使用高斯过程Gaussian process(GP)来给$$p_M(f|\lambda)$$建模,并且对GP的hyperparameters进行slice sampling.
-+ Sequential Model-based Algorithm Configuration(SMAC).
++ Sequential Model-based Algorithm Configuration(SMAC).使用随机森林给$$p_M(f|\lambda)$$来模拟Gaussian distribution,mean和variance是随机森林的mean和variance.
 + Tree Parzen Estimator(TPE).
 
 # Appendix
