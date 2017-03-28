@@ -48,7 +48,12 @@ $$sco(S_i)^{(l)} = (1-\lambda_e) \sum M_{i,j} \cdot sco(s_j)^{(l-1)} + \lambda_e
 
 #### CNN
 
+给定一个句子$$s \in S \bigcup S'$$,句子中的每一个单词都被表示成了一个k维度的向量.
 
+然后使用一个j长度的window,将window内的word向量连接起来组成一个向量,这样我们就有i+j-1个新的向量.然后用w和f作为filter layer和activation layer,进行这个变化 $$c_i = f(w^T \cdot z_{i:i+j-1}) + b$$,由此可以得到特征映射$$[c_1, c_2, ... , c_{i+j-1}]$$.使用max-pooling,挖掘出最重要的特征,而且很好解决了不定长度的问题.这个特征就是filter w的映射结果.
+
+CNN中,可以使用不同的filter来得到不同的特征,给定m个filter和句子s,得到特征向量$$x_s$$,这个作为倒数第二层.最后一层是softmax.
 
 # Appendix
 
+和ICLR 2017中的sentence embedding方法不同,这里使用了一个CNN,带window的方式来解决variable length问题.可以试一试哪种sentence embedding更加优越.
