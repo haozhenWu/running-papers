@@ -46,6 +46,7 @@
   * [2016](nips2016.md)
     * [Weight Normalization: A Simple Reparameterization to Accelerate Training of Deep Neural Network](weight_normalization_a_simple_reparameterization_t.md)
     * [Value Iteration Networks](value-iteration-networks.md)
+    * [LightRNN: Memory and Computation-Efficient Recurrent Neural Networks](lightrnn-memory-and-computation-efficient-recurrent-neural-networks.md)
   * [2014](nips2014.md)
     * [Generative Adversarial Nets](generative_adversarial_nets.md)
     * [Communication Efficient Distributed Machine Learning with the Parameter Server](communication-efficient-distributed-machine-learning-with-the-parameter-server.md)
