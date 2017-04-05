@@ -39,6 +39,9 @@
   * [Deep Learning as an Opportunity in Virtual Screening](deep_learning_as_an_opportunity_in_virtual_screeni.md)
 * [Journal of Medicinal Chemistry](journal-of-medicinal-chemistry.md)
   * [Profiling Prediction of Kinase Inhibitors: Toward the Virtual Assay](journal-of-medicinal-chemistry/profiling-prediction-of-kinase-inhibitors-toward-the-virtual-assay.md)
+* [Bioinformatics](bioinformatics.md)
+  * [2010](bioinformatics/bioinformatics2010.md)
+    * [A CROC stronger than ROC: measuring, visualizing and optimizing early retrieval](bioinformatics/bioinformatics2010/a-croc-stronger-than-roc-measuring-visualizing-and-optimizing-early-retrieval.md)
 
 ## ML & DL
 
