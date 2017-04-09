@@ -20,4 +20,4 @@ $$
 f(x) = \frac{1 - e^{-\alpha x}}{1-e^{-\alpha}}, f(x) = x^{1/(\alpha+1)}, f(x) = \frac{log(1+\alpha x)}{log(1+\alpha)}
 $$
 
-其中的$$\alpha$$是magnification factor.对于以上的
+其中的$$\alpha$$是magnification factor.对于以上的转换,每一个数据点x,它的一阶导数测量了本地的magnification degree:对于一个x周围很小的长度区间dx,被转换成了长度为的$$f'(x)dx$$区间.因此，如果$$f'(x)>1$$,那么这个区间上被伸展的(变得更加"重要"),否则就是被收缩的.
