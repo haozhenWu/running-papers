@@ -25,3 +25,5 @@ $$
 ## Choice of magnification curve and parameters
 
 magnification ratio的选择需要domain-knowledge,比如对于curve下降的一个预估.
+
+在drug discoverying的设置下,指数级下降的相关度比较适用.
