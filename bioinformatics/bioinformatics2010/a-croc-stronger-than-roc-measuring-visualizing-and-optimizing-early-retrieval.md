@@ -14,3 +14,10 @@ ROC和AC是线性关系.
 
 ## The CROC
 
+核心想法是侧重于early retrival,使用某种映射,将原先的curve映射到侧重top ranking的另外curve.比如:
+
+$$
+f(x) = \frac{1 - e^{-\alpha x}}{1-e^{-\alpha}}, f(x) = x^{1/(\alpha+1)}, f(x) = \frac{log(1+\alpha x)}{log(1+\alpha)}
+$$
+
+其中的$$\alpha$$是magnification factor.对于以上的
