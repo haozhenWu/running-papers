@@ -51,3 +51,11 @@ $$NLL = \sum_{t=1}^T -log(w_t) = \sum_{t=1}^T -log(P_r(w_t) - log(P_c(w_t)) $$
 $$NLL = l_r(w,r(w)) + l_c(w,c(w)) $$
 
 将一个单词$$w$$从$$(r(w),c(w))$$挪到$$(i,j)$$的所有可能性就是$$|V|^2$$.而所有的损失$$l_r(w,i)$$,$$l_c(w,i)$$在训练的过程中就已经计算完成.比如对于单词$$w$$,$$l_r(w,i)$$是该单词所有出现的$$-log \frac{exp(h_{t-1}^c \cdot y_i^r)}{\sum_k (exp(h_{t-1}^c \cdot y_k^r))}$$的总和.
+
+# Experiment
+
+使用perplexity(PPL)作为评测方式,定义为$$PPL=exp(\frac{NNL}{T})$$.
+
+数据集是ACLW(ACL Workshop Morphological Language Datasets)和BillionW(One-Billion-Word Benchmark Dataset).
+
+benchmark有两个,一个是HSM,使用hierarchical softmax作为预测;一个是C-HSM,同时使用hierarchical softmax用作预测,和character-level convolutionalfilters作为embedding.结果之一就是embedding size越大,越准确.
