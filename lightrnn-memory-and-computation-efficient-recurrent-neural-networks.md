@@ -36,9 +36,18 @@ $$P(w_t) = P_r(w_t) \cdot P_c(w_t)$$
 
 ## Bootstrap for Word Allocation
 
-关键的一步是如何构建table.
+关于如何构建table.
 
 1. 采用冷起动,先随机将单词分配到表格中.
 2. 使用table作为embedding vector来训练LightRNN,直到收敛.如果遇到stopping criterion,那么就退出.否则继续.
 3. 根据前一步学习到的embedding vector,refine allocation,以减小loss function作为标准.
 
+refinement allocation是其中关键一步.使用negative log-likelihood作为目标损失函数等同于对LightRNN模型的实际数据和预测结果进行的cross_entropy.给定T个单词,那么overall negative log-likelihood就可以写作:
+
+$$NLL = \sum_{t=1}^T -log(w_t) = \sum_{t=1}^T -log(P_r(w_t) - log(P_c(w_t)) $$
+
+如果假设行列的loss是可以分离的，那么可以得到
+
+$$NLL = l_r(w,r(w)) + l_c(w,c(w)) $$
+
+将一个单词$$w$$从$$(r(w),c(w))$$挪到$$(i,j)$$的所有可能性就是$$|V|^2$$.而所有的损失$$l_r(w,i)$$,$$l_c(w,i)$$在训练的过程中就已经计算完成.比如对于单词$$w$$,$$l_r(w,i)$$是该单词所有出现的$$-log \frac{exp(h_{t-1}^c \cdot y_i^r)}{\sum_k (exp(h_{t-1}^c \cdot y_k^r))}$$的总和.
