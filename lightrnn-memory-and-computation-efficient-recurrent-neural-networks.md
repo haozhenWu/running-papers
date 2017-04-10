@@ -36,3 +36,9 @@ $$P(w_t) = P_r(w_t) \cdot P_c(w_t)$$
 
 ## Bootstrap for Word Allocation
 
+关键的一步是如何构建table.
+
+1. 采用冷起动,先随机将单词分配到表格中.
+2. 使用table作为embedding vector来训练LightRNN,直到收敛.如果遇到stopping criterion,那么就退出.否则继续.
+3. 根据前一步学习到的embedding vector,refine allocation,以减小loss function作为标准.
+
