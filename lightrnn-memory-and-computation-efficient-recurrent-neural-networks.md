@@ -9,3 +9,7 @@ Tao Qin, Tie-Yan Liu, MSRA
 # Intro
 
 传统的RNN模型中,每一个单词都会先从one-hot向量映射到一个embedding matrix.然后为了做预测(比如下一个单词),输出层会通过另外一个embedding matrix映射到词库中的所有单词(理解为一个非常sparse的sigmoid).
+
+# LightRNN
+
+LightRNN最关键的一步是对单词的表示使用2-Component shared embedding.把整个词库的单词放到一个表中,分别有n个行向量和n个列向量,那么第(i,j)个单词就用i-th行向量和j-th列向量的组合来表示.
