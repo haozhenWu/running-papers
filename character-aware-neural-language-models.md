@@ -26,5 +26,9 @@ LSTM通过增加一个记忆单元,来学习长范围的依赖性.记忆单元�
 
 ## Recurernt Neural Network Language Model
 
-词库的大小为$$\nu$$.语言模型就是给定前面$$[w_1, ..., w_{t-1}]$$,求$$w_t$$的概率分布.Recurrent Neural Network Language Model(RNN-LM)通过隐藏层使用softmax函数,来获取该概率.而输入就是embedding,$$X \in \mathbb{R}^{n \times |\nu|}$$.
+词库的大小为$$\nu$$.语言模型就是给定前面$$[w_1, ..., w_{t-1}]$$,求$$w_t$$的概率分布.Recurrent Neural Network Language Model(RNN-LM)通过隐藏层使用softmax函数,来获取该概率.而输入就是embedding,$$X \in \mathbb{R}^{n \times |\nu|}$$.我们的模型使用character-level CNN.
+
+训练的目标是最小化序列的negative log-likelihood(NLL)
+
+$$NLL = - \sum_{t=1}^T log \, Pr(w_t | w_{1:t-1}) $$
 
