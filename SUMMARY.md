@@ -91,6 +91,9 @@
 * [AAAI](aaai.md)
   * [2017](aaai/aaai2017.md)
     * [Deep MIML Network](aaai/aaai2017/deep-miml-network.md)
+* [AISTAT](aistat.md)
+  * [2005](aistat/aistat2005.md)
+    * [Hierarchical Probabilistic Neural Network Language Model](aistat/aistat2005/hierarchical-probabilistic-neural-network-language-model.md)
 
 ## NLP
 
