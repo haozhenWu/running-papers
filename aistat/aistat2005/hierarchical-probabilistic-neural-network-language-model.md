@@ -23,3 +23,17 @@ $$P(v|w_{t-1}, ..., w_{t-n+1}) = \prod_{j=1}^m P( b_j(v) | b_1(v), ..., b_{j-1}(
 ## Using the WordNet to Build the Hierarchical Decomposition
 
 模型中非常关键的点是如何构造hierarchical word clustering.这篇paper用了一些假设来保证单词embedding的唯一性和binary tree.
+
+# Appendix
+
+这篇paper是看目前最新的LSTM模型用到的
+
+Character-Award Neural Language Models
+
+算上这一篇
+
+Hierarchical Probabilistic Neural Network Language Model
+
+还有这一篇paper提到的
+
+Classes For Fast Maximum EntropyTraining
