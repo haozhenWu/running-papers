@@ -22,4 +22,9 @@ $$h_t = f(W \cdot x_t + U \cdot h_{t-1} + b)$$
 
 理论上,RNN在第t步,能够将所有的历史信息存储在隐藏状态$$h_t$$中.但实际上,vanilla LSTM很难存储长范围的信息,因为存在vanishing/exploding gradient问题,解决的方案是使用Jacobian's multiplication.
 
-LSTM通过增加一个记忆单元,来学习长范围的依赖性.记忆单元能够减缓gradient vanishing问题,但是gradient explosion还是没有解决.
+LSTM通过增加一个记忆单元,来学习长范围的依赖性.记忆单元能够减缓gradient vanishing问题,但是gradient explosion还是没有解决.RNN/LSTM当有多层的时候,性能更好.
+
+## Recurernt Neural Network Language Model
+
+词库的大小为$$\nu$$.语言模型就是给定前面$$[w_1, ..., w_{t-1}]$$,求$$w_t$$的概率分布.Recurrent Neural Network Language Model(RNN-LM)通过隐藏层使用softmax函数,来获取该概率.而输入就是embedding,$$X \in \mathbb{R}^{n \times |\nu|}$$.
+
