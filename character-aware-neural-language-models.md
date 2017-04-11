@@ -51,3 +51,7 @@ $$NLL = - \sum_{t=1}^T log \, Pr(w_t | w_{1:t-1}) $$
 使用perplexity(PPL)评估.
 
 在English Penn Treebank(PTB)上,使用hyper parameter search, model intro.spection, ablation studies.
+
+# Optimization
+
+最终结果预测时候,使用了hierarchical softmax.
