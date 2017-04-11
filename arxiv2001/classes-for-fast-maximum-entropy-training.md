@@ -12,7 +12,9 @@ $$p(w|w_1 ... w_{i-1}) = \frac{exp(\sum_j \lambda_j f_j(w,w_1...w_{t-1}))}{Z_\la
 
 其中$$ f_j(w,w_1...w_{t-1})$$是一个非常大的indicator function,比如t-1是"on",t-2是"meet",那么t="Wed"就是0.
 
-至于$$\lambda$$是一个需要优化的参数.
+至于$$\lambda$$是一个需要优化的参数.使用Generalized Iterative Scaling算法进行优化.
+
+
 
 # Appendix
 
