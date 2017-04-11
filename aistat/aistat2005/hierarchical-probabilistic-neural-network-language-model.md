@@ -2,8 +2,7 @@
 
 Frederic Morin, Yoshua Bengio, U Montreal
 
-先是分析了一下使用传统语言模型的复杂度
+先是分析了一下使用传统语言模型的复杂度,然后提出先将最后一层的输出，使用一个clustering，也就是两层预测，来代替,这样可以有效减少计算的复杂度.通过建设normalization的分母计算.
 
-然后提出先将最后一层的输出，使用一个clustering，也就是两层预测，来代替
+$$P(Y=y |X=x) = P(Y=y | C=c(y), X) \cdot P(C=c(y)|X=x)$$
 
-这样可以有效减少计算的复杂度
