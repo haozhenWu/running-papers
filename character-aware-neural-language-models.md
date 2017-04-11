@@ -34,4 +34,5 @@ $$NLL = - \sum_{t=1}^T log \, Pr(w_t | w_{1:t-1}) $$
 
 ## Character-level Convolutional Neural Networks
 
+首先对character embedding.每一个单词都用都用character-embedding表示.如果传统的LSTM,就会直接对character进行hash,然后对word进行embedding.
 
