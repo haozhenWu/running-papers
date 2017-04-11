@@ -38,3 +38,5 @@ $$NLL = - \sum_{t=1}^T log \, Pr(w_t | w_{1:t-1}) $$
 
 然后在character-level representation和长为w的filter/kernel(类似长为w的sliding window)之间使用convolutional network.之后通过一个非线性的转换,得到feature map.最后使用max-over-time,来找到对应于filter H的特征,直觉上的理解就是给定一个filter,获取最重要的特征;而一个filter就是在长度为w的n-gram中选出最重要的特征.
 
+所以不同的filter matrix,都对应一个特征.一般对应NLP的应用,会有[100,1000]个filter.
+
