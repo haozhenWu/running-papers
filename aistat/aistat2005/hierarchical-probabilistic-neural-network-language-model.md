@@ -6,3 +6,7 @@ Frederic Morin, Yoshua Bengio, U Montreal
 
 $$P(Y=y |X=x) = P(Y=y | C=c(y), X) \cdot P(C=c(y)|X=x)$$
 
+第j层来预测第i个单词的概率是
+
+$$P(v|w_{t-1}, ..., w_{t-n+1}) = \prod_{j=1}^m P( b_j(v) | b_1(v), ..., b_{j-1}(v), w_{t-1}, ..., w_{t-n+1} ) $$
+
