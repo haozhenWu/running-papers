@@ -32,3 +32,6 @@ LSTM通过增加一个记忆单元,来学习长范围的依赖性.记忆单元�
 
 $$NLL = - \sum_{t=1}^T log \, Pr(w_t | w_{1:t-1}) $$
 
+## Character-level Convolutional Neural Networks
+
+
