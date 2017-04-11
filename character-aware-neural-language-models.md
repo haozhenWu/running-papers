@@ -43,3 +43,11 @@ $$NLL = - \sum_{t=1}^T log \, Pr(w_t | w_{1:t-1}) $$
 ## Highway Network
 
 使用最终的h个特征代替word embedding,作为输入,而且很好的解决了variable length的问题,不需要padding.
+
+还可以使用highway network对convolution的结果进一步操作.引用到了两个概念,transform gate和carry gate.
+
+# Experimental Setup
+
+使用perplexity(PPL)评估.
+
+在English Penn Treebank(PTB)上,使用hyper parameter search, model intro.spection, ablation studies.
