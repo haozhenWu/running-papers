@@ -18,6 +18,8 @@
     * [Character-Aware Neural Language Models](character-aware-neural-language-models.md)
   * [2013](2013.md)
     * [Efficient Estinamtion of Word Representation in Vector Space](2013/efficient-estinamtion-of-word-representation-in-vector-space.md)
+  * [2001](arxiv2001.md)
+    * [Classes for Fast Maximum Entropy Training](arxiv2001/classes-for-fast-maximum-entropy-training.md)
 * [Other](other.md)
   * [2016](other/other_2016.md)
     * [Transfer Reinforcement Learning with Shared Dynamics](other/other_2016/transfer-reinforcement-learning-with-shared-dynamics.md)
@@ -94,6 +96,7 @@
 * [AISTAT](aistat.md)
   * [2005](aistat/aistat2005.md)
     * [Hierarchical Probabilistic Neural Network Language Model](aistat/aistat2005/hierarchical-probabilistic-neural-network-language-model.md)
+* [Classes For Fast Maximum Entropy Training](classes-for-fast-maximum-entropy-training.md)
 
 ## NLP
 
