@@ -15,6 +15,7 @@
   * [2015](arxiv2015.md)
     * [Visualizing and Understanding Recurrent Networks](visualizing_and_understanding_recurrent_networks.md)
     * [Why M Heads are Better than One: Training a Diverse Ensemble of Deep Networks](why_m_heads_are_better_than_one_training_a_diverse.md)
+    * [Character-Aware Neural Language Models](character-aware-neural-language-models.md)
   * [2013](2013.md)
     * [Efficient Estinamtion of Word Representation in Vector Space](2013/efficient-estinamtion-of-word-representation-in-vector-space.md)
 * [Other](other.md)
