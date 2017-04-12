@@ -96,6 +96,9 @@
 * [AISTAT](aistat.md)
   * [2005](aistat/aistat2005.md)
     * [Hierarchical Probabilistic Neural Network Language Model](aistat/aistat2005/hierarchical-probabilistic-neural-network-language-model.md)
+* CVPR
+  * 2016
+    * [Deep Residual Learning for Image Recognition](deep-residual-learning-for-image-recognition.md)
 
 ## NLP
 
