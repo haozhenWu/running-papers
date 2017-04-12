@@ -96,7 +96,6 @@
 * [AISTAT](aistat.md)
   * [2005](aistat/aistat2005.md)
     * [Hierarchical Probabilistic Neural Network Language Model](aistat/aistat2005/hierarchical-probabilistic-neural-network-language-model.md)
-* [Classes For Fast Maximum Entropy Training](classes-for-fast-maximum-entropy-training.md)
 
 ## NLP
 
