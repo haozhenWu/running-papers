@@ -9,3 +9,9 @@ Kaiming He, Xiangyu Zhang, Shaoqing Ren, Jian Sun, MSR
 而更深的网络,在开始converge的时候,会有degradation问题:随着网络的深度增加,准确度会饱和,然后急速下降.而且这并不是overfitting.
 
 这篇paper提出来使用deep residual learning framework来解决degradation问题.
+
+# Deep Residual Learning
+
+## Residual Learning
+
+传统都是拟合目标函数$$H(X)$$,但我们这里来拟合residual残差函数$$H(X)-X$$.
