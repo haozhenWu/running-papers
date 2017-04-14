@@ -14,4 +14,7 @@ Kaiming He, Xiangyu Zhang, Shaoqing Ren, Jian Sun, MSR
 
 ## Residual Learning
 
-传统都是拟合目标函数$$H(X)$$,但我们这里来拟合residual残差函数$$H(X)-X$$.
+传统都是拟合目标函数$$H(X)$$,但我们这里来拟合residual残差函数$$F(X)=H(X)-X$$.也就是,$$F(X)$$是我们这里学习的target,而$$H(X)=F(X)+X$$才是实际目标.
+
+## Identity Mapping by Shortcuts
+
