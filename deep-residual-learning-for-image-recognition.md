@@ -18,3 +18,6 @@ Kaiming He, Xiangyu Zhang, Shaoqing Ren, Jian Sun, MSR
 
 ## Identity Mapping by Shortcuts
 
+如图2所示,在residual network的building block中,最后一层就是$$H(X)=F(X)+X$$,然后再连接到某一个activation layer.而操作$$F(X)+X$$就通过shortcut connection和element-wise addition完成.如果$$H(X)$$和$$X$$的维度不一致，就通过一个映射矩阵$$W_S$$:
+
+$$y = F(x, {W_i}) + W_S x$$
