@@ -77,6 +77,7 @@
   * [2016](iclr2016.md)
     * [Segmental Recurrent Neural Networks](segmental-recurrent-neural-networks.md)
     * [Order Matters: Sequence To Sequence For Sets](order_matters_sequence_to_sequence_for_sets.md)
+    * [Learning to SMILE\(S\)](learning-to-smiles.md)
   * [2015](iclr2015.md)
     * [Adam: A Method For Stochastic Optimization](adam_a_method_for_stochastic_optimization.md)
 * [Scalable ML](scalable-ml.md)
