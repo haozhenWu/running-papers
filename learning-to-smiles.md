@@ -14,11 +14,11 @@ Stanislaw Jastrzebski
 
 RNN和CNN都是使用data augmentation,然后对于同一个化合物,不同的augmentation中取预测的平均值.
 
-其余的模型都是使用n-gram来取特征.
+其余传统的模型都是使用n-gram来取特征.
 
 ## 结果
 
-结果基于log loss.CNN的结果最好,RNNLM结果最差.但是算comparable结果.所以
+结果基于log loss.CNN的结果最好,RNNLM结果最差.但是算comparable结果.所以可以算promising work.
 
 # Appendix
 
