@@ -23,3 +23,5 @@ RNN和CNN都是使用data augmentation,然后对于同一个化合物,不同的a
 # Appendix
 
 可以参考作者的[主页](http://kudkudak.github.io/).
+
+这篇文章用了几个经典的language model,比如 Effective Use of Word Order for Text Categorization with Convolutional Neural Networks.
