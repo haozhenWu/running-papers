@@ -10,9 +10,11 @@ Stanislaw Jastrzebski
 
 ## 特征
 
-都是使用SMILES作为特征,RNN模式.
+都是使用SMILES作为特征,RNN模式是经典的embedding,CNN则默认为图的输入.
 
-其余的模型都是使用n-gram来作为特征.
+RNN和CNN都是使用data augmentation,然后对于同一个化合物,不同的augmentation中取预测的平均值.
+
+其余的模型都是使用n-gram来取特征.
 
 ## 结果
 
