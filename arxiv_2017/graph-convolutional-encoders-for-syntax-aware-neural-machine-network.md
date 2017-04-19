@@ -12,6 +12,6 @@ ILLC, University of Amsterdam
 
 attention-based NMT系统，将源句子表示成隐藏向量，然后通过这些向量翻译。而我们的任务就是能够将源句子中的每个单词周围邻居的语义信息考虑在内，并提供给encoder，从而提高翻译质量。既然单词是用向量表示，那么可以考虑使用依赖语义，依赖树，如图1所示，表示的是单词之间的关系。
 
-使用graph-convolutional network产生单词的特征。
+使用graph-convolutional network产生单词的特征，也就是encoder。我们使用syntactic GCN，是构造与语义依赖树上的GCN。
 
 # Appendix
