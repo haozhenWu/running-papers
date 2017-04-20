@@ -22,7 +22,11 @@ NMT的任务是给定一个翻译“对”，也就是两种平行的词库，�
 
 #### Encoder
 
+将源句子作为输入，输出的是包含语法含义的表示。有三种：recurrent，convolutional，和bag-of-words encoder
 
+1. Recurrent：每一个时间点收到一个向量，更新因此状态。给定输入的序列，word embedding，RNN这么定义：$$RNN(x_{1:t}) = f(x_t, RNN(x_{1:t-1}))$$。f是一个非线性的函数。有时候为了考虑future，会经常使用bidirectional RNN，也就是同时训练两个方向：$$BIRNN(x_{1:T_x},t) =  RNN_F(X_{1:t}) + RNN_B(X_{T_x:t}) $$。
+2. Convolutional：在输入的数据上使用了fixed-sized window，
+3. Bag-of-Words：
 
 #### Decoder
 
