@@ -44,6 +44,8 @@ $$h_v^{j+1} = \rho ( \sum_{u \in N(v)} W^j h_u^j + b^j )$$
 
 ### Syntatic GCNs
 
+
+
 ## Graph Convolutional Encoders
 
 # Appendix
