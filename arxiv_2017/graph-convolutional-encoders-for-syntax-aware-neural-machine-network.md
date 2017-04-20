@@ -14,4 +14,8 @@ attention-based NMT系统，将源句子表示成隐藏向量，然后通过这�
 
 使用graph-convolutional network产生单词的特征，也就是encoder。我们使用syntactic GCN，是构造与语义依赖树上的GCN。
 
+## Background
+
+
+
 # Appendix
