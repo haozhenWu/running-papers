@@ -44,7 +44,9 @@ $$h_v^{j+1} = \rho ( \sum_{u \in N(v)} W^j h_u^j + b^j )$$
 
 ### Syntatic GCNs
 
+今年年初有人放了篇paper，关于GCN在directed和labeled graph上的工作。可以将这个概念沿用到依赖树上。将无向边分解为两条有向边，$$h_v^{j+1} = \rho ( \sum_{u \in N(v)} W_{dir}^j h_u^j + b_{dir}^j )$$。
 
+既然已经引入了方向，那么很自然的可以引入label。$$h_v^{j+1} = \rho ( \sum_{u \in N(v)} W_{lab}^j h_u^j + b_{lab}^j )$$。不过为了避免参数过多，只是对bias项使用了label数目。
 
 ## Graph Convolutional Encoders
 
