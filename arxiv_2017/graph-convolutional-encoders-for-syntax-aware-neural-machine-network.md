@@ -50,4 +50,6 @@ $$h_v^{j+1} = \rho ( \sum_{u \in N(v)} W^j h_u^j + b^j )$$
 
 ## Graph Convolutional Encoders
 
+尝试了三种模型，BoW+GCN, Convolutional+GCN, BiRNN+GCN。
+
 # Appendix
