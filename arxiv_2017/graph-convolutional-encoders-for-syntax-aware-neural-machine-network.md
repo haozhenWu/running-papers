@@ -16,6 +16,20 @@ attention-based NMT系统，将源句子表示成隐藏向量，然后通过这�
 
 ## Background
 
+### Neural Machine Translation
 
+NMT的任务是给定一个翻译“对”，也就是两种平行的词库，来获取条件概率$$P(y|x)$$，NMT分为三个部分，encoder，decoder，和一个encoder转换到decoder的方式，比如attention mechanism。
+
+#### Encoder
+
+
+
+#### Decoder
+
+### Graph Convolutional Networks
+
+### Syntatic GCNs
+
+## Graph Convolutional Encoders
 
 # Appendix
