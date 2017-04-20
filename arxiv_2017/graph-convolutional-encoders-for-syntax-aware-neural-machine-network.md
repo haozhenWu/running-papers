@@ -26,9 +26,11 @@ NMT的任务是给定一个翻译“对”，也就是两种平行的词库，�
 
 1. Recurrent：每一个时间点收到一个向量，更新因此状态。给定输入的序列，word embedding，RNN这么定义：$$RNN(x_{1:t}) = f(x_t, RNN(x_{1:t-1}))$$。f是一个非线性的函数。有时候为了考虑future，会经常使用bidirectional RNN，也就是同时训练两个方向：$$BIRNN(x_{1:T_x},t) =  RNN_F(X_{1:t}) + RNN_B(X_{T_x:t}) $$。
 2. Convolutional：在输入的数据上使用了fixed-sized window，想比如RNN的特点是可以高速平行计算，而放弃了非本地的上下文。为了弥补这个上下文的损失，会stack好几层CNN。
-3. Bag-of-Words：BoW encoder每一个单词都被表示成word embedding。
+3. Bag-of-Words：BoW encoder每一个单词都被表示成word embedding。为了给decoder位置信息，会加上position embedding(PE)。有不同的方法定义位置，这篇paper使用了absolute position。
 
 #### Decoder
+
+
 
 ### Graph Convolutional Networks
 
