@@ -30,7 +30,7 @@ NMT的任务是给定一个翻译“对”，也就是两种平行的词库，�
 
 #### Decoder
 
-
+decoder可以通过condition on context vector，来产生输出的序列。context vector会随着时间更新。
 
 ### Graph Convolutional Networks
 
