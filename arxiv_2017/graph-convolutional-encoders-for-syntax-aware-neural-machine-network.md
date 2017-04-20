@@ -36,6 +36,12 @@ decoder可以通过condition on context vector，来产生输出的序列。cont
 
 GCN是操作于图上的convolutional net，信息沿着图中的边传递。当stack几层GCN layer的时候，larger neighbourhoods的信息会被收集。
 
+比如第一层的GCN，new node representation通过如下计算 $$h_v = \rho ( \sum_{u \in N(v)} W x_u + b )$$。
+
+其中$$\rho$$是activation function。所以stacked的结果如下：
+
+$$h_v^{j+1} = \rho ( \sum_{u \in N(v)} W^j h_u^j + b^j )$$
+
 ### Syntatic GCNs
 
 ## Graph Convolutional Encoders
