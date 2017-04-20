@@ -34,6 +34,8 @@ decoder可以通过condition on context vector，来产生输出的序列。cont
 
 ### Graph Convolutional Networks
 
+GCN是操作于图上的convolutional net，信息沿着图中的边传递。当stack几层GCN layer的时候，larger neighbourhoods的信息会被收集。
+
 ### Syntatic GCNs
 
 ## Graph Convolutional Encoders
