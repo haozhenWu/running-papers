@@ -54,6 +54,6 @@ $$h_v^{j+1} = \rho ( \sum_{u \in N(v)} W^j h_u^j + b^j )$$
 
 1. BoW + GCN: 输入的隐藏层，是每一个单词的embedding与在句子中位置的和。
 2. Convolutional + GCN: 用convolutional network学习word representation。但是与前面stacked CNN不同，我们是将把GCN放在一层CNN上。
-3. BiRNN + GCN: 对源句子用BiRNN编码。
+3. BiRNN + GCN: 对源句子用BiRNN编码，将产生的hidden state作为GCN的输入。GCN还支持单词之间的“远程连接”。
 
 # Appendix
