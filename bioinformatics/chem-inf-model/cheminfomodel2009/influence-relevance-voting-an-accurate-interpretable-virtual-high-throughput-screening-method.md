@@ -25,3 +25,10 @@ $$z(x) = \sigma(w_z + \sum_{i=1}^k I_i)$$
 
 其中$$z(x)$$是输出的预测，$$I_i$$是第i个邻居的influence，$$w_z$$是bias。
 
+而和上面所说的，influence的定义是$$I_i = R_i V_i$$，relevance和vote的乘积。
+
+$$ R_i = \sigma ( w_y + w_s S_i + w_r r_i ) $$
+
+其中$$s_i = S(X, N_i)$$是X和第i个邻居的相似度，$$r_i$$是根据相似度排名的第i个邻居的排名。
+
+$$ V_i = w_0 $$ if $$ c_i = 0 $$, $$ V_i = w_1 $$ if $$ c_i = 1 $$
