@@ -20,3 +20,8 @@ kNN是一个基于instance结构特征的方法。但前面的一些应用kNN的
 使用SVM来评估和邻居的距离。
 
 IRV就是使用neural network来结合化合物的邻居，来预测概率。预测是通过每一个邻居的 influence 来确定。influence是relevance乘以vote。图1给了一个算法的展示。
+
+$$z(x) = \sigma(w_z + \sum_{i=1}^k I_i)$$
+
+其中$$z(x)$$是输出的预测，$$I_i$$是第i个邻居的influence，$$w_z$$是bias。
+
