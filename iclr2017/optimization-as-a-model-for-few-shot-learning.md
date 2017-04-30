@@ -35,7 +35,7 @@ $$f_t = \sigma [ W_F \cdot [ \bigtriangledown_{\theta_{t-1}} \mathcal{L}_t , \ma
 
 提出了一个预处理的方法
 
-+ 如果$$|x| \ge e^{-p}$$，则$$x = [ \frac{log|X|}{p}, sng(x) ]$$
++ 如果$$|x| \ge e^{-p}$$，则$$x = [ \frac{log|X|}{p}, sgn(x) ]$$
 
 + 否则，$$x = [-1, e^p x)$$
 
