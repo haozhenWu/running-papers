@@ -13,3 +13,6 @@ kNN是一个基于instance结构特征的方法。但前面的一些应用kNN的
 
 这里提出了新的vHTS方法，使用IRV(Influence Relevance Voter)，类似于kNN拓展。
 
+## Methods
+
+要确定一种chemical similarity来定义chemical space的几何。使用fingerprint
