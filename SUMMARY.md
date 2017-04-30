@@ -78,6 +78,7 @@
     * [A Simple But Tough-to-beat Baseline For Sentence Embeddings](iclr2017/a-simple-but-tough-to-beat-baseline-for-sentence-embeddings.md)
     * [Optimization as a Model For Few-Shot Learning](iclr2017/optimization-as-a-model-for-few-shot-learning.md)
     * [Towards Principled Methods For Training Generative Adversarial Networks](iclr2017/towards-principled-methods-for-training-generative-adversarial-networks.md)
+    * [Multi-Agent Cooperation And The Emergence of Natural Language](iclr2017/multi-agent-cooperation-and-the-emergence-of-natural-language.md)
   * [2016](iclr2016.md)
     * [Segmental Recurrent Neural Networks](segmental-recurrent-neural-networks.md)
     * [Order Matters: Sequence To Sequence For Sets](order_matters_sequence_to_sequence_for_sets.md)
