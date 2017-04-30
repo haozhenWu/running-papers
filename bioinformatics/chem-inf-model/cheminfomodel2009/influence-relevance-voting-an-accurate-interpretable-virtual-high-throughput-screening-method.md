@@ -32,3 +32,5 @@ $$ R_i = \sigma ( w_y + w_s S_i + w_r r_i ) $$
 其中$$s_i = S(X, N_i)$$是X和第i个邻居的相似度，$$r_i$$是根据相似度排名的第i个邻居的排名。$$w_y, w_s, w_r$$是对应的bias和参数。
 
 $$ V_i = w_0 $$ if $$ c_i = 0 $$, $$ V_i = w_1 $$ if $$ c_i = 1 $$
+
+其中$$w_0$$是inactive邻居，而$$w_1$$是active邻居。
