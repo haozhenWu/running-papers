@@ -17,3 +17,6 @@ kNN是一个基于instance结构特征的方法。但前面的一些应用kNN的
 
 要确定一种chemical similarity来定义chemical space的几何。使用fingerprint来作为特征。
 
+使用SVM来评估和邻居的距离。
+
+IRV就是使用neural network来结合化合物的邻居，来预测概率。
