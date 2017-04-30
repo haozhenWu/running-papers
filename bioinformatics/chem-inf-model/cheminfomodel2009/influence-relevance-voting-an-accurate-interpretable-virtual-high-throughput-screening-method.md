@@ -15,4 +15,5 @@ kNN是一个基于instance结构特征的方法。但前面的一些应用kNN的
 
 ## Methods
 
-要确定一种chemical similarity来定义chemical space的几何。使用fingerprint
+要确定一种chemical similarity来定义chemical space的几何。使用fingerprint来作为特征。
+
