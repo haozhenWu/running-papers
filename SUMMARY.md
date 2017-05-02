@@ -105,6 +105,9 @@
 * CVPR
   * 2016
     * [Deep Residual Learning for Image Recognition](deep-residual-learning-for-image-recognition.md)
+* [IEEE](ieee.md)
+  * [1993](ieee/ieee1993.md)
+    * [Universal Approximation Bounds for Superpositions of a Sigmoidal Function](ieee/ieee1993/universal-approximation-bounds-for-superpositions-of-a-sigmoidal-function.md)
 
 ## NLP
 
