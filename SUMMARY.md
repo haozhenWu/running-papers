@@ -96,7 +96,7 @@
     * [Recurrent Recommender Networks](arxiv_2017/recurrent-recommender-networks.md)
     * [Comparative Document Analysis for Large Text Corpora](arxiv_2017/comparative-document-analysis-for-large-text-corpora.md)
     * [Summarizing Answers in Non-Factoid Community Question-Answering](arxiv_2017/summarizing-answers-in-non-factoid-community-question-answering.md)
-    * Task-Guided and Path-Augmented Heterogeneous Network Embedding for Author Identification
+    * [Task-Guided and Path-Augmented Heterogeneous Network Embedding for Author Identification](arxiv_2017/task-guided-and-path-augmented-heterogeneous-network-embedding-for-author-identification.md)
 * [AAAI](aaai.md)
   * [2017](aaai/aaai2017.md)
     * [Deep MIML Network](aaai/aaai2017/deep-miml-network.md)
