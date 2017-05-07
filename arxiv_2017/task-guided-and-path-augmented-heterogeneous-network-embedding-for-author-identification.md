@@ -61,3 +61,9 @@ $$P(j|i, r ) = \frac{exp(u_i^T u_j)}{ \sum_{j' \in DST(r) } exp(u_i^T u_{j'}) }$
 
 $$log \hat P(j|i,r) \approx log \sigma(u_i^T u_j + b_r) + \sum \mathbb{E} [log \sigma(-u_i^T u_{j'} - b_r)] $$
 
+## The Combined Model
+
+以上两种embedding方法，分别揭示了network不同的特征。前一个更多的关注是任务相关的直接信息，后一个更好地挖掘的全局多样的特征。因此就像把这两个模型结合起来。
+
++ 联合目标当作显性的guidance。
++ meta path当作一种隐性的guidance。
