@@ -14,4 +14,7 @@ heterogeneous network包含不同类型的node和link.比如,在bibliographic ne
 
 ## Hetegenerous Networks
 
-如前面所说,就是网络有不同的节点和连接.节点有论文,作者,关键字,地点,和年份.
+如前面所说,就是网络有不同的节点和连接.节点有论文,作者,关键字,地点,和年份.链接有 作者写论文,论文包含关键字.
+
+## Meta path
+
