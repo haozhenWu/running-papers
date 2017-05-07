@@ -67,6 +67,10 @@ $$log \hat P(j|i,r) \approx log \sigma(u_i^T u_j + b_r) + \sum \mathbb{E} [log \
 
 ### 联合目标当作显性的guidance。
 
+使用如下联合目标函数
 
+$$\mathcal{L} = (1-\omega) \mathcal{L}_{task-specific} + \omega \mathcal{L}_{network-general} + \Omega(M) \\= (1-\omega) \mathbb{E}_{(p,a,a')} [max(0, f(p,a') - f(p,a) + \xi] + \omega \mathcal{E}_{(r,i,j)}[-log \hat P(j|i,r)] + \lambda \sum_i \|u_i\|^2 $$
+
+其中$$\omega$$是trade-off数值。最后一项是regularizer。
 
 ### meta path当作一种隐性的guidance。
