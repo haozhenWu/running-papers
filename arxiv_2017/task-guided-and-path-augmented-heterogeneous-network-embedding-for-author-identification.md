@@ -49,3 +49,7 @@ $$f(p,a) = u_a^T V_p = u_a^T (\sum_t w_t V_p^{(t)} ) = u_a^T (\sum_t w_t \unders
 
 ## Path-Augmented General Heterogeneous Network Embedding
 
+目前的embedding计算都是基于一种类似end-to-end的想法，节点的embedding可以通过neighbor prediction来确定。
+
+在heterogeneous network中，可以通过不同的meta path来丰富neighbors的语义。比如两个作者之间的联系可能有不同的相似度：（1）对同一个话题感兴趣 （2）有同样的喜好。这些联系意味着不同的语义。
+
