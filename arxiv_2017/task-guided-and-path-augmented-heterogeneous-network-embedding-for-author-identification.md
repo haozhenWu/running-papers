@@ -20,3 +20,9 @@ heterogeneous network包含不同类型的node和link.比如,在bibliographic ne
 ## Embedding Representation of Nodes
 
 network data通常是高纬度并且稀疏的.这使得
+
+## Author Identification Problem
+
+
+
+# Proposed Model
