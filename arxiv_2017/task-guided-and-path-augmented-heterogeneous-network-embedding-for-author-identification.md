@@ -74,3 +74,12 @@ $$\mathcal{L} = (1-\omega) \mathcal{L}_{task-specific} + \omega \mathcal{L}_{net
 其中$$\omega$$是trade-off数值。最后一项是regularizer。
 
 ### meta path当作一种隐性的guidance。
+
+potential meta paths，在heterogeneous network中是无线的，但并非所以都是有意义的。
+
+用如下的方法
+
+1. 先对于单挑path进行训练，选择最好的performance path
+2. 不断加入新的path，选择方式一样，选择加入之后performance最好的path
+
+因为跑一次只要10min，所以这个速度可以接受。
