@@ -53,3 +53,11 @@ $$f(p,a) = u_a^T V_p = u_a^T (\sum_t w_t V_p^{(t)} ) = u_a^T (\sum_t w_t \unders
 
 在heterogeneous network中，可以通过不同的meta path来丰富neighbors的语义。比如两个作者之间的联系可能有不同的相似度：（1）对同一个话题感兴趣 （2）有同样的喜好。这些联系意味着不同的语义。
 
+因此neighbor prediction也要做出相应的改变。不仅仅condition on节点，还要condition on path r。
+
+$$P(j|i, r ) = \frac{exp(u_i^T u_j)}{ \sum_{j' \in DST(r) } exp(u_i^T u_{j'}) }$$
+
+期中$$DST(r)$$表示的是path r的终点。因为$$DST(r)$$可能会非常大，所以应用了negative sampling，并有了以下approximation：
+
+$$log \hat P(j|i,r) \approx log \sigma(u_i^T u_j + b_r) + \sum \mathbb{E} [log \sigma(-u_i^T u_{j'} - b_r)] $$
+
