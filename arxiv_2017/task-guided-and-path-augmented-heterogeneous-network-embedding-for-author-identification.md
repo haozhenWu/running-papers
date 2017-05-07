@@ -19,10 +19,12 @@ heterogeneous network包含不同类型的node和link.比如,在bibliographic ne
 
 ## Embedding Representation of Nodes
 
-network data通常是高纬度并且稀疏的.这使得
+network data通常是高纬度并且稀疏的.这使得如何表示网络中的节点会有困难,解决方案就是用embedding表示.
 
 ## Author Identification Problem
 
+将author identification变成bibliographic network问题.对于每一篇论文p,这篇论文的邻居表示为$$X_p = \{ X_p^{(1)}, X_p^{(2)}, ... , X_p^{(T)} \}$$,其中$$X_p^{t}$$表示第t个类型的邻居节点.节点的类型包括关键字,参考文献,地点,和年份.使用$$A_p$$来表示论文p的作者集合.
 
+Author Identification Problem
 
 # Proposed Model
