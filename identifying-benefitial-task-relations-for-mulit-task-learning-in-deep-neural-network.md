@@ -19,3 +19,14 @@ multi-task经常被当做matrix regularizer,每一个model对应一行.常见的
 NLP的multi-task侧重于,使用基于RNN的sequence labeling.我们使用双向LSTM作为一层单独的hidden layer,维度为100,在所有task之间都共享.输入是100维度的GloVe embedding.
 
 ## Tasks
+
+1. CCG Tagging(CCG)
+2. Chunking(CHU)
+3. Sentence Compression(COM)
+4. Semantic frames(FNT)
+5. POS tagging(POS)
+6. Hyperlink Prediction(HYP)
+7. Keyphrase Detection(KEY)
+8. MWE Detection(MWE)
+9. Super-sense tagging(SEM)
+10. Super-sense Tagging(STR)
