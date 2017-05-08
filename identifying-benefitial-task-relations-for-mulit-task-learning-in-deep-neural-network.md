@@ -32,3 +32,7 @@ NLP的multi-task侧重于,使用基于RNN的sequence labeling.我们使用双向
 8. MWE Detection(MWE): 使用Steusle corpus来确定multi-word expression.
 9. Super-sense tagging(SEM): 使用标准的Semcor数据集划分,预测粗粒度的语义类型.
 10. Super-sense Tagging(STR): 对于MWE任务,使用Streusle corpus,联合预测括号和粗粒度的语义类型.
+
+# Analysis
+
+根据表4,确定了最好描述MTL gain的是描述学习曲线的特征.一个重要的分析是:当main task的学习曲线比较平缓,而其他的辅助任务的学习曲线比较陡峭,MLT效果明显.换句话说,multi-task gain会发生在目标target非常快的进入平稳,而辅助任务不平稳.
