@@ -18,17 +18,17 @@ multi-task经常被当做matrix regularizer,每一个model对应一行.常见的
 
 NLP的multi-task侧重于,使用基于RNN的sequence labeling.我们使用双向LSTM作为一层单独的hidden layer,维度为100,在所有task之间都共享.输入是100维度的GloVe embedding.
 
-在我们的MTL设定中,每一个训练step都是单独唯一的task.这种训练方式很有意思,以往都是multi-task同时训练,这次是每次iteration,单独训练一个single task.
+在我们的MTL设定中,每一个训练step都是单独唯一的task.这种训练方式很有意思,以往都是multi-task同时训练,这次是每次iteration,单独训练一个single task,这样就没有我们在multi-task中的对feature matrix missing data问题.
 
 ## Tasks
 
-1. CCG Tagging(CCG):
-2. Chunking(CHU):
-3. Sentence Compression(COM):
-4. Semantic frames(FNT):
-5. POS tagging(POS):
-6. Hyperlink Prediction(HYP):
-7. Keyphrase Detection(KEY):
-8. MWE Detection(MWE):
-9. Super-sense tagging(SEM):
-10. Super-sense Tagging(STR):
+1. CCG Tagging(CCG): sequence tagging问题.
+2. Chunking(CHU): 确定语义单元在连续空间的token,比如名词或者动词短语.
+3. Sentence Compression(COM): 使用Google Compression dataset.
+4. Semantic frames(FNT): 使用FrameNet 1.5来联合预测目标单词.
+5. POS tagging(POS): 使用tweets数据集.
+6. Hyperlink Prediction(HYP): 使用数据集hypertext corpus,预测括号里的单词序列.
+7. Keyphrase Detection(KEY): 在科学发表论文中,检测关键短语.
+8. MWE Detection(MWE): 使用Steusle corpus来确定multi-word expression.
+9. Super-sense tagging(SEM): 使用标准的Semcor数据集划分,预测粗粒度的语义类型.
+10. Super-sense Tagging(STR): 对于MWE任务,使用Streusle corpus,联合预测括号和粗粒度的语义类型.
