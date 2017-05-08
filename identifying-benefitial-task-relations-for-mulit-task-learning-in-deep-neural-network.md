@@ -18,6 +18,8 @@ multi-task经常被当做matrix regularizer,每一个model对应一行.常见的
 
 NLP的multi-task侧重于,使用基于RNN的sequence labeling.我们使用双向LSTM作为一层单独的hidden layer,维度为100,在所有task之间都共享.输入是100维度的GloVe embedding.
 
+在我们的MTL设定中,每一个训练step都是单独唯一的task.这种训练方式很有意思,以往都是multi-task同时训练,这次是每次iteration,单独训练一个single task.
+
 ## Tasks
 
 1. CCG Tagging(CCG):
