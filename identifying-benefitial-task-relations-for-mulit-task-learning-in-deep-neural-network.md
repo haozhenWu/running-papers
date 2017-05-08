@@ -10,4 +10,5 @@ multi-task的优势是能够减少训练数据的需求,并且作为正则项使
 
 # Multi-task Learning
 
-在deep learning中, hard parameter sharing是非常常见的.
+在deep learning中, hard parameter sharing是非常常见的.有点是 (1)很常见的regularizer (2)容易实现.
+
