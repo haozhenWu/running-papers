@@ -12,3 +12,4 @@ multi-task的优势是能够减少训练数据的需求,并且作为正则项使
 
 在deep learning中, hard parameter sharing是非常常见的.有点是 (1)很常见的regularizer (2)容易实现.
 
+multi-task经常被当做matrix regularizer,每一个model对应一行.常见的训练方式叫做mean-constrained learning,是使用matrix mean当作每一个模型的参数.
