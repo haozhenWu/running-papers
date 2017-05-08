@@ -20,13 +20,13 @@ NLP的multi-task侧重于,使用基于RNN的sequence labeling.我们使用双向
 
 ## Tasks
 
-1. CCG Tagging(CCG)
-2. Chunking(CHU)
-3. Sentence Compression(COM)
-4. Semantic frames(FNT)
-5. POS tagging(POS)
-6. Hyperlink Prediction(HYP)
-7. Keyphrase Detection(KEY)
-8. MWE Detection(MWE)
-9. Super-sense tagging(SEM)
-10. Super-sense Tagging(STR)
+1. CCG Tagging(CCG):
+2. Chunking(CHU):
+3. Sentence Compression(COM):
+4. Semantic frames(FNT):
+5. POS tagging(POS):
+6. Hyperlink Prediction(HYP):
+7. Keyphrase Detection(KEY):
+8. MWE Detection(MWE):
+9. Super-sense tagging(SEM):
+10. Super-sense Tagging(STR):
