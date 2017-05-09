@@ -36,3 +36,5 @@ DNN模型,有一个特性是训练参数通常比训练样本多很多,而其中
 
 # Effective Capacity of Neural Networks
 
+我们的目标是为了验证NN的有效容量.使用non-parametric randomization test:选择一个NN的结构,同时在真实数据和随机过label的数据上进行测试;第二个测试是,在样例数据和label直接没有任何的关系.结果是几乎没有学习.直觉上,在训练过程中,我们应该能够看到训练不再converging或者急剧变慢.但我们发现,不同结构的NN都没有受到影响.
+
