@@ -20,5 +20,7 @@ DNN模型,有一个特性是训练参数通常比训练样本多很多,而其中
 
 一个中心发现是:DNN可以很容易的fit到随机label.更具体地说,neural network可以达到0training error,而test error则会有一个gap,因为training和test的label没有correlation.
 
+明确的regularization作用:寻常的regularizer方法有weight decay,dropout,data augmentation.我们发现:明确的regularization可能提高generalization性能,但既没有必要,也不充分控制generalization error.
 
+与经典的convex empirical risk minimization不同,(explicit regularization是去掉不必要项的必要手段),DNN中的regularization表演完全不同的角色.它更像是调节的参数,用于提高最终test error.
 
