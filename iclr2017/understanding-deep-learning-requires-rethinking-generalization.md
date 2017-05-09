@@ -34,7 +34,15 @@ DNN模型,有一个特性是训练参数通常比训练样本多很多,而其中
 
 显性的regularizer,比如dropout和weight-decay,不一定是generalization的必要条件,但也不是说所有的模型在训练数据fit well的同时,能够在测试数据上fit well.SGD本身也是一个regularizer.
 
-# Effective Capacity of Neural Networks
+# Effective Capacity
 
 我们的目标是为了验证NN的有效容量.使用non-parametric randomization test:选择一个NN的结构,同时在真实数据和随机过label的数据上进行测试;第二个测试是,在样例数据和label直接没有任何的关系.结果是几乎没有学习.直觉上,在训练过程中,我们应该能够看到训练不再converging或者急剧变慢.但我们发现,不同结构的NN都没有受到影响.
+
+# Regularization
+
+哪怕是有regularizer的情况下,对于随机的label,很多DNN模型还是能够很好的fit training data.如表2所示.但也有一些DNN模型效果变差.
+
+而表1则展示了对于true label,不管是否使用regularizer,在training set上都能够很好的fit,但是test set的表现差距比较大.
+
+根据各种比较,得出的结论是:regularizer可能和重要,但是通过改变模型的结构能够获得更高的准确度.
 
