@@ -46,3 +46,17 @@ DNN模型,有一个特性是训练参数通常比训练样本多很多,而其中
 
 根据各种比较,得出的结论是:regularizer可能和重要,但是通过改变模型的结构能够获得更高的准确度.
 
+## Implicit Regularizations
+
+early stopping是implicit regularization的一种方法. batch normalization在每一个mini-batch中,都进行normalize,很多模型中都被用到.
+
+总结就是,不管是显性还是隐性的regularization,都不是使得模型更加generalize的原因.
+
+# Finite-Sample Expressivity
+
+以往的uniform convergence distribution,都是population level,也就是要求sample size n是DNN输入的多项式级别和深度的幂级别,现实中很难.
+
+所以我们反过来分子finite-sample情况下,NN的表达性.我们会发现,只要参数p大于sample size n,那么NN就能完美表达这些sample代表的function.
+
+# Implicit Regularization
+
