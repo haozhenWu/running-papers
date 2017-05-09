@@ -67,3 +67,5 @@ early stopping是implicit regularization的一种方法. batch normalization在�
 所以最后可以得到$$XX^T\alpha = y$$,这有唯一解.
 
 结果也验证了,使用这个方法方法,可以在test set上得到完美的结果.(测试MNIST)如果我们使用Gabor wavelet transform，那么可以使得运算在24核对workstation上,三分钟就有结果.
+
+总结一下,所以能够完美fit数据的模型当中,SGD会converge到minimum norm的结果.而上述提出的kernel solution的norm会比SGD的结果大很多.
