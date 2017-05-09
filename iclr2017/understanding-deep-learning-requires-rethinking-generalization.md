@@ -58,5 +58,12 @@ early stopping是implicit regularization的一种方法. batch normalization在�
 
 所以我们反过来分子finite-sample情况下,NN的表达性.我们会发现,只要参数p大于sample size n,那么NN就能完美表达这些sample代表的function.
 
-# Implicit Regularization
+# Implicit Regularization: An Appeal To Linear Models
 
+在linear model中,$$y=Xw$$,如果$$X$$很'扁',那么就有无穷多解.通常判断不同local minima,我们使用curvature of loss function来判断优劣.但在线性的模型中,所有的optimal solution解释一样的.
+
+所以Hessian无法判别时,可行的一种方法是从算法,SGD,的层次考虑.因为$$w_{t+1} = w_t - \eta_t e_t x_{i_t}$$,而$$w_0 = 0$$.所以我们有$$w = \sum_i^n \alpha_i x_i$$，也就是说,$$w = X^T \alpha$$,
+
+所以最后可以得到$$XX^T\alpha = y$$,这有唯一解.
+
+结果也验证了,使用这个方法方法,可以在test set上得到完美的结果.(测试MNIST)如果我们使用Gabor wavelet transform，那么可以使得运算在24核对workstation上,三分钟就有结果.
