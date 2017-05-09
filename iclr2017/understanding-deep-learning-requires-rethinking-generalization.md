@@ -28,3 +28,11 @@ DNN模型,有一个特性是训练参数通常比训练样本多很多,而其中
 
 **Finite sample expressivity**
 
+实验结果显示,越大的NN,越能fit各种各样的training data.我们的结果显示,哪怕只是两层的NN,也可以表示任意training data.
+
+**The role of implicit regularization**
+
+显性的regularizer,比如dropout和weight-decay,不一定是generalization的必要条件,但也不是说所有的模型在训练数据fit well的同时,能够在测试数据上fit well.SGD本身也是一个regularizer.
+
+# Effective Capacity of Neural Networks
+
