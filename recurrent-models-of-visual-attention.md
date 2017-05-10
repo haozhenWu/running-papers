@@ -27,3 +27,6 @@ agent可以主动地控制如何部署sensor资源.agent也可以通过实施操
 ## Training
 
 有三个network,如图一所示,有glimpse network,core network,和action network $$\theta = (\theta_g, \theta_h, \theta_a)$$.
+
+当作一个Partially Observable Markov Decision Process(POMDP),agent学习到的policy是$$\pi( (l_t, a_t| s_{1:t}; \theta) )$$.然后带入到J中求导.发现这个导数正好是RNN的gradient.
+
