@@ -36,7 +36,7 @@ agent可以主动地控制如何部署sensor资源.agent也可以通过实施操
 
 **Glimpse network:** 就是一个两层NN.
 
-**Location network:** h是RNN中的hidden state.
+**Location network:** 结合RNN实现.
 
 # Appendix
 
