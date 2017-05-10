@@ -30,3 +30,13 @@ agent可以主动地控制如何部署sensor资源.agent也可以通过实施操
 
 当作一个Partially Observable Markov Decision Process(POMDP),agent学习到的policy是$$\pi( (l_t, a_t| s_{1:t}; \theta) )$$.然后带入到J中求导.发现这个导数正好是RNN的gradient.
 
+# Experiment
+
+**Retina and location encodings:** 从中心点l找k个patch,第一个patchsize是$$g_w \times g_w$$,后续的patch宽度分别是前面的两倍.然后将k个patch压缩到$$g_w \times g_w$$,然后拼接.最中心的点是(0,0).
+
+**Glimpse network:** 就是一个两层NN.
+
+**Location network:** h是RNN中的hidden state.
+
+# Appendix
+
