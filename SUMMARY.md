@@ -61,6 +61,7 @@
   * [2014](nips2014.md)
     * [Generative Adversarial Nets](generative_adversarial_nets.md)
     * [Communication Efficient Distributed Machine Learning with the Parameter Server](communication-efficient-distributed-machine-learning-with-the-parameter-server.md)
+    * [Recurrent Models of Visual Attention](recurrent-models-of-visual-attention.md)
   * [2013](nips2013.md)
     * [Parameter Server for Distributed Machine Learning](parameter-server-for-distributed-machine-learning.md)
     * [Multi-Task Bayesian Optimization](multi-task_bayesian_optimization.md)
