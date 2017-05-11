@@ -75,6 +75,8 @@
     * [Towards an Empirical Foundation for Assessing Bayesian Optimization of Hyperparameters](towards-an-empirical-foundation-for-assessing-bayesian-optimization-of-hyperparameters.md)
   * [2014](icml_2014.md)
     * [Distributed Representations of Sentences and Documents](icml_2014/distributed-representations-of-sentences-and-documents.md)
+  * [2003](icml2003.md)
+    * [Reinforcement Learning as Classification: Leveraging Moder Classifiers](icml2003/reinforcement-learning-as-classification-leveraging-moder-classifiers.md)
 * [ICLR](iclr.md)
   * [2017](iclr2017.md)
     * [A Simple But Tough-to-beat Baseline For Sentence Embeddings](iclr2017/a-simple-but-tough-to-beat-baseline-for-sentence-embeddings.md)
