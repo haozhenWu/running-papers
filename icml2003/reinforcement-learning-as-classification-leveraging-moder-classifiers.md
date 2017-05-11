@@ -34,5 +34,6 @@ $$\pi_{i+1} = arg\,max \, Q_{\pi_i}(s,a)$$
 
 这类方法在状态空间很大的时候使用.一个常用的框架是approximate policy iteration(API).每一步都$$\pi_i$$不一定是exact answer,但是效果都不错.
 
-# API without Value Functions
+# Choosing $$S_\rho$$
 
+如何选择下一个状态，如果假设是均匀分布会有问题。最好是从当前policy $$\pi_i$$，得到一个状态的分别
