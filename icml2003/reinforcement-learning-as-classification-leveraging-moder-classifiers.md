@@ -22,3 +22,17 @@ $$V_\pi(s) = \mathbb{E}[\sum_t \gamma^t R(s_t,\pi(s_t)) | s_0 = s]$$
 
 ## Policy Iteration
 
+policy iteration是通过遍历序列$$\pi_1, \pi_2, ... , \pi_k$$，来找最优策略.优化通关计算Q-value，其定义是:
+
+$$Q_{\pi_i}(s,a) = R(s,a) + \gamma \sum_{s'} P(s,a,s') V_{\pi_i}(s')$$
+
+而优化过后的策略是:
+
+$$\pi_{i+1} = arg\,max \, Q_{\pi_i}(s,a)$$
+
+## Approximate methods
+
+这类方法在状态空间很大的时候使用.一个常用的框架是approximate policy iteration(API).每一步都$$\pi_i$$不一定是exact answer,但是效果都不错.
+
+# API without Value Functions
+
