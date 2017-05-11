@@ -34,6 +34,8 @@ $$\pi_{i+1} = arg\,max \, Q_{\pi_i}(s,a)$$
 
 这类方法在状态空间很大的时候使用.一个常用的框架是approximate policy iteration(API).每一步都$$\pi_i$$不一定是exact answer,但是效果都不错.
 
+LSPI是一种API算法,它使用state-action转换的时序差异来选择policy.也有肯能使用Monte Carlo evaluation,叫做rollout.就随机选择一个action,递归执行,得到reward数值,然后再循环尝试下一个action.通常会有一个模拟器simulator来随机抽样下一个action,也可以使用一个generator来主动生成.
+
 # Choosing $$S_\rho$$
 
 如何选择下一个状态,如果假设是均匀分布会有问题.最好是从当前policy $$\pi_i$$,得到一个状态的分布,而这个状态分布是通过训练器体现的.
@@ -43,3 +45,5 @@ $$\pi_{i+1} = arg\,max \, Q_{\pi_i}(s,a)$$
 $$\tilde \pi_{i+1} = \alpha \, arg\, max_a \, \hat Q_{\pi_i}(s,a) + (1-\alpha) \hat \pi_i $$
 
 # Appendix
+
+关于RL,这篇[博客](http://www.cnblogs.com/jerrylead/archive/2011/05/13/2045309.html)解释的比较好.
