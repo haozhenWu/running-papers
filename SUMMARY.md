@@ -69,6 +69,8 @@
     * [Practical Bayesian Optimization of Machine Learning Algorithms](practical_bayesian_optimization_of_machine_learnin.md)
   * [2003](nips2003.md)
     * [Distance metric learning, with application to clustering with side-information](distance_metric_learning,_with_application_to_clus.md)
+  * [2009](2009.md)
+    * [A Scalable Hierarchical Distributed Language Model](2009/a-scalable-hierarchical-distributed-language-model.md)
 * [ICML](icml.md)
   * [2016](icml2016.md)
     * [Learning Relational Sum-Product Networks](learning_relational_sum-product_networks.md)
