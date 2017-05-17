@@ -17,3 +17,14 @@ Jose Miguel Hernandez-Lobato
 为了解决这个问题,我们提出了一种 使用grammar直接将离散数据的结构 联合考虑进来.
 
 给定一个grammar,每一个有效的离散对象都能够描述出从grammar出来的解析树.因此我们提出了grammar variational autoencoder(GVAE),直接从解析树encode和decode.
+
+# Background
+
+## Variational autoencoder
+
+$$p(z)$$表示是编码,是在probabilistic generative model中的隐藏变量.
+
+$$p_\theta(x|z)$$表示的是似然函数,是probabilistic decoder.
+
+如果将$$p(z)$$看作是先验,那么可以有$$p_\theta (z|x) \propto p(z)$$,表示的是probabilistic encoder.
+
