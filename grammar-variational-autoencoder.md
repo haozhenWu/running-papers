@@ -28,3 +28,9 @@ $$p_\theta(x|z)$$表示的是似然函数,是probabilistic decoder.
 
 如果将$$p(z)$$看作是先验,那么可以有$$p_\theta (z|x) \propto p(z)$$,表示的是probabilistic encoder.
 
+如果要同时学习MLE和MAP的参数,可以使用evidence lower bound(ELBO)方法.
+
+$$\mathcal{L}(\phi, \theta; x) = \mathbb{E} _{q(z|x)} [log \, p_\theta(x,z) - log \,  q_\phi (z|x)] $$
+
+## Context-free grammars
+
