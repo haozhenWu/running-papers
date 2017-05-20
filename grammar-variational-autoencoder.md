@@ -34,3 +34,5 @@ $$\mathcal{L}(\phi, \theta; x) = \mathbb{E} _{q(z|x)} [log \, p_\theta(x,z) - lo
 
 ## Context-free grammars
 
+# Methods
+
