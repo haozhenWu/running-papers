@@ -58,6 +58,8 @@ RNN会产生一个unnormalized log probability(也叫logits) vectors 集合,logi
 
 $$p(x_t = k| \alpha, z) = \frac{ m_{\alpha, k} exp(f_{tk}) }{ \sum_{j=1}^K  m_{\alpha, k} exp(f_{tj})}$$
 
+其中$$f_{tj}$$表示的是矩阵的第t行,第j列,也就是第j中production rule.直观的说,就是对第t行向量,进行exp normalization.
+
 
 
 # Appendix
