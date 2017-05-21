@@ -74,4 +74,4 @@ $$p(x_t = k| \alpha, z) = \frac{ m_{\alpha, k} exp(f_{tk}) }{ \sum_{j=1}^K  m_{\
 
 GVA与character VAE不同的是,CVAE在下一位会产生任意的字符,而GVA会遵从语义.
 
-计算ELBO gradient的方法,参考这篇[论文](https://arxiv.org/pdf/1312.6114.pdf).
+计算ELBO gradient的方法,参考这篇['14 ICLR 论文](https://arxiv.org/pdf/1312.6114.pdf).
