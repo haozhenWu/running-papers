@@ -67,3 +67,5 @@ $$p(x_t = k| \alpha, z) = \frac{ m_{\alpha, k} exp(f_{tk}) }{ \sum_{j=1}^K  m_{\
 # Appendix
 
 很有意思的encoding方法.以往都是使用fingerprints或者纯粹SMILES作为特征.这里是使用了基于语法解析树生成的特征.
+
+GVA与character VAE不同的是,CVAE在下一位会产生任意的字符,而GVA会遵从语义.
