@@ -64,6 +64,10 @@ $$p(x_t = k| \alpha, z) = \frac{ m_{\alpha, k} exp(f_{tk}) }{ \sum_{j=1}^K  m_{\
 
 所以这里所用的堆栈可以理解为我们使用一个深度优先搜索搜索所有可能的情况.
 
+## Training
+
+
+
 # Appendix
 
 很有意思的encoding方法.以往都是使用fingerprints或者纯粹SMILES作为特征.这里是使用了基于语法解析树生成的特征.
