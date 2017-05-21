@@ -52,7 +52,7 @@ context-free grammar(CFG)定义为包含四个元素的tuple $$G=(V,\sum,R,S)$$.
 
 RNN会产生一个unnormalized log probability(也叫logits) vectors 集合,logits的每一个维度都代表了语法中的一个production rule.
 
-
+使用堆栈,首先从开始信号解析,也就是SMILES.初始状态就是解析信号在堆栈中,然后pop out.我们从堆栈中pop out的信号,使用mask vector来去掉无效的向量.mask vector $$m_a \in [0,1]^K$$ 指的是$$a \to b$$ 中,将a所以可能指向的b使用1表示,其余都为0的binary vector.
 
 # Appendix
 
