@@ -48,6 +48,8 @@ context-free grammar(CFG)定义为包含四个元素的tuple $$G=(V,\sum,R,S)$$.
 
 ## Decoding
 
+这里是如何将连续的向量映射回
+
 # Appendix
 
-很有意思的encoding方法.以往都是使用
+很有意思的encoding方法.以往都是使用fingerprints或者纯粹SMILES作为特征.这里是使用了基于语法解析树生成的特征.
