@@ -54,6 +54,12 @@ RNN会产生一个unnormalized log probability(也叫logits) vectors 集合,logi
 
 使用堆栈,首先从开始信号解析,也就是SMILES.初始状态就是解析信号在堆栈中,然后pop out.我们从堆栈中pop out的信号,使用mask vector来去掉无效的向量.mask vector $$m_a \in [0,1]^K$$ 指的是$$a \to b$$ 中,将a所以可能指向的b使用1表示,其余都为0的binary vector.
 
+然后在剩下的unmasked rules中进行抽样,使用logit vector的数值.为了在任意一个时间t,进行抽样,使用以下masked distribution:
+
+$$p(x_t = k| \alpha, z) = \frac{ m_{\alpha, k} exp(f_{tk}) }{ \sum_{j=1}^K  m_{\alpha, k} exp(f_{tj})}$$
+
+
+
 # Appendix
 
 很有意思的encoding方法.以往都是使用fingerprints或者纯粹SMILES作为特征.这里是使用了基于语法解析树生成的特征.
