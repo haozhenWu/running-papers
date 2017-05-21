@@ -66,10 +66,11 @@ $$p(x_t = k| \alpha, z) = \frac{ m_{\alpha, k} exp(f_{tk}) }{ \sum_{j=1}^K  m_{\
 
 ## Training
 
-
+每次训练都是先encode,然后通过模型,decode 计算得到logits.使用ELBO进行gradient update.(这一步感觉描述的不是特别详细,另外提到了一批paper)
 
 # Appendix
 
 很有意思的encoding方法.以往都是使用fingerprints或者纯粹SMILES作为特征.这里是使用了基于语法解析树生成的特征.
 
 GVA与character VAE不同的是,CVAE在下一位会产生任意的字符,而GVA会遵从语义.
+
