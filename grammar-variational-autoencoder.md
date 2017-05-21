@@ -60,6 +60,7 @@ $$p(x_t = k| \alpha, z) = \frac{ m_{\alpha, k} exp(f_{tk}) }{ \sum_{j=1}^K  m_{\
 
 其中$$f_{tj}$$表示的是矩阵的第t行,第j列,也就是第j中production rule.直观的说,就是对第t行向量,进行exp normalization.
 
+说得这么复杂,简单的,就是我们在对某一行向量进行normalization的时候,不把所有的production rule都考虑进去,而是只考虑可能的,有效的rule.做到这点,使用上述的mask vector进行element-wise的乘法即可.
 
 
 # Appendix
