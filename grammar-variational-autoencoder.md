@@ -34,6 +34,12 @@ $$\mathcal{L}(\phi, \theta; x) = \mathbb{E} _{q(z|x)} [log \, p_\theta(x,z) - lo
 
 ## Context-free grammars
 
+context-free grammar(CFG)定义为包含四个元素的tuple $$G=(V,\sum,R,S)$$.分别表示,未终止信号集,终止信号集,产生规则,以及不包含开始信号的未终止信号集.R的产生规则表示是从$$V$$到$$V \bigcup \sum$$的映射.
+
+这种映射可以构成一棵解析树. $$\alpha \to \beta$$,一直到所有的叶子节点都是来自于$$\sum$$,即终止符号.
+
+这个context-free grammar可以构成一个probabilistic generative model的骨干,来产生有效的字符串.
+
 # Methods
 
 ## Encoding
