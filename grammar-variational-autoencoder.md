@@ -48,7 +48,11 @@ context-free grammar(CFG)定义为包含四个元素的tuple $$G=(V,\sum,R,S)$$.
 
 ## Decoding
 
-这里是如何将连续的向量映射回
+这里是如何将连续的向量映射回sequence of production rules.
+
+RNN会产生一个unnormalized log probability(也叫logits) vectors 集合,logits的每一个维度都代表了语法中的一个production rule.
+
+
 
 # Appendix
 
