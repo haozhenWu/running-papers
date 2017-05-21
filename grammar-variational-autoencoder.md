@@ -62,6 +62,7 @@ $$p(x_t = k| \alpha, z) = \frac{ m_{\alpha, k} exp(f_{tk}) }{ \sum_{j=1}^K  m_{\
 
 说得这么复杂,简单的,就是我们在对某一行向量进行normalization的时候,不把所有的production rule都考虑进去,而是只考虑可能的,有效的rule.做到这点,使用上述的mask vector进行element-wise的乘法即可.
 
+所以这里所用的堆栈可以理解为我们使用一个深度优先搜索搜索所有可能的情况.
 
 # Appendix
 
