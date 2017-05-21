@@ -44,5 +44,10 @@ context-free grammar(CFG)定义为包含四个元素的tuple $$G=(V,\sum,R,S)$$.
 
 ## Encoding
 
+首先通过使用一个SMILES grammar将字符串解析成解析树.然后将解析树通过前序遍历产生production rules R.使用1-hot indicator vector来表示这些规则.
+
 ## Decoding
 
+# Appendix
+
+很有意思的encoding方法.以往都是使用
