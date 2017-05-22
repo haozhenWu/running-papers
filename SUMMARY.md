@@ -68,6 +68,7 @@
   * [2013](nips2013.md)
     * [Parameter Server for Distributed Machine Learning](parameter-server-for-distributed-machine-learning.md)
     * [Multi-Task Bayesian Optimization](multi-task_bayesian_optimization.md)
+    * [Distributed Representations of Words and Phrases and their Compositionality](distributed-representations-of-words-and-phrases-and-their-compositionality.md)
   * [2012](nips2012.md)
     * [Practical Bayesian Optimization of Machine Learning Algorithms](practical_bayesian_optimization_of_machine_learnin.md)
   * [2003](nips2003.md)
