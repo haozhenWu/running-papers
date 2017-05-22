@@ -14,6 +14,15 @@ $$p(w_O | w_I) = \frac{exp({v'_{w_O}}^Tv_{w_I})}{\sum_{w=1}^W exp({v'_{w}}^Tv_{w
 
 逻辑上是用一棵二叉树对output layer进行编码。物理上就是将每一个输出使用$$log_2(V)$$的binary vector进行编码。
 
+定义函数$$ [x] = 1$$ 如果x为真，否则$$[x] = -1$$。
+
+那么hierarchical softmax就可以定义为
+
+$$ p(w|w_I) = \prod_{j=1}^{L(w)-1} $$
+
 ## Negative Sampling
 
 如果不适用hierarchical softmax，可以考虑Noise Contrastive Estimation（NCE）。
+
+# Appendix
+
