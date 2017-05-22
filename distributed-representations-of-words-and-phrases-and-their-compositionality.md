@@ -28,9 +28,9 @@ $$ p(w|w_I) = \prod_{j=1}^{L(w)-1} \sigma([n(w,j+1) = ch(n(w,j))] \cdot {v'_{n(w
 
 如果不适用hierarchical softmax，可以考虑Noise Contrastive Estimation（NCE）。NCE有一个假设是，模型通过logistic regression能够将数据和噪声进行区分。
 
-尽管NCE能大约最大化softmax的log probability，蛋SKip-gram模型只关心学习到的word representation，所以可以进行简化。定义Negative sampling的目标函数如下：
+尽管NCE能大约最大化softmax的log probability，蛋SKip-gram模型只关心学习到的word representation，所以可以进行简化。定义Negative sampling的目标函数为
 
-
+$$ log \, \sigma( {v'_{w_O}}^T v_{w_I} ) + \sum_{i=1}^K \mathbb{E}_{w_i \sim P_n(w)} [log \, \sigma(-{v'_{w_i}}^T v_{w_I} )] $$
 
 # Appendix
 
