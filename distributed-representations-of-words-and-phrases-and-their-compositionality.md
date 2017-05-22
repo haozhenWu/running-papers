@@ -28,3 +28,4 @@ $$ p(w|w_I) = \prod_{j=1}^{L(w)-1} \sigma([n(w,j+1) = ch(n(w,j))] \cdot {v'_{n(w
 
 # Appendix
 
+[这篇博客](http://sebastianruder.com/word-embeddings-softmax/index.html#hierarchicalsoftmax)做了非常好的总结。
