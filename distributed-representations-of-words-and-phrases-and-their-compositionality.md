@@ -16,3 +16,4 @@ $$p(w_O | w_I) = \frac{exp({v'_{w_O}}^Tv_{w_I})}{\sum_{w=1}^W exp({v'_{w}}^Tv_{w
 
 ## Negative Sampling
 
+如果不适用hierarchical softmax，可以考虑Noise Contrastive Estimation（NCE）。
