@@ -18,7 +18,9 @@ $$p(w_O | w_I) = \frac{exp({v'_{w_O}}^Tv_{w_I})}{\sum_{w=1}^W exp({v'_{w}}^Tv_{w
 
 那么hierarchical softmax就可以定义为
 
-$$ p(w|w_I) = \prod_{j=1}^{L(w)-1} $$
+$$ p(w|w_I) = \prod_{j=1}^{L(w)-1} \sigma([n(w,j+1) = ch(n(w,j))] \cdot {v'_{n(w,j)}}^T v_{w_I} )$$
+
+中间的$$[n(w,j+1) = ch(n(w,j))]$$含义就是第j+1的预测是否为真。
 
 ## Negative Sampling
 
