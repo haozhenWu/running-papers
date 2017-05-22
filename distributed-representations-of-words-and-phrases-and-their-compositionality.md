@@ -30,7 +30,9 @@ $$ p(w|w_I) = \prod_{j=1}^{L(w)-1} \sigma([n(w,j+1) = ch(n(w,j))] \cdot {v'_{n(w
 
 尽管NCE能大约最大化softmax的log probability，蛋SKip-gram模型只关心学习到的word representation，所以可以进行简化。定义Negative sampling的目标函数为
 
-$$ log \, \sigma( {v'_{w_O}}^T v_{w_I} ) + \sum_{i=1}^K \mathbb{E}_{w_i \sim P_n(w)} [log \, \sigma(-{v'_{w_i}}^T v_{w_I} )] $$
+$$ log \, \sigma( {v'_{w_O}}^T v_{w_I} ) + \sum_{i=1}^k \mathbb{E}_{w_i \sim P_n(w)} [log \, \sigma(-{v'_{w_i}}^T v_{w_I} )] $$
+
+来代替log probability。因此任务是使用logistic regression将目标单词$$w_O$$和从noise distribution $$P_n(w)$$中区分开来。其中每一个样本点，都有k个negative samples。
 
 # Appendix
 
