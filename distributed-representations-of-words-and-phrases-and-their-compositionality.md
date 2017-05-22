@@ -20,7 +20,7 @@ $$p(w_O | w_I) = \frac{exp({v'_{w_O}}^Tv_{w_I})}{\sum_{w=1}^W exp({v'_{w}}^Tv_{w
 
 $$ p(w|w_I) = \prod_{j=1}^{L(w)-1} \sigma([n(w,j+1) = ch(n(w,j))] \cdot {v'_{n(w,j)}}^T v_{w_I} )$$
 
-中间的$$[n(w,j+1) = ch(n(w,j))]$$含义就是第j+1的预测是否为真。
+中间的$$[n(w,j+1) = ch(n(w,j))]$$含义就是第j+1的预测是否为真。而且对于输出，不再是对每一个output word有一个mebedding，而是对每一个node有一个embedding $$v_n$$。
 
 ## Negative Sampling
 
