@@ -26,7 +26,7 @@ $$ p(w|w_I) = \prod_{j=1}^{L(w)-1} \sigma([n(w,j+1) = ch(n(w,j))] \cdot {v'_{n(w
 
 ## Negative Sampling
 
-如果不适用hierarchical softmax，可以考虑Noise Contrastive Estimation（NCE）。
+如果不适用hierarchical softmax，可以考虑Noise Contrastive Estimation（NCE）。NCE有一个假设是，模型通过logistic regression能够将数据和噪声进行区分。
 
 # Appendix
 
