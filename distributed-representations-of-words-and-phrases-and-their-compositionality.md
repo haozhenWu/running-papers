@@ -22,6 +22,8 @@ $$ p(w|w_I) = \prod_{j=1}^{L(w)-1} \sigma([n(w,j+1) = ch(n(w,j))] \cdot {v'_{n(w
 
 中间的$$[n(w,j+1) = ch(n(w,j))]$$含义就是第j+1的预测是否为真。而且对于输出，不再是对每一个output word有一个mebedding，而是对每一个node有一个embedding $$v_n$$。
 
+而整个的复杂度也降到了$$log_2(V)$$。
+
 ## Negative Sampling
 
 如果不适用hierarchical softmax，可以考虑Noise Contrastive Estimation（NCE）。
