@@ -34,6 +34,8 @@ $$ log \, \sigma( {v'_{w_O}}^T v_{w_I} ) + \sum_{i=1}^k \mathbb{E}_{w_i \sim P_n
 
 来代替log probability。因此任务是使用logistic regression将目标单词$$w_O$$和从noise distribution $$P_n(w)$$中区分开来。其中每一个样本点，都有k个negative samples。
 
+也就是把这一个output word和符合noise distribution取样的k个单词，组成一个小的batch，从而进行训练。假设原来最后一层输出层的搜索空间是$$ \text{embedding_size} \times V$$， 那么现在就是$$ \text{embedding_size} \times (k+1)$$。
+
 # Appendix
 
 [这篇博客](http://sebastianruder.com/word-embeddings-softmax/index.html#hierarchicalsoftmax)做了非常好的总结。
