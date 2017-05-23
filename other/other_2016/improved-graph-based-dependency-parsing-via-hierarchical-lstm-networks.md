@@ -12,3 +12,8 @@ PKU
 
 首先是一个character-level Bidirectional LSTM来计算character-based word embedding。然后将四个向量embedding到一起：前向LSTM hidden vector，后巷LSTM hidden vector，word embedding $$e(w_i)$$，和POS tag embedding $$(e(p_i))$$。然后使用linear transformation $$w_e$$，和activation function g。
 
+然后将这个concatenated向量作为word-level LSTM的输入。用于enrich word vector representation。
+
+# Appendix
+
+一个从直觉上能解释的通，但论文中没有给定足够的理论支持。刚刚读完Omer Levy使用PMI matrix来解释embedding，这里就有一个变形。个人觉得如果能有理论支持最好，否则还是偏把deep-learning当作黑箱操作的方法。
