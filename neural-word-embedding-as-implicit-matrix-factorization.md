@@ -22,7 +22,7 @@ $$log \, \sigma(\vec{w}, \vec{c}) + k \cdot \mathbb{E}_{c_N \sim P_D}(log \, \si
 
 SGNS同时将word和context embed到低纬度的空间，从而有了两个矩阵$$W$$和$$C$$。而可以尝试考虑$$W \cdot C^T = M$$，SGNS就可以当作是将隐式矩阵$$M$$进行分解。
 
-$$M_{i,j}$$对应于点乘 $$W_i \cdot C_j = \vec{w_i} \cdot \vec{c_j}$$
+$$M_{i,j}$$对应于点乘 $$W_i \cdot C_j = \vec{w_i} \cdot \vec{c_j}$$，因此可以理解为分解之后的两个矩阵，一个每一行对应于一个word，一个每一行对应于一个context，而隐式矩阵的每一个cell $$f(w,c)$$对应的是word-context pair直接联系的强度。
 
 # Appendix
 
