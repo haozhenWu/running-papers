@@ -12,3 +12,4 @@ skip-gram模型假设有一个词库，和一个上下文库，分别用$$w \in 
 
 $$P(D=1|w,c) = \sigma(\vec{w}, \vec{c}) = \frac{1}{1+e^{- \vec{w} \cdot \vec{c}}}$$
 
+negative sampling用了一个比较tricky的方法，为观测到的的$$(w,c)$$最大化$$P(D=1|w,c)$$，同时为随机取样的negative examples最大化$$P(D=0|w,c)$$。
