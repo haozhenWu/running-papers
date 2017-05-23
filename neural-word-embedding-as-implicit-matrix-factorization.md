@@ -11,3 +11,4 @@ skip-gram模型假设有一个词库，和一个上下文库，分别用$$w \in 
 考虑$$(w,c)$$对，让$$P(D=1|w,c)$$表示这一对来自于数据。那么有
 
 $$P(D=1|w,c) = \sigma(\vec{w}, \vec{c}) = \frac{1}{1+e^{- \vec{w} \cdot \vec{c}}}$$
+
