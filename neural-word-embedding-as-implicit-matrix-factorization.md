@@ -32,9 +32,9 @@ $$ l(w,c) = \# (w,c) \cdot \sigma(\vec{w} \cdot \vec{c}) + k \cdot \# (w) \cdot 
 
 $$ \frac{\partial l}{\partial x} = \#(w,c) \cdot \sigma(-x) - k \cdot \#(w) \cdot \frac{\#(c)}{|D|} \cdot \sigma(x) $$
 
-即为 $$ \#(w,c) (1-e^{-x}) - k \cdot \frac{\#(w) \cdot \#(c)}{|D|} \cdot (1-e^x) = 0$$
+即为 $$ \#(w,c) (1+e^{-x}) - k \cdot \frac{\#(w) \cdot \#(c)}{|D|} \cdot (1+e^x) = 0$$
 
-即为 $$ \#(w,c) (e^x-1) - k \cdot \frac{\#(w) \cdot \#(c)}{|D|} \cdot (e^x-e^{2x}) = 0$$
+即为 $$ \#(w,c) (e^x+1) - k \cdot \frac{\#(w) \cdot \#(c)}{|D|} \cdot (e^x+e^{2x}) = 0$$
 
 $$e^{2x} - ( \frac{\#(w,c)}{k \cdot \#(w) \cdot \frac{\#(c)}{|D|}} - 1) e^x - \frac{\#(w,c)}{k \cdot \#(w) \cdot \frac{\#(c)}{|D|}} = 0$$
 
