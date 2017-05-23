@@ -20,7 +20,9 @@ $$log \, \sigma(\vec{w}, \vec{c}) + k \cdot \mathbb{E}_{c_N \sim P_D}(log \, \si
 
 # SGNS as Implicit Matrix Factorization
 
-SGNS同时将word和context embed到低纬度的空间，从而有了两个矩阵W和C。
+SGNS同时将word和context embed到低纬度的空间，从而有了两个矩阵$$W$$和$$C$$。而可以尝试考虑$$W \cdot C^T = M$$，SGNS就可以当作是将隐式矩阵$$M$$进行分解。
+
+$$M_{i,j}$$对应于点乘 $$W_i \cdot C_j = \vec{w_i} \cdot \vec{c_j}$$
 
 # Appendix
 
