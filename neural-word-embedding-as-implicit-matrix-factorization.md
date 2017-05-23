@@ -20,6 +20,8 @@ $$log \, \sigma(\vec{w}, \vec{c}) + k \cdot \mathbb{E}_{c_N \sim P_D}(log \, \si
 
 # SGNS as Implicit Matrix Factorization
 
+##　Characterizing the Implicit Matrix
+
 SGNS同时将word和context embed到低纬度的空间，从而有了两个矩阵$$W$$和$$C$$。而可以尝试考虑$$W \cdot C^T = M$$，SGNS就可以当作是将隐式矩阵$$M$$进行分解。
 
 $$M_{i,j}$$对应于点乘 $$W_i \cdot C_j = \vec{w_i} \cdot \vec{c_j}$$，因此可以理解为分解之后的两个矩阵，一个每一行对应于一个word，一个每一行对应于一个context，而隐式矩阵的每一个cell $$f(w,c)$$对应的是word-context pair直接联系的强度。
@@ -51,6 +53,10 @@ $$\vec{w} \cdot \vec{c} = log( \frac{\#(w,c) \cdot |D|}{\#(w) \cdot \#(c)} \cdot
 $$ M_{ij}^{SGNS} = W_i \cdot C_j = \vec{w_i} \cdot \vec{c_j} = PMI(w_i,c_j) - log \, k $$
 
 所以当k=1的时候，SGNS目标是将word-context矩阵进行分解，其中word和context的联系是用PMI来衡量。而如果k>1,那么SGNS就在分解一个shifted PMI matrix，$$M^{PMI_k} = M^{PMI} - log \, k$$。
+
+## Pointwise Mutual Information
+
+PMI是常用的管联性度量值。PMI经常被用作word similarity tasks。
 
 # Appendix
 
