@@ -18,6 +18,10 @@ $$log \, \sigma(\vec{w}, \vec{c}) + k \cdot \mathbb{E}_{c_N \sim P_D}(log \, \si
 
 其中$$P_D(c) = \frac{\#(c)}{|D|}$$是empirical unigram distribution。
 
+# SGNS as Implicit Matrix Factorization
+
+SGNS同时将word和context embed到低纬度的空间，从而有了两个矩阵W和C。
+
 # Appendix
 
 > An n-gram of size 1 is referred to as a "unigram"; size 2 is a "bigram" (or, less commonly, a "digram"); size 3 is a "trigram". Larger sizes are sometimes referred to by the value of n in modern language, e.g., "four-gram", "five-gram", and so on.(摘自Wiki)
