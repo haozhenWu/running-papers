@@ -24,6 +24,7 @@
 * [Other](other.md)
   * [2016](other/other_2016.md)
     * [Transfer Reinforcement Learning with Shared Dynamics](other/other_2016/transfer-reinforcement-learning-with-shared-dynamics.md)
+    * [Improved Graph-based Dependency Parsing via Hierarchical LSTM Networks](other/other_2016/improved-graph-based-dependency-parsing-via-hierarchical-lstm-networks.md)
 
 ## Deep Chem
 
