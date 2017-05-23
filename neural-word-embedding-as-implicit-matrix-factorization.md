@@ -16,3 +16,8 @@ negative sampling用了一个比较tricky的方法，为观测到的的$$(w,c)$$
 
 $$log \, \sigma(\vec{w}, \vec{c}) + k \cdot \mathbb{E}_{c_N \sim P_D}(log \, \sigma(- \vec{w} \cdot \vec{c} )) $$
 
+其中$$P_D(c) = \frac{\#(c)}{|D|}$$是empirical unigram distribution。
+
+# Appendix
+
+> An n-gram of size 1 is referred to as a "unigram"; size 2 is a "bigram" (or, less commonly, a "digram"); size 3 is a "trigram". Larger sizes are sometimes referred to by the value of n in modern language, e.g., "four-gram", "five-gram", and so on.(摘自Wiki)
