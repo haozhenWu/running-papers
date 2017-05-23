@@ -24,6 +24,10 @@ SGNS同时将word和context embed到低纬度的空间，从而有了两个矩�
 
 $$M_{i,j}$$对应于点乘 $$W_i \cdot C_j = \vec{w_i} \cdot \vec{c_j}$$，因此可以理解为分解之后的两个矩阵，一个每一行对应于一个word，一个每一行对应于一个context，而隐式矩阵的每一个cell $$f(w,c)$$对应的是word-context pair直接联系的强度。
 
+只考虑某一个特定(word,context) pair
+
+$$ l(w,c) = \# (w,c) \cdot \sigma(\vec{w} \cdot \vec{c}) + k \cdot \# (w) \cdot \frac{\#{c}}{|D|} log \, \sigma(- \vec{w} \cdot \vec{c})$$
+
 # Appendix
 
 > An n-gram of size 1 is referred to as a "unigram"; size 2 is a "bigram" (or, less commonly, a "digram"); size 3 is a "trigram". Larger sizes are sometimes referred to by the value of n in modern language, e.g., "four-gram", "five-gram", and so on.(摘自Wiki)
