@@ -42,7 +42,7 @@ $$e^{2x} - ( \frac{\#(w,c)}{k \cdot \#(w) \cdot \frac{\#(c)}{|D|}} - 1) e^x - \f
 
 $$y = \frac{\#(w,c)}{k \cdot \#(w) \cdot \frac{\#(c)}{|D|}} = \frac{\#(w,c) \cdot |D|}{\#(w) \cdot \#(c)} \cdot \frac{1}{k}$$
 
-$$\vec{w} \cdot \vec{c} = log( \frac{\#(w,c) \cdot |D|}{\#(w) \cdot \#(c)} \cdot \frac{1}{k} )$$
+$$\vec{w} \cdot \vec{c} = log( \frac{\#(w,c) \cdot |D|}{\#(w) \cdot \#(c)} \cdot \frac{1}{k} ) = log( \frac{\#(w,c) \cdot |D|}{\#(w) \cdot \#(c)} ) - log \, k$$
 
 # Appendix
 
