@@ -58,6 +58,10 @@ $$ M_{ij}^{SGNS} = W_i \cdot C_j = \vec{w_i} \cdot \vec{c_j} = PMI(w_i,c_j) - lo
 
 PMI是常用的管联性度量值。PMI经常被用作word similarity tasks。
 
+PMI矩阵有一个问题是word-context pair并没有出现，$$PMI(w,c) = log\, 0 = -\infty$$。解决方法是使用Dirichlet prior，每一个的count都增加1。
+
+另外一个解决方案是当$$\#(w,c)=0$$的时候，另$$PMI(w,c)=0$$。
+
 # Appendix
 
 > An n-gram of size 1 is referred to as a "unigram"; size 2 is a "bigram" (or, less commonly, a "digram"); size 3 is a "trigram". Larger sizes are sometimes referred to by the value of n in modern language, e.g., "four-gram", "five-gram", and so on.(摘自Wiki)
