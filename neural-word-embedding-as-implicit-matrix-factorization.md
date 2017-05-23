@@ -28,6 +28,10 @@ $$M_{i,j}$$对应于点乘 $$W_i \cdot C_j = \vec{w_i} \cdot \vec{c_j}$$，因�
 
 $$ l(w,c) = \# (w,c) \cdot \sigma(\vec{w} \cdot \vec{c}) + k \cdot \# (w) \cdot \frac{\#{c}}{|D|} log \, \sigma(- \vec{w} \cdot \vec{c})$$
 
+然后进行求导，同时$$x = \vec{x} \cdot \vec{c}$$
+
+$$ \frac{\partial l}{\partial x} = \#(w,c) \cdot \sigma(-x) - k \cdot \#(w) \cdot \frac{\#(c)}{|D|} \cdot \sigma(x) $$
+
 # Appendix
 
 > An n-gram of size 1 is referred to as a "unigram"; size 2 is a "bigram" (or, less commonly, a "digram"); size 3 is a "trigram". Larger sizes are sometimes referred to by the value of n in modern language, e.g., "four-gram", "five-gram", and so on.(摘自Wiki)
