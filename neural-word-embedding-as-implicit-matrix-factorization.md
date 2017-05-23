@@ -60,7 +60,11 @@ PMI是常用的管联性度量值。PMI经常被用作word similarity tasks。
 
 PMI矩阵有一个问题是word-context pair并没有出现，$$PMI(w,c) = log\, 0 = -\infty$$。解决方法是使用Dirichlet prior，每一个的count都增加1。
 
-另外一个解决方案是当$$\#(w,c)=0$$的时候，另$$PMI(w,c)=0$$。
+另外一个解决方案是当$$\#(w,c)=0$$的时候，另$$PMI(w,c)=0$$。这样就有一个sparse matrix。但这会带来另外一个inconsistent的问题：有一些观测到的但是“bad”(uncorrelated)的word-pair对，他们的value是负的，但是未观测到的word-context对数值反而更高，为0。
+
+这个解决的方案是使用positive PMI(PPMI)，所有的negative都是用0代替：
+
+$$PPMI(w,c) = max(PMI(w,c), 0)$$
 
 # Appendix
 
