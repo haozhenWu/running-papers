@@ -52,8 +52,6 @@ $$ M_{ij}^{SGNS} = W_i \cdot C_j = \vec{w_i} \cdot \vec{c_j} = PMI(w_i,c_j) - lo
 
 所以当k=1的时候，SGNS目标是将word-context矩阵进行分解，其中word和context的联系是用PMI来衡量。而如果k>1,那么SGNS就在分解一个shifted PMI matrix，$$M^{PMI_k} = M^{PMI} - log \, k$$。
 
-
-
 # Appendix
 
 > An n-gram of size 1 is referred to as a "unigram"; size 2 is a "bigram" (or, less commonly, a "digram"); size 3 is a "trigram". Larger sizes are sometimes referred to by the value of n in modern language, e.g., "four-gram", "five-gram", and so on.(摘自Wiki)
