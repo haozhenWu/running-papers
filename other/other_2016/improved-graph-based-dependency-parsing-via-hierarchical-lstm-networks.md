@@ -16,11 +16,11 @@ PKU
 
 # Score Model
 
-
+neural network经常用来score dependency arcs。
 
 # Appendix
 
-一个从直觉上能解释的通，但论文中没有给定足够的理论支持。刚刚读完Omer Levy使用PMI matrix来解释embedding，这里就有一个变形。个人觉得如果能有理论支持最好，否则还是偏把deep-learning当作黑箱操作的方法。
+一个从直觉上能解释的通，但论文中没有给定足够的理论支持。刚刚读完Omer Levy使用PMI matrix来解释embedding。个人觉得如果能有理论支持最好，否则还是偏把deep-learning当作黑箱操作的方法。
 
 另外打算follow两篇paper
 
