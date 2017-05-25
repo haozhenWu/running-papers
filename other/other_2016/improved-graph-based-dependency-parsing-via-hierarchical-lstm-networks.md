@@ -16,7 +16,7 @@ PKU
 
 # Score Model
 
-neural network经常用来score dependency arcs。
+neural network经常用来score dependency arcs。后面的一段描述不够详细，follow up中的一篇有更加详细的解释。
 
 # Appendix
 
