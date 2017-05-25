@@ -26,6 +26,10 @@ $$h = g(\sum_i W_{h_i}^d a_i + b_h^d)$$
 
 其中$$a_i$$是feature embedding，$$W_{h_i}^d$$和$$b_h^d$$中的index $$d \in \{ 0, 1\}$$，表明head和modifier之间的方向。
 
+输出层最终加到hidden layer的最上面作为scoring dependency arcs，
+
+$$Score(h,m) = W_o^d h + b_o^d$$
+
 # Appendix
 
 一个从直觉上能解释的通，但论文中没有给定足够的理论支持。刚刚读完Omer Levy使用PMI matrix来解释embedding。个人觉得如果能有理论支持最好，否则还是偏把deep-learning当作黑箱操作的方法。
