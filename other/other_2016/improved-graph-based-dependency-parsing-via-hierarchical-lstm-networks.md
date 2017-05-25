@@ -20,6 +20,10 @@ neural network经常用来score dependency arcs。后面的一段描述不够详
 
 对于一个dependency pair $$(h,m)$$，是一个句子中的两个单词，head word h 和 modifier word m。使用word representation，h和m之间的distance，和segment embedding作为特征，其中distance feature embedding 随机初始化。每一个句子通过h和m分成了三个segment。然后在word representation上面通过一个forward LSTM，segment embedding能够通过LSTM hidden vectors直接进行减法计算。
 
+所有的feature embedding都映射到了隐藏空间，使用direction-specific transformation来对edge direction建模
+
+$$h = g(\sum_i W_{h_i}^d a_i + b_h^d)$$
+
 # Appendix
 
 一个从直觉上能解释的通，但论文中没有给定足够的理论支持。刚刚读完Omer Levy使用PMI matrix来解释embedding。个人觉得如果能有理论支持最好，否则还是偏把deep-learning当作黑箱操作的方法。
