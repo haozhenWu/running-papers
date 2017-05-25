@@ -18,6 +18,8 @@ PKU
 
 neural network经常用来score dependency arcs。后面的一段描述不够详细，follow up中的一篇有更加详细的解释。
 
+对于一个dependency pair $$(h,m)$$，是一个句子中的两个单词，head word h 和 modifier word m。
+
 # Appendix
 
 一个从直觉上能解释的通，但论文中没有给定足够的理论支持。刚刚读完Omer Levy使用PMI matrix来解释embedding。个人觉得如果能有理论支持最好，否则还是偏把deep-learning当作黑箱操作的方法。
