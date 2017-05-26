@@ -45,7 +45,9 @@ $$L_\theta(w,c,c') = max(0, m - log E_\theta(w,c) + log E_\theta (w,c'))  $$
 
 energy function,或者similarity function,在vector embedding情况下,通常使用点乘来体现point similarity.但对于probabilistic embedding,不仅仅要提醒相似性,还要体现不确定性.
 
+提出了使用expected likelihood kerner,一般化的点乘方法.
 
+$$E(f,g) = \int f(x) g(x) dx  = \langle f, g \rangle _{L_2}$$
 
 # Appendix
 
