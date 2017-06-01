@@ -10,4 +10,8 @@ sampling 不同NN configuration的时候，会考虑到很多低于标准的conf
 
 # Related Work
 
+**Meta-modeling: ** 在NN的设定下，这个指的是设计NN结构的方法。最开始的meta-modeling是基于genetic algorithm。后来有了bayesian optimization和reinforcement learning。
+
+**Hyperparameter Optimization:** 
+
 # Background
