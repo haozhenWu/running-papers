@@ -12,6 +12,6 @@ sampling 不同NN configuration的时候，会考虑到很多低于标准的conf
 
 **Meta-modeling: ** 在NN的设定下，这个指的是设计NN结构的方法。最开始的meta-modeling是基于genetic algorithm。后来有了bayesian optimization和reinforcement learning。
 
-**Hyperparameter Optimization:** 
+**Hyperparameter Optimization:** hyperparamter 经常有learning rate, batch size。通过对network design space进行搜索。bayesian optimization也会用在这里，包括基于sequential model-based optimization (SMAC), Gaussian process (GP) 和 TPE。但是random search, grid search 在实际中是最常用的。
 
 # Background
