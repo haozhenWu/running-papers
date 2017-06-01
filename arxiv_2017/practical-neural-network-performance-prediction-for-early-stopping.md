@@ -15,3 +15,11 @@ sampling 不同NN configuration的时候，会考虑到很多低于标准的conf
 **Hyperparameter Optimization:** hyperparamter 经常有learning rate, batch size。通过对network design space进行搜索。bayesian optimization也会用在这里，包括基于sequential model-based optimization (SMAC), Gaussian process (GP) 和 TPE。但是random search, grid search 在实际中是最常用的。
 
 # Background
+
+## MetaQNN
+
+一种Q-learning方法。
+
+## Hyperband
+
+使用hyperparameter sweeping。会迭代的去掉性能最差的模型，比如性能倒数百分之十的模型。
