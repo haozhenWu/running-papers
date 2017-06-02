@@ -26,3 +26,7 @@ sampling 不同NN configuration的时候，会考虑到很多低于标准的conf
 
 # Method
 
+目标是为validation accuracy $$v(x,t)$$ 进行建模，其中x是NN configuration，t是epoch次数。
+
+# Appendix
+
