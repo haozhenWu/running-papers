@@ -9,6 +9,7 @@
     * [Graph Convolutional Encoders for Syntax-aware Neural Machine Network](arxiv_2017/graph-convolutional-encoders-for-syntax-aware-neural-machine-network.md)
     * [Multimodal Word Distributions](arxiv_2017/multimodal-word-distributions.md)
     * [Practical Neural Network Performance Prediction for Early Stopping](arxiv_2017/practical-neural-network-performance-prediction-for-early-stopping.md)
+    * [The Marginal Value of Adaptive Gradient Methods in Machine Learning](arxiv_2017/the-marginal-value-of-adaptive-gradient-methods-in-machine-learning.md)
   * [2016](arxiv2016.md)
     * [automatic chemical design using a data-driven continuous representation of molecules](automatic_chemical_design_using_a_data-driven_cont.md)
     * [achieving human parity in conversational speech recognition](achieving_human_parity_in_conversational_speech_re.md)
