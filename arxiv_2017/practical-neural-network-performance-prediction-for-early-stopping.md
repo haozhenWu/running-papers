@@ -24,3 +24,5 @@ sampling 不同NN configuration的时候，会考虑到很多低于标准的conf
 
 使用hyperparameter sweeping。会迭代的去掉性能最差的模型，比如性能倒数百分之十的模型。
 
+# Method
+
