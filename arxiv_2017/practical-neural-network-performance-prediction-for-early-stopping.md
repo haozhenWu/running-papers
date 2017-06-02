@@ -28,7 +28,10 @@ sampling 不同NN configuration的时候，会考虑到很多低于标准的conf
 
 目标是为validation accuracy $$v(x,t)$$ 进行建模，其中x是NN configuration，t是epoch次数。每一个NN config x，训练了T次，都记录了validation set上的time series $$y(t) = y_1, y_2, ..., y_T$$。尝试n个不同的config，能够得到集合$$S = \{ (x^1, y^1(t)), (x^2, y^2(t)), ... (x^n, y^n(t)) \}$$。
 
-然后不错的idea来了，我们对每一个hyperparameter set或者NN configuration进行featurization，同时获取time-series accuracies。$$y(t)_{1-\tau} = (y_t)_{t=1,2,...,\tau} $$是时间序列1到$$\tau$$的validation accuracy。
+然后不错的idea来了，我们对每一个hyperparameter set或者NN configuration进行featurization， 标记为$$u_x$$。同时获取time-series accuracies，$$y(t)_{1-\tau} = (y_t)_{t=1,2,...,\tau} $$是时间序列1到$$\tau$$的validation accuracy。所以为了预测$$y_\tau$$，使用特征$$\{u_x, y(t)_{1-\tau}\}$$。我们使用一个叫做$$\nu$$-Support Vector Regression方法来训练，follow up一个论文，在appendix中。
 
 # Appendix
 
+印证了一句话：ML世界构建模型是最重要的。这个使用ML来预测validation accuracy的方法很巧妙。（有种回到ACM看题解的感觉）
+
+另follow up的paper： Bernhard Scholkopf, etc. New support vector algorithms.
