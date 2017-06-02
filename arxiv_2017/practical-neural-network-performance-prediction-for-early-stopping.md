@@ -32,6 +32,6 @@ sampling 不同NN configuration的时候，会考虑到很多低于标准的conf
 
 # Appendix
 
-印证了一句话：ML世界构建模型是最重要的。这个使用ML来预测validation accuracy的方法很巧妙。（有种回到ACM看题解的感觉）
+印证了一句话：ML世界构建模型是最重要的。这个使用ML来预测validation accuracy的方法很巧妙。（有种回到以前，ACM看题解的感觉）
 
 另follow up的paper： Bernhard Scholkopf, etc. New support vector algorithms.
