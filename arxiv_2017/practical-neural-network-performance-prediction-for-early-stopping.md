@@ -18,7 +18,7 @@ sampling 不同NN configuration的时候，会考虑到很多低于标准的conf
 
 ## MetaQNN
 
-一种Q-learning方法。
+一种Q-learning方法。有一个Q-learning agent，从一个很大但是有限的空间中抽烟NN structure，通过从输入到输出层是不同的节点。通过agent trajectory定义的NN模型训练后，使用validation accuracy作为reward。但是每一个模型都需要训练大量的时间，T epochs，而T会很大来保证达到peak accuracy。
 
 ## Hyperband
 
