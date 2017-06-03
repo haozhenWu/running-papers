@@ -14,4 +14,6 @@ Ashia C. Wilson, Rebecca Roelofs, Mitchell Stern, Nathan Srebro, Benjamin Recht
 + adaptive在训练的初期会收敛的更快，但是在测试集上的性能会趋于平缓/停滞。
 + 不管使用那种方法，都要进行同样多的tuning。
 
+# 
+
 # Appendix
