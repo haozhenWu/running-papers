@@ -20,6 +20,6 @@ Ashia C. Wilson, Rebecca Roelofs, Mitchell Stern, Nathan Srebro, Benjamin Recht
 
 non-adaptive methods会找到minimum norm solution
 
-adaptive methods可以构造出很多实例，最终是converge到 low $$l_\infty$$ norm，而非 low $$l_2$$ norm.
+adaptive methods可以构造出很多实例，最终是converge到 low $$l_\infty$$ norm，而非 low $$l_2$$ norm。
 
 # Appendix
