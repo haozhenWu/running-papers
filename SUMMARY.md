@@ -123,6 +123,9 @@
 * [IEEE](ieee.md)
   * [1993](ieee/ieee1993.md)
     * [Universal Approximation Bounds for Superpositions of a Sigmoidal Function](ieee/ieee1993/universal-approximation-bounds-for-superpositions-of-a-sigmoidal-function.md)
+* [JMLR](jmlr.md)
+  * [2016](jmlr/jmlr2016.md)
+    * [Benefits of depth in neural networks](jmlr/jmlr2016/benefits-of-depth-in-neural-networks.md)
 
 ## NLP
 
