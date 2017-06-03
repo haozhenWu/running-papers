@@ -18,8 +18,10 @@ Ashia C. Wilson, Rebecca Roelofs, Mitchell Stern, Nathan Srebro, Benjamin Recht
 
 目标是为了证明：当有许多个local minima的时候，不同的算法会找到不同的结果。
 
-non-adaptive methods会找到minimum norm solution
+non-adaptive methods会找到minimum norm solution。
 
 adaptive methods可以构造出很多实例，最终是converge到 low $$l_\infty$$ norm，而非 low $$l_2$$ norm。
 
-# Appendix
+# Conclusion
+
+证明都是基于classification问题。但是adaptive methods在GAN和Q-learning上都很受用，因为这些任务并不是解决optimization problem。
