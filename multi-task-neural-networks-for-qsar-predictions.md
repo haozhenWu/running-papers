@@ -12,3 +12,5 @@ Quantitative Structure Analysis/Prediction (QSAR)主要是研究这几个任务 
 high-throughput screening (HTS)提供了真实数据 against assay
 
 Quantitative Structure Analysis/Prediction (QSAR)主要是研究这几个任务 ADMET (absorption, distribution, metabolism, excretion, and toxicity)
+
+neural network现在通常会训练多层，然后每一层多几千个hidden units。
