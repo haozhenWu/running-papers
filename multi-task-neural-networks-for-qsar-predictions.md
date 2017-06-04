@@ -6,5 +6,9 @@ George E. Dahl, Navdeep Jaitly, Ruslan Salakhutdinov
 
 # Intro
 
+Quantitative Structure Analysis/Prediction (QSAR)主要是研究这几个任务 ADMET (absorption, distribution, metabolism, excretion, and toxicity)
+
+
 high-throughput screening (HTS)提供了真实数据 against assay
 
+Quantitative Structure Analysis/Prediction (QSAR)主要是研究这几个任务 ADMET (absorption, distribution, metabolism, excretion, and toxicity)
