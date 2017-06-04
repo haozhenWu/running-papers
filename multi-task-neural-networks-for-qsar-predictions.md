@@ -18,3 +18,5 @@ neural network现在通常会训练多层，然后每一层多几千个hidden un
 # Methods
 
 提到了一些训练multi-nn的想法。
+
+提到了AUC[ROC]是强调了ranking aspect of the problem。
