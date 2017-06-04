@@ -39,6 +39,7 @@
   * [DeepCCI: End-to-end Deep Learning for Chemical-Chemical Interaction Prediction](deepcci-end-to-end-deep-learning-for-chemical-chemical-interaction-prediction.md)
   * [Molecular De-Novo Design through Deep Reinforcement Learning](molecular-de-novo-design-through-deep-reinforcement-learning.md)
   * [Grammar Variational Autoencoder](grammar-variational-autoencoder.md)
+  * [Multi-task Neural Networks for QSAR Predictions](multi-task-neural-networks-for-qsar-predictions.md)
 * [DeepChem](chapter1.md)
   * [benefits of depth in neural networks](benefits-of-depth-in-neural-networks.md)
   * [massively multitask networks for drug discovery](massively_multitask_networks_for_drug_discovery.md)
