@@ -49,6 +49,7 @@
   * [Low Data Drug Discovery with One-shot Learning](low_data_drug_discovery_with_one-shot_learning.md)
   * [Modeling Industrial ADMET Data with Multitask Networks](modeling_industrial_admet_data_with_multitask_netw.md)
   * [Deep Learning as an Opportunity in Virtual Screening](deep_learning_as_an_opportunity_in_virtual_screeni.md)
+  * [Deep Neural Nets as a Method for Quantitative Structure-Activity Relationships](deep-neural-nets-as-a-method-for-quantitative-structure-activity-relationships.md)
 * [Journal of Medicinal Chemistry](journal-of-medicinal-chemistry.md)
   * [Profiling Prediction of Kinase Inhibitors: Toward the Virtual Assay](journal-of-medicinal-chemistry/profiling-prediction-of-kinase-inhibitors-toward-the-virtual-assay.md)
 * [Chem Inf Model](bioinformatics/chem-inf-model.md)
