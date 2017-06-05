@@ -12,3 +12,4 @@ SMILES有一些注意的地方：我们要表示的是atom-level，而不应该�
 
 ## Reinforcement Learning
 
+考虑一个agent，给定状态集和行为集。想要预测$$\pi(a|s)$$是给定状态，预测行为发生的可能性。
