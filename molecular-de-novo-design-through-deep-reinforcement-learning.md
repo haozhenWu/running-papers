@@ -16,8 +16,12 @@ SMILES有一些注意的地方：我们要表示的是atom-level，而不应该�
 
 RL是这样的顺序，从一个状态进行一些操作，然后收到了rewards，policy是为了增加$$\mathbb{E}(G)$$。
 
+第一个学习到的RNN在RL中的作用是提供了一个prior distribution：
+
 # Appendix
 
 同样使用RNN编码，但是用RL进行序列产生。
 
 可以考虑在grammar tree上做RL。
+
+但这个只是为了设计molecule，并没有判断的能力。
