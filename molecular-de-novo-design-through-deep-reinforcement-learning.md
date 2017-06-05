@@ -16,7 +16,7 @@ SMILES有一些注意的地方：我们要表示的是atom-level，而不应该�
 
 RL是这样的顺序，从一个状态进行一些操作，然后收到了rewards，policy是为了增加$$\mathbb{E}(G)$$。
 
-第一个学习到的RNN在RL中的作用是提供了一个prior distribution：
+第一个学习到的RNN在RL中的作用是提供了一个prior distribution，在当前序列下，下一个atom是什么。
 
 # Appendix
 
