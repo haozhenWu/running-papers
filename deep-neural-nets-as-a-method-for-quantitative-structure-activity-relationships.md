@@ -14,6 +14,8 @@ Junshui Ma, Robert P. Sheridan, Andy Liaw, George E. Dahl, and Vladimir Svetnik
 
 使用multitask DNN。
 
+使用Pearson correlation coefficient进行评估。
+
 # Appendix
 
 George E. Dahl就是2012年赢得Merk Molecular Activity Challange的一作。
