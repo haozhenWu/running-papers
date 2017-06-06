@@ -8,7 +8,7 @@ Junshui Ma, Robert P. Sheridan, Andy Liaw, George E. Dahl, and Vladimir Svetnik
 
 # Methods
 
-原来使用的descriptors是substructure descriptors，比如atom pair，MACCS pairs， circular fingerprints，而不是一些whole molecule descriptors。
+原来使用的descriptors是substructure descriptors，比如atom pair(AP)，MACCS pairs， circular fingerprints，而不是一些whole molecule descriptors。这篇paper同时使用了AP和DP descriptor(donor-acceptor pair)。
 
 
 
