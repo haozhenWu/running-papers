@@ -12,6 +12,8 @@ Junshui Ma, Robert P. Sheridan, Andy Liaw, George E. Dahl, and Vladimir Svetnik
 
 两种避免overfitting的方法：1. Hinton提出的generative unsupervised pretraining 2. drop-out。第一种方法是基于数据的regularizer。参数开始的时候初始化是随机化，但Hinton的方法是使用unsupervised learning进行初始化，而不考虑activities。
 
+使用multitask DNN。
+
 # Appendix
 
 George E. Dahl就是2012年赢得Merk Molecular Activity Challange的一作。
