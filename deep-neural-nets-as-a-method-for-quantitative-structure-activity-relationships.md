@@ -14,7 +14,7 @@ Junshui Ma, Robert P. Sheridan, Andy Liaw, George E. Dahl, and Vladimir Svetnik
 
 使用multitask DNN。
 
-使用Pearson correlation coefficient进行评估。
+使用$$R^2$$ Pearson correlation coefficient进行评估。
 
 # Appendix
 
