@@ -128,6 +128,8 @@
 * [JMLR](jmlr.md)
   * [2016](jmlr/jmlr2016.md)
     * [Benefits of depth in neural networks](jmlr/jmlr2016/benefits-of-depth-in-neural-networks.md)
+  * [2002](jmlr/jmlr2002.md)
+    * [Stability and Generalization](jmlr/jmlr2002/stability-and-generalization.md)
 
 ## NLP
 
