@@ -14,3 +14,7 @@ $$S^{\backslash i}$$表示去掉第i个element。
 
 $$S^{i}$$表示替换第i个。
 
+empirical error (or resubstitution estimate)定义为每一个data point的loss取平均。
+
+leave-one-out error (or deleted estimate)定义为分别去掉每一个data point的loss取平均。（所以大约是empirical error的m-1倍。m个data point。
+
