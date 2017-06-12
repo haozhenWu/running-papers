@@ -35,3 +35,6 @@ leave-one-out error (or deleted estimate)定义为分别去掉每一个data poin
 ### Uniform Stability
 
 对于所以训练集，无穷norm被$$\beta$$ bound
+
+## Generalization Bounds for Stable Learning Algorithm
+
