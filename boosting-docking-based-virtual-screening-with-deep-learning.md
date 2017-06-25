@@ -1,5 +1,7 @@
 # Boosting Docking-based Virtual Screeening with Deep Learning
 
+Janaina Cruz Pereira, Ernesto Raul Caffarena, Cicero Nogueira dos Santos
+
 ## Abstract
 
 提出了一个提升基于docking的virtual screening方法。引入的deep neutral network框架，DeepVS，使用一个docking程序作为输出，并且学习挖掘相关特征。我们方法是用原子和氨基酸并实现了一个高效的分布式向量表达方式。
