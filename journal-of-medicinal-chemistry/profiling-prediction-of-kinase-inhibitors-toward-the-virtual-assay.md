@@ -19,3 +19,5 @@ RF使用2500个树，$$log_2(total\, feature\, num)$$。DNN使用两层2048的hi
 ## Results
 
 使用这些进行评估：AUC，sensitivity，specificity。
+
+使用under-sampling和over-sampling作为balancing technique。
