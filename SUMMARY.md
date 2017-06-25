@@ -41,6 +41,7 @@
   * [Molecular De-Novo Design through Deep Reinforcement Learning](molecular-de-novo-design-through-deep-reinforcement-learning.md)
   * [Grammar Variational Autoencoder](grammar-variational-autoencoder.md)
   * [Multi-task Neural Networks for QSAR Predictions](multi-task-neural-networks-for-qsar-predictions.md)
+  * [Atomic Convolutional Networks for Predicting Protein-Ligand Binding Affinity](atomic-convolutional-networks-for-predicting-protein-ligand-binding-affinity.md)
 * [DeepChem](chapter1.md)
   * [benefits of depth in neural networks](benefits-of-depth-in-neural-networks.md)
   * [massively multitask networks for drug discovery](massively_multitask_networks_for_drug_discovery.md)
