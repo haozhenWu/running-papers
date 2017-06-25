@@ -2,3 +2,14 @@
 
 Benjamin Merget, Samo Turk, Sameh Eid, Friedrich Rippmann, Simone Fulle
 
+## Material and Methods
+
+使用三个数据集，Proprietary, Open 和 这两个数据集的整合。
+
+后续的chemical space使用PCA进行分析。
+
+两种特征：ECFP和FCFP。然后对于每一个molecule，将这两个fingerprint进行拼接。
+
+使用RF和DNN。
+
+RF的设置
