@@ -15,3 +15,7 @@ Benjamin Merget, Samo Turk, Sameh Eid, Friedrich Rippmann, Simone Fulle
 使用RF和DNN。
 
 RF使用2500个树，$$log_2(total\, feature\, num)$$。DNN使用两层2048的hidden unit，ReLU，0.5 drop out，batch normalization。
+
+## Results
+
+使用这些进行评估：AUC，sensitivity，specificity。
