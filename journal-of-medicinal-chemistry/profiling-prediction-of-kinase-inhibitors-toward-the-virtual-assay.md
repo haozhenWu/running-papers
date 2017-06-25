@@ -10,6 +10,8 @@ Benjamin Merget, Samo Turk, Sameh Eid, Friedrich Rippmann, Simone Fulle
 
 两种特征：ECFP和FCFP。然后对于每一个molecule，将这两个fingerprint进行拼接。
 
+使用$$pIC_{50} = 6$$作为threshold。
+
 使用RF和DNN。
 
-RF的设置
+RF使用2500个树，$$log_2(total\, feature\, num)$$。DNN使用两层2048的hidden unit，ReLU，0.5 drop out，batch normalization。
