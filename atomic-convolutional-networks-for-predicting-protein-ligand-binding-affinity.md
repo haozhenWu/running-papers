@@ -12,7 +12,9 @@ atomic convolution 是受到了 atomic fingerprint neural network 的启发。�
 
 **ACNN** ACNN引入了atom type convolution和radial pooling。
 
-**Distance matrix** 使用笛卡尔距离。而且为了降低复杂度，对于每一个atom，只考虑M个邻居。
+**Distance matrix** 使用笛卡尔距离。而且为了降低复杂度，对于每一个atom，只考虑M个邻居。并构成了一个邻居矩阵R。
+
+
 
 ## Appendix
 
