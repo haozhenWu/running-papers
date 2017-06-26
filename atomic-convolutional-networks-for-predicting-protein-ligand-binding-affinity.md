@@ -4,7 +4,9 @@ Joseph Gomes, Bharath Ramsundar, Evan N. Feinberg, Vijay S. Pande
 
 ## Intro
 
-aotmic convolution 是受到了 atomic fingerprint neural network 的启发。论文链接在最后。
+atomic convolution 是受到了 atomic fingerprint neural network 的启发。论文链接在最后。与传统机器学习方法不同，不需要人工的输入数据，而是让模型自己来进行data-driven决策，从而对ligand binding进行预测。
+
+这篇文章提出了使用Atomic Convolutional Neural Network(ACNN)，与CNN类似，只是采用了局部3D的convolution。而且以前的模型都是预测drug binding或者non-binding，ACNN直接预测binding free energy。
 
 ## Appendix
 
