@@ -16,7 +16,9 @@ atomic convolution 是受到了 atomic fingerprint neural network 的启发。�
 
 **Atom type convolution** 使用R和Z。先使用一个$$1\times 1$$的stride，深度是类似于channel，总共的atom类型。
 
-**Radial pooling layer** 用于降低维度。
+**Radial pooling layer** 用于降低维度，避免over-fitting。使用了radial filter。
+
+**Atomistic fully connected network** 最后通过fully connected layer输出。对于每一个atom i，输出energy function $$E_i$$，那么整个molecule的energy function就是$$E = \sum E_i$$。
 
 ## Appendix
 
