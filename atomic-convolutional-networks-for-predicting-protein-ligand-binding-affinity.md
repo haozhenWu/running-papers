@@ -14,8 +14,6 @@ atomic convolution 是受到了 atomic fingerprint neural network 的启发。�
 
 **Distance matrix** 使用笛卡尔距离。而且为了降低复杂度，对于每一个atom，只考虑M个邻居。
 
-TBA
-
 ## Appendix
 
 Behler, Jörg, and Michele Parrinello. "Generalized neural-network representation of high-dimensional potential-energy surfaces." Physical review letters 98.14 (2007): 146401.
