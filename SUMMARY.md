@@ -119,6 +119,8 @@
   * [2017](aaai/aaai2017.md)
     * [Deep MIML Network](aaai/aaai2017/deep-miml-network.md)
 * [AISTAT](aistat.md)
+  * [2017](aistat/aistat2017.md)
+    * [Less Than a Single Pass: Stochastically Controlled Stochastic Gradient](aistat/aistat2017/less-than-a-single-pass-stochastically-controlled-stochastic-gradient.md)
   * [2005](aistat/aistat2005.md)
     * [Hierarchical Probabilistic Neural Network Language Model](aistat/aistat2005/hierarchical-probabilistic-neural-network-language-model.md)
 * CVPR
