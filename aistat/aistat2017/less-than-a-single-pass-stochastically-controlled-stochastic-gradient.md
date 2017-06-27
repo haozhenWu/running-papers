@@ -8,3 +8,5 @@ UCB
 
 介绍了stochastic variance reduced gradient(SVRG)的变形方法，叫做stochastically controlled stochastic gradient(SCSG)。SCSG在computation和communication上的复杂度都是sublinear。
 
+传统的SGD方法，需要对step size进行良好的tuning。而SCSG可以有一个简单的automatic tuning procedure，保证找到$$\epsilon-approximate$$ 答案。
+
