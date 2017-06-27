@@ -16,3 +16,5 @@ y is $$\epsilon$$-approximate solution if
 
 $$ \mathbb{E} f(y) - f(x^*) \le \epsilon $$
 
+而后关于L-Lipschitz和strongly convex function提出了三个假设。
+
