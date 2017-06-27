@@ -31,3 +31,7 @@ $$\mathcal{I}$$的采样符合以下条件：
 ## Convergence Analysis
 
 推一波。
+
+## Appendix
+
+一种分布式的SGD框架。[这里](http://column.hongliangjie.com/%E8%AF%BB%E8%AE%BA%E6%96%87/2017/06/11/aistats2017-less-sgd/)有不错的背景介绍。
