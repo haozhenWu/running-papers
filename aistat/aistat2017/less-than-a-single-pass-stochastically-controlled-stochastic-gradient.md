@@ -18,3 +18,6 @@ $$ \mathbb{E} f(y) - f(x^*) \le \epsilon $$
 
 而后关于L-Lipschitz和strongly convex function提出了三个假设。
 
+## SCSG
+
+SCSG是一个类似SVRG的方法，实现了在一个B中的sub-sample $$\mathcal{I}$$ gradient computation。
