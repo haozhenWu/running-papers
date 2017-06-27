@@ -28,3 +28,5 @@ $$\mathcal{I}$$的采样符合以下条件：
 + 对于convex function，$$N_j$$符合truncated geometric distribution
 + data point index从$$\mathcal{I}$$产生
 
+## Convergence Analysis
+
