@@ -21,3 +21,10 @@ $$ \mathbb{E} f(y) - f(x^*) \le \epsilon $$
 ## SCSG
 
 SCSG是一个类似SVRG的方法，实现了在一个B中的sub-sample $$\mathcal{I}$$ gradient computation。
+
+$$\mathcal{I}$$的采样符合以下条件：
+
++ 对于non-strongly convex，$$N_j$$符合geometric distribution
++ 对于convex function，$$N_j$$符合truncated geometric distribution
++ data point index从$$\mathcal{I}$$产生
+
