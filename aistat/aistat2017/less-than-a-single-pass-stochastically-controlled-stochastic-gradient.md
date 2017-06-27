@@ -10,3 +10,9 @@ UCB
 
 传统的SGD方法，需要对step size进行良好的tuning。而SCSG可以有一个简单的automatic tuning procedure，保证找到$$\epsilon-approximate$$ 答案。
 
+## Assumption and Algorithm
+
+y is $$\epsilon$$-approximate solution if
+
+$$ \mathbb{E} f(y) - f(x^*) \le \epsilon $$
+
