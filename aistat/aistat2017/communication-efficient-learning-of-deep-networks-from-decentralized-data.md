@@ -18,3 +18,5 @@ federated learning主要一点是考虑到了unbalanced和non-IID
 
 # The FederatedAveraging Algorithm
 
+SGD可以应用到federated learning的场景，但是需要大量的training epoch。
+
