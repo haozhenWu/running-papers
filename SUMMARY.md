@@ -121,6 +121,7 @@
 * [AISTAT](aistat.md)
   * [2017](aistat/aistat2017.md)
     * [Less Than a Single Pass: Stochastically Controlled Stochastic Gradient](aistat/aistat2017/less-than-a-single-pass-stochastically-controlled-stochastic-gradient.md)
+    * [Communication-Efficient Learning of Deep Networks from Decentralized Data](aistat/aistat2017/communication-efficient-learning-of-deep-networks-from-decentralized-data.md)
   * [2005](aistat/aistat2005.md)
     * [Hierarchical Probabilistic Neural Network Language Model](aistat/aistat2005/hierarchical-probabilistic-neural-network-language-model.md)
 * CVPR
