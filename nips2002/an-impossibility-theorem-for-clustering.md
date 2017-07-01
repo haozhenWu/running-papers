@@ -37,6 +37,8 @@ clustering function要有以下三个性质：
 
 ## Antichains of Partitions
 
-antichain: 一个partition集合是antichain，当它不包含两个不同的partition，并且一个partition是另外一个的refinement。
+antichain: 一个partition集合是antichain，当它不包含两个不同的partition，并且一个partition是另外一个的refinement。partition A是partition B的refinement，简单理解就是A的分类是基于B，并且比B更加细。
+
+
 
 ## Appendix
