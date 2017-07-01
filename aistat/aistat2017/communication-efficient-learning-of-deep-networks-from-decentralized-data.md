@@ -20,6 +20,6 @@ federated learning主要一点是考虑到了unbalanced和non-IID
 
 SGD可以应用到federated learning的场景，但是需要大量的training epoch。
 
-使用基于data center设定的large-batch sync SGD作为baseline，而且比async结果好。
+使用基于data center设定的large-batch sync SGD作为baseline，而且比async结果好。把这个baseline algorithm叫做FederatedSGD(FedSGD)。
 
 简单的FedSGD是每一个worker都把基于local data的average gradient计算之后，传给central server，然后central server再次进行aggregate。因此可以有另外一种想法，就是每一个client多执行几次gradient计算。把这个方法叫做FederatedAveraging(FedAvg)。
