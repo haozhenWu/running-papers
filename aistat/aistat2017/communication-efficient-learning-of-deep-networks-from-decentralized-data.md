@@ -26,6 +26,10 @@ SGD可以应用到federated learning的场景，但是需要大量的training ep
 
 我们发现，如果是使用同样的初始化分布，但是使用不同的训练集，那么averaging model的结果会惊人的好。相关论文看appendix。
 
+# Results
+
+主要是通过image classification和language model展示了FedAvg的效果很好。
+
 # Appendix
 
 不知道是不是错觉，但是这个算法似乎只是本地机器多进行几步gradient计算，并没有太多的更新。
