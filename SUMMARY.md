@@ -83,6 +83,8 @@
     * [Distance metric learning, with application to clustering with side-information](distance_metric_learning,_with_application_to_clus.md)
   * [2009](2009.md)
     * [A Scalable Hierarchical Distributed Language Model](2009/a-scalable-hierarchical-distributed-language-model.md)
+  * [2002](nips2002.md)
+    * [An Impossibility Theorem for Clustering](nips2002/an-impossibility-theorem-for-clustering.md)
 * [ICML](icml.md)
   * [2016](icml2016.md)
     * [Learning Relational Sum-Product Networks](learning_relational_sum-product_networks.md)
