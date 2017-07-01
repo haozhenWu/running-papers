@@ -17,7 +17,7 @@ clustering function的定义和metric space定义类似，只不过需要的是�
 clustering function要有以下三个性质：
 
 1. scale-invariance: 对于任意的距离函数f和$$\alpha > 0$$，都有$$f(d) = f(\alpha \cdot d)$$。其中$$d$$是任意两点之间的距离。这就是说，不论我如何转换我的distance 单位距离，不影响聚类结果。
-2. richness: range(f)等价于集合s的所有分类。就是说，任意的partition都有可能的产生。（可以理解为不是order-sensitive）
+2. richness: range(f)等价于集合s的所有分类。就是说，任意的partition都有可能的产生。（可以理解为不是order-sensitive？）
 3. consistency: $$d$$和$$d'$$是两种距离函数。如果$$f(d)=\tau$$并且$$d'$$是$$d$$的$$\tau-transformation$$，那么$$f(d')=\tau$$。
 其中$$\tau$$是集合的一个partition。$$\tau-transformation$$就是，如果我们将原来的距离函数$$d$$更替为新的距离函数$$d'$$，使得同一个cluster中的两点距离缩小，并且将不同cluster之间的两点距离扩大。consistency property就是说，两个距离函数应该能得到一样的结果。
 
@@ -39,6 +39,6 @@ clustering function要有以下三个性质：
 
 antichain: 一个partition集合是antichain，当它不包含两个不同的partition，并且一个partition是另外一个的refinement。partition A是partition B的refinement，简单理解就是A的分类是基于B，并且比B更加细。
 
-
+证明略长，但是很精彩，不需要太多的数学背景，直接看论文。
 
 ## Appendix
