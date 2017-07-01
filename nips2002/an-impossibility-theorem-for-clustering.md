@@ -21,4 +21,10 @@ clustering function要有以下三个性质
 3. consistency: $$d$$和$$d'$$是两种距离函数。如果$$f(d)=\tau$$并且$$d'$$是$$d$$的$$\tau-transformation$$，那么$$f(d')=\tau$$。
 其中$$\tau$$是集合的一个partition。$$\tau-transformation$$就是，如果我们将原来的距离函数$$d$$更替为新的距离函数$$d'$$，使得同一个cluster中的两点距离缩小，并且将不同cluster之间的两点距离扩大。consistency property就是说，两个距离函数应该能得到一样的结果。
 
+先从single-linkage证明，证明可以幽默型同时满足两条性质。通过选择不同的stopping condition，得到不同的clustering function；也就是可以通过选择stopping condition，能够使得clustering function同时满足任意两条性质。
+
+这里考虑三中stopping condition：
+
+
+
 ## Appendix
