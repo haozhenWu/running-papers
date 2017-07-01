@@ -27,3 +27,11 @@ SGD可以应用到federated learning的场景，但是需要大量的training ep
 # Appendix
 
 不知道是不是错觉，但是这个算法似乎只是本地机器多进行几步gradient计算，并没有太多的更新。
+
+不过还是记录一下几个关于DNN有意思的论文作为follow-up
+
+Choromanska, Anna, et al. "The loss surfaces of multilayer networks." Artificial Intelligence and Statistics. 2015.
+
+Dauphin, Yann N., et al. "Identifying and attacking the saddle point problem in high-dimensional non-convex optimization." Advances in neural information processing systems. 2014.
+
+Goodfellow, Ian J., Oriol Vinyals, and Andrew M. Saxe. "Qualitatively characterizing neural network optimization problems." arXiv preprint arXiv:1412.6544 (2014).
