@@ -14,7 +14,7 @@ Cornell
 
 clustering function的定义和metric space定义类似，只不过需要的是一个可数有限set，而不是metric space中的和$$\mathbb{N}$$ homogeneous 的set。
 
-clustering function要有以下三个性质
+clustering function要有以下三个性质：
 
 1. scale-invariance: 对于任意的距离函数f和$$\alpha > 0$$，都有$$f(d) = f(\alpha \cdot d)$$。其中$$d$$是任意两点之间的距离。这就是说，不论我如何转换我的distance 单位距离，不影响聚类结果。
 2. richness: range(f)等价于集合s的所有分类。就是说，任意的partition都有可能的产生。（可以理解为不是order-sensitive）
@@ -25,6 +25,16 @@ clustering function要有以下三个性质
 
 这里考虑三中stopping condition：
 
+1. k-cluster stopping condition: 当有k个component的时候，停止
+2. distance-r stopping condition: 只增加权值最多为r的边。
+3. scale-$$\alpha$$ stopping condition: 如果$$\rho^*$$是最大的pairwise distance，那么只增加权值最多为$$\alpha \rho^*$$的边。
 
+可以有：
+
+1. k-cluster stopping condition 满足scale-invariance和consistency。
+2. distance-r stopping condition 满足scale-invariance和richness
+3. scale-$$\alpha$$ stopping condition 满足richness和consistency
+
+## Antichains of Partitions
 
 ## Appendix
