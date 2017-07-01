@@ -24,6 +24,8 @@ SGD可以应用到federated learning的场景，但是需要大量的training ep
 
 简单的FedSGD是每一个worker都把基于local data的average gradient计算之后，传给central server，然后central server再次进行aggregate。因此可以有另外一种想法，就是每一个client多执行几次gradient计算。把这个方法叫做FederatedAveraging(FedAvg)。
 
+我们发现，如果是使用同样的初始化分布，但是使用不同的训练集，那么averaging model的结果会惊人的好。相关论文看appendix。
+
 # Appendix
 
 不知道是不是错觉，但是这个算法似乎只是本地机器多进行几步gradient计算，并没有太多的更新。
