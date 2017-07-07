@@ -4,3 +4,6 @@ Nitish Shirish Keskar, Dheevatsa Mudigere, Jorge Nocedal, Mikhail Smelyanskiy, P
 
 Northwestern University, Intel Corporation
 
+# Intro
+
+DL经常是解决一个non-convex的优化问题。
