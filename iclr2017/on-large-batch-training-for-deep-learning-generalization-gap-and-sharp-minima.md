@@ -17,4 +17,4 @@ DL经常是解决一个non-convex的优化问题。mini-batch based SGD 可以�
 3. large-batch方法缺少small-batch方法的探究性，并且会跑到和initial point非常接近的minimizer
 4. large-和small-batch会converge到不同的点，其中generalization properties不同
 
-这篇文章证明了最后两点。large-batch method会converge到sharp minimizers，而small-batch method会converge到flat minimizer。flat minimum与sharp minimizer相比，lower precision。
+这篇文章证明了最后两点。large-batch method会converge到sharp minimizers，而small-batch method会converge到flat minimizer。sharp minimizer的特点是Hessian的eigenvalue更大，所以generalize更差。flat minimum与sharp minimizer相比，lower precision。
