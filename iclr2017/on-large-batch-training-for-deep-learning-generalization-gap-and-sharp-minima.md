@@ -10,5 +10,10 @@ DL经常是解决一个non-convex的优化问题。mini-batch based SGD 可以�
 
 # Drawbacks of Large-Batch Methods
 
-许多研究都发现了使用large-batch methods进行训练的时候，generalization gap会增加。
+许多研究都发现了使用large-batch methods进行训练的时候，generalization gap会增加。但是large-batch和small-batch的方法通常产生相同的结果。有好几种可能的原因：
+
+1. large-batch overfit
+2. large-batch 收敛到了saddle point
+3. large-batch方法缺少small-batch方法的探究性，并且会跑到和initial point非常接近的minimizer
+4. large-和small-batch会converge到不同的点，其中generalization properties不同
 
