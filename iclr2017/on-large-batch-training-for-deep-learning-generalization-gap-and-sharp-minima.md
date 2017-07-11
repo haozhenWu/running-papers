@@ -21,3 +21,4 @@ DL经常是解决一个non-convex的优化问题。mini-batch based SGD 可以�
 
 比较了几个image recognition经典模型，发现使用small-batch的generalization error小很多。这篇paper还提到了一个很有意思的观点，这个generalization gap不是由于overfitting引起的，而是由于network模型的选择引起的。（不过在这里不是重点）
 
+让$$x^*_s$$和$$x^*_l$$分别表示使用small和big batch-size的答案。对于$$\alpha \in [-1, 2]$$，plot $$f(\alpha x^*_s + (1-\alpha) x^*_l )$$，并且叠加classification accuracy。
