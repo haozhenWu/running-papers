@@ -130,16 +130,16 @@
     * [Communication-Efficient Learning of Deep Networks from Decentralized Data](aistat/aistat2017/communication-efficient-learning-of-deep-networks-from-decentralized-data.md)
   * [2005](aistat/aistat2005.md)
     * [Hierarchical Probabilistic Neural Network Language Model](aistat/aistat2005/hierarchical-probabilistic-neural-network-language-model.md)
-* CVPR
-  * 2016
-    * [Deep Residual Learning for Image Recognition](deep-residual-learning-for-image-recognition.md)
-* [IEEE](ieee.md)
-  * [1993](ieee/ieee1993.md)
+* [CVPR](cvpr/cvpr.md)
+  * [2016](cvpr/cvpr2016/cvpr2016.md)
+    * [Deep Residual Learning for Image Recognition](cvpr/cvpr2016/deep-residual-learning-for-image-recognition.md)
+* [IEEE](ieee/ieee.md)
+  * [1993](ieee/ieee1993/ieee1993.md)
     * [Universal Approximation Bounds for Superpositions of a Sigmoidal Function](ieee/ieee1993/universal-approximation-bounds-for-superpositions-of-a-sigmoidal-function.md)
-* [JMLR](jmlr.md)
-  * [2016](jmlr/jmlr2016.md)
+* [JMLR](jmlr/jmlr.md)
+  * [2016](jmlr/jmlr2016/jmlr2016.md)
     * [Benefits of depth in neural networks](jmlr/jmlr2016/benefits-of-depth-in-neural-networks.md)
-  * [2002](jmlr/jmlr2002.md)
+  * [2002](jmlr/jmlr2002/jmlr2002.md)
     * [Stability and Generalization](jmlr/jmlr2002/stability-and-generalization.md)
 
 ## NLP
