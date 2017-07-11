@@ -161,9 +161,9 @@
   * [2017](eacl/eacl2017/eacl2017.md)
     * [What Do Recurrent Neural Network Grammers Learn About Syntax?](eacl/eacl2017/what-do-recurrent-neural-network-grammers-learn-about-syntax.md)
     * [Identifying benefitial task relations for mulit-task learning in deep neural network](eacl/eacl2017/identifying-benefitial-task-relations-for-mulit-task-learning-in-deep-neural-network.md)
-* [ISCA](isca.md)
-  * [isca\_2016](isca2016.md)
-    * [Segmental Recurrent Neural Network for End-to-end Speech Recognition](segmental_recurrent_neural_network_for_end-to-end_.md)
+* [ISCA](isca/isca.md)
+  * [isca\_2016](isca/isca2016/isca2016.md)
+    * [Segmental Recurrent Neural Network for End-to-end Speech Recognition](isca/isca2016/segmental_recurrent_neural_network_for_end-to-end_.md)
 
 ## Big Data System
 
