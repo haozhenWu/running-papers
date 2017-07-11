@@ -11,3 +11,11 @@ inverse matrix经常用于分析gene expression和brain imaging。尤其是当�
 # Distributed Inverse Covariance Estimation by Debiasing and Thresholding
 
 假设每一个机器都有数据$$X_m \in \mathbb{R}^{n \times p}$$，一共有M个机器。文章中的一个observation就是一个data point。covariance matrix是$$\Sigma$$，inverse covariance matrix是$$\Theta$$。
+
+这里的方法是，在每一个机器上构造好sparse estimators，最后在交互中心aggregate，能够很好贴近$$\Theta$$。
+
+在特征值高维的情况下，一种常用的方法是$$l_1$$ penalized log-determinant Bregman divergence。附一篇相关paper。
+
+# Appendix
+
+Pradeep Ravikumar, Martin J. Wainwright, Garvesh Raskutti, Bin Yu. High-dimensional covariance estimation by minimizing l1-penalized log-determinant divergence.
