@@ -27,7 +27,13 @@ DL经常是解决一个non-convex的优化问题。mini-batch based SGD 可以�
 
 ## Sharpness of Minima
 
-appendix中附录一个paper。minimizer的sharpness可以通过Hessian特征值的magnitude来表示。
+appendix中附录一个paper。minimizer的sharpness可以通过Hessian特征值的magnitude来表示。但是计算特征值计算需求较大，应用一个sensitivity measure。
+
+$$A \in \mathbb{R}^{n \times p}$$，定义一个constraint set $$C_\epsilon$$，需要引入A的pseudo-inverse。
+
+那么sensitivity/sharpness measure定义如下：
+
+$$\phi_{x,f}(\epsilon, A) = \frac{max_{y\in C_\epsilon}(f(x+Ay)) - f(x)}{1 + f(x)} \times 100$$
 
 # Appendix
 
