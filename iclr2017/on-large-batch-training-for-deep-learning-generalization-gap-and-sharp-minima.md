@@ -41,7 +41,9 @@ $$\phi_{x,f}(\epsilon, A) = \frac{max_{y\in C_\epsilon}(f(x+Ay)) - f(x)}{1 + f(x
 
 # Success of Small-Batch Methods
 
-Small-batch相比于Large-batch，有一个缺点是很多noisy gradient。而正是因为考虑了这些noisy gradient，才能使得迭代跑出了sharp minimizer basin，到了更加flat minimizer。（但我个人觉得这个论据难以证实）论文为了证明这一点，使用一个SB作为热启动，然后使用LB作为最后的训练。然后可以发现，一开始的epoch如果是使用SB进行的训练，最终使用LB训练之后，能够converge到和SB一样的结果，也就是flat minimizer。
+Small-batch相比于Large-batch，有一个缺点是很多noisy gradient。而正是因为考虑了这些noisy gradient，才能使得迭代跑出了sharp minimizer basin，到了更加flat minimizer。论文为了证明这一点，使用一个SB作为热启动，然后使用LB作为最后的训练。然后可以发现，一开始的epoch如果是使用SB进行的训练，最终使用LB训练之后，能够converge到和SB一样的结果，也就是flat minimizer。
+
+最后的证明主要是基于实验的sharpness plotting。（但我个人觉得sharpness measure的定义有点一拍脑门的味道）
 
 # Appendix
 
