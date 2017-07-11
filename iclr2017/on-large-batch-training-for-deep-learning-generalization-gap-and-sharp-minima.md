@@ -19,3 +19,4 @@ DL经常是解决一个non-convex的优化问题。mini-batch based SGD 可以�
 
 这篇文章证明了最后两点。large-batch method会converge到sharp minimizers，而small-batch method会converge到flat minimizer。sharp minimizer的特点是Hessian的eigenvalue更大，所以generalize更差。flat minimum与sharp minimizer相比，lower precision，但better generalization。
 
+比较了几个image recognition经典模型，发现使用small-batch的generalization error小很多。
