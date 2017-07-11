@@ -11,6 +11,7 @@
     * [Practical Neural Network Performance Prediction for Early Stopping](arxiv/arxiv2017/practical-neural-network-performance-prediction-for-early-stopping.md)
     * [The Marginal Value of Adaptive Gradient Methods in Machine Learning](arxiv/arxiv2017/the-marginal-value-of-adaptive-gradient-methods-in-machine-learning.md)
     * [YellowFin and the Art of Momentum Tuning](arxiv/arxiv2017/yellowfin-and-the-art-of-momentum-tuning.md)
+    * [Convergence of Deep Neural Networks to a Hierarchical Covariance Matrix Decomposition](convergence-of-deep-neural-networks-to-a-hierarchical-covariance-matrix-decomposition.md)
   * [2016](arxiv/arxiv2016/arxiv2016.md)
     * [automatic chemical design using a data-driven continuous representation of molecules](arxiv/arxiv2016/automatic_chemical_design_using_a_data-driven_cont.md)
     * [achieving human parity in conversational speech recognition](arxiv/arxiv2016/achieving_human_parity_in_conversational_speech_re.md)
