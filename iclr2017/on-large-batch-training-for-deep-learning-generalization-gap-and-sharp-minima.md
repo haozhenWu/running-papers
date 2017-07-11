@@ -37,7 +37,7 @@ $$\phi_{x,f}(\epsilon, A) = \frac{max_{y\in C_\epsilon}(f(x+Ay)) - f(x)}{1 + f(x
 
 一个问题是这里的$$A \in \mathbb{R}^{n \times p}$$如何构造。论文说按照identity matrix，还存有疑惑。
 
-使用L-BFGS求解这个最大优化问题。而最后的结果证明了LB比SB的sharpness第1到2个数量级。
+使用L-BFGS求解这个最大优化问题。而最后的结果证明了LB比SB的sharpness高1到2个数量级。
 
 # Appendix
 
