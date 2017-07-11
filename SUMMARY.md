@@ -168,10 +168,10 @@
 
 * [OSDI](osdi.md)
   * [2016](osdi/osdi2016.md)
-    * [TensorFlow: A system for large-scale machine learning](tensorflow_a_system_for_large-scale_machine_learni.md)
+    * [TensorFlow: A system for large-scale machine learning](osdi/osdi2016/tensorflow_a_system_for_large-scale_machine_learni.md)
   * [2014](osdi/osdi2014.md)
-    * [Scaling Distributed Machine Learning with the Parameter Server](scaling-distributed-machine-learning-with-the-parameter-server.md)
-    * [GraphX: Graph Processing in a Distributed Dataflow Framework](graphx_graph_processing_in_a_distributed_dataflow_.md)
+    * [Scaling Distributed Machine Learning with the Parameter Server](osdi/osdi2014/scaling-distributed-machine-learning-with-the-parameter-server.md)
+    * [GraphX: Graph Processing in a Distributed Dataflow Framework](osdi/osdi2014/graphx_graph_processing_in_a_distributed_dataflow_.md)
 * [NSDI](nsdi.md)
   * [2016](2016.md)
     * [StreamScope: Continuous Reliable Distributed Processing of Big Data Streams](streamscope-continuous-reliable-distributed-processing-of-big-data-streams.md)
