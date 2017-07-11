@@ -112,9 +112,9 @@
     * [Adam: A Method For Stochastic Optimization](iclr/iclr2015/adam_a_method_for_stochastic_optimization.md)
 * [Scalable ML](scalable-ml.md)
   * 2016
-* [SGDKDD](kdd.md)
-  * [2015](sgdkdd2015md.md)
-    * [Pentuum: A New Platform for Distributed Machine Learning on Big Data](pentuum_a_new_platform_for_distributed_machine_lea.md)
+* [SGDKDD](sgdkdd/sgdkdd.md)
+  * [2015](sgdkdd2015.md)
+    * [Pentuum: A New Platform for Distributed Machine Learning on Big Data](sgdkdd/sgdkdd2015/pentuum_a_new_platform_for_distributed_machine_lea.md)
 * [WSDM](wsdm.md)
   * [2017](wsdm/wsdm2017.md)
     * [Recurrent Recommender Networks](wsdm/wsdm2017/recurrent-recommender-networks.md)
