@@ -18,6 +18,8 @@ inverse matrix经常用于分析gene expression和brain imaging。尤其是当�
 
 naive的方法是将每一个机器的$$\Theta$$进行average。这能够降低variance，但是对于bias没有用。使用debiased graphical lasso estimator，来trade-off variance和bias。这个方法的优势是matrix中的每一项都是渐近的normal distribution。
 
+因为debiased graphical lasso estimator并不是sparse，所以使用threshold，选出最相关的发送个交给交换中心。
+
 # Appendix
 
 Pradeep Ravikumar, Martin J. Wainwright, Garvesh Raskutti, Bin Yu. High-dimensional covariance estimation by minimizing l1-penalized log-determinant divergence.
