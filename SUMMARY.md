@@ -25,10 +25,10 @@
     * [Efficient Estinamtion of Word Representation in Vector Space](2013/efficient-estinamtion-of-word-representation-in-vector-space.md)
   * [2001](arxiv2001.md)
     * [Classes for Fast Maximum Entropy Training](arxiv2001/classes-for-fast-maximum-entropy-training.md)
-* [Other](other.md)
-  * [2016](other/other_2016.md)
-    * [Transfer Reinforcement Learning with Shared Dynamics](other/other_2016/transfer-reinforcement-learning-with-shared-dynamics.md)
-    * [Improved Graph-based Dependency Parsing via Hierarchical LSTM Networks](other/other_2016/improved-graph-based-dependency-parsing-via-hierarchical-lstm-networks.md)
+* [Other](other/other.md)
+  * [2016](other/other2016/other2016.md)
+    * [Transfer Reinforcement Learning with Shared Dynamics](other/other2016/transfer-reinforcement-learning-with-shared-dynamics.md)
+    * [Improved Graph-based Dependency Parsing via Hierarchical LSTM Networks](other/other2016/improved-graph-based-dependency-parsing-via-hierarchical-lstm-networks.md)
   * [Intelligence without representation](other/intelligence-without-representation.md)
 
 ## Deep Chem
