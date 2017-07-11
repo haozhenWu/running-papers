@@ -144,10 +144,10 @@
 
 ## NLP
 
-* [ACL](acl.md)
-  * [2016](2016.md)
-    * [Summarizing Source Code using a Neural Attention Model](summarizing_source_code_using_a_neural_attention_m.md)
-    * [Document-level Sentiment Inference with Social, Faction, and Discourse Context](document-level-sentiment-inference-with-social-faction-and-discourse-context.md)
+* [ACL](acl/acl.md)
+  * [2016](acl/acl2016/acl2016.md)
+    * [Summarizing Source Code using a Neural Attention Model](acl/acl2016/summarizing_source_code_using_a_neural_attention_m.md)
+    * [Document-level Sentiment Inference with Social, Faction, and Discourse Context](acl/acl2016/document-level-sentiment-inference-with-social-faction-and-discourse-context.md)
 * [EMNLP](emnlp.md)
   * [2016](emnlp2016.md)
     * [cached long short-term memory neural networks for document-level sentiment classification](cached_long_short-term_memory_neural_networks_for_.md)
