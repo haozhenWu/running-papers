@@ -23,3 +23,6 @@ DL经常是解决一个non-convex的优化问题。mini-batch based SGD 可以�
 
 让$$x^*_s$$和$$x^*_l$$分别表示使用small和big batch-size的答案。对于$$\alpha \in [-1, 2]$$，plot $$f(\alpha x^*_s + (1-\alpha) x^*_l )$$，并且叠加classification accuracy。从图2发现large batch minima sharper。
 
+# Appendix
+
+Sepp Hochreiter, Jurgen Schmidhuber, Flat minima. 1997
