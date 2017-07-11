@@ -194,7 +194,7 @@
   * [2013](sosp/sosp2013/sosp2013.md)
     * [Naiad: A Timely Dataflow System](sosp/sosp2013/naiad_a_timely_dataflow_system.md)
     * [Discretized Streams: Fault-Tolerance Streaming Computation at Scale](sosp/sosp2013/discretized_streams_fault-tolerance_streaming_comp.md)
-* [Eurosys](eurosys.md)
-  * [2013](eurosys2013.md)
-    * [BlinkDB: Queries with Bounded Errors and Bounded Response Times on Very Large Data](blinkdb-queries-with-bounded-errors-and-bounded-response-times-on-very-large-data.md)
+* [Eurosys](eurosys/eurosys.md)
+  * [2013](eurosys/eurosys2013/eurosys2013.md)
+    * [BlinkDB: Queries with Bounded Errors and Bounded Response Times on Very Large Data](eurosys/eurosys2013/blinkdb-queries-with-bounded-errors-and-bounded-response-times-on-very-large-data.md)
 
