@@ -39,6 +39,10 @@ $$\phi_{x,f}(\epsilon, A) = \frac{max_{y\in C_\epsilon}(f(x+Ay)) - f(x)}{1 + f(x
 
 使用L-BFGS求解这个最大优化问题。而最后的结果证明了LB比SB的sharpness高1到2个数量级。
 
+# Success of Small-Batch Methods
+
+Small-batch相比于Large-batch，有一个缺点是很多noisy gradient。而正是因为考虑了这些noisy gradient，才能使得迭代跑出了sharp minimizer basin，到了更加flat minimizer。（但我个人觉得这个论据难以证实）
+
 # Appendix
 
 Sepp Hochreiter, Jurgen Schmidhuber, Flat minima. 1997
