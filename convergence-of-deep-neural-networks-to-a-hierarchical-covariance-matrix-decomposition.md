@@ -12,7 +12,13 @@ DNN的训练很像物理模型spin glass。最小化loss function好比是在spi
 
 ReLU相比于sigmoid和tan activation function有很多优势。而且只有weight／parameter have significant positive overlap with data，才会update。如果参数的数量远远小于数据的数量，那么就好比是compressive sensing。
 
+# Solving
+
 推导过程比较长，TBC
+
+结论就是SGD过程就好比是迭代的KL(Karhunen-Loeve) transform。
+
+然后试验部分就直接这么构建。把这个模型叫做Density Matrix Network(DMN)。
 
 # Appendix
 
