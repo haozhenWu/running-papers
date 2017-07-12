@@ -11,3 +11,9 @@ DNN的训练很像物理模型spin glass。最小化loss function好比是在spi
 # ReLU and Compressive Sensing
 
 ReLU相比于sigmoid和tan activation function有很多优势。而且只有weight／parameter have significant positive overlap with data，才会update。如果参数的数量远远小于数据的数量，那么就好比是compressive sensing。
+
+推导过程比较长，TBC
+
+# Appendix
+
+中间提到了KL(Karhunen-Loeve) transform好比是对数据进行MSE。附论文：K. Fukunaga, Introduction to statstical pattern recognition (2013)
