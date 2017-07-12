@@ -6,3 +6,4 @@ Nima Dehmamy, Neda Rohani, Aggelos Katssaggelos
 
 DNN的训练很像物理模型spin glass。最小化loss function好比是在spin glass中找到ground gate（minimum energy configuration）。因为spin glass的energy landscape充满了local minima，所以优化问题是一个NP-hard问题。
 
+提出了一个很有意思的观点，在低层的weight parameter是数据的covariance matrix的eigenvectors。
