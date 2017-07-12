@@ -18,7 +18,7 @@ ReLU相比于sigmoid和tan activation function有很多优势。而且只有weig
 
 结论就是SGD过程就好比是迭代的KL(Karhunen-Loeve) transform。
 
-然后试验部分就直接这么构建。把这个模型叫做Density Matrix Network(DMN)。
+然后试验部分就直接这么构建。把这个模型叫做Density Matrix Network(DMN)。实验结果，在lower layer比很宽的CNN结果好，但是随着层数递增，DMN计算量变得非常大。
 
 # Appendix
 
