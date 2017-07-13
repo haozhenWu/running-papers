@@ -8,4 +8,4 @@
 
 # Methods and Implementation
 
-canonical labeling是属于symmetry perception problem。
+canonical labeling是属于symmetry perception problem。这篇论文提出了一个新的canonicalization algorithm。
