@@ -1,0 +1,1 @@
+# Get Your Atoms in Order - An Open-Source Implementation of a Novel and Robust Molecular Canonicalization Algorithm
