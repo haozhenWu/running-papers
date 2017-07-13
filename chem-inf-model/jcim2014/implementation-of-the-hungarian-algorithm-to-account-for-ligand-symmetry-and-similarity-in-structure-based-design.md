@@ -10,3 +10,4 @@ ligand通常是小的organic molecule，receptor通常是target drug
 
 后来提出了基于原子种类，使用Hungarian Algorithm的贪婪算法。从描述来看，是明显order-sensitive的方法。论文中描述的第二步就是寻找augment path的过程。
 
+后续就是实验docking的结果。
