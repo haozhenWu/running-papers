@@ -63,6 +63,8 @@
     * [Implementation of the Hungarian Algorithm to Account for Ligand Symmetry and Similarity in Structure-Based Design](chem-inf-model/jcim2014/implementation-of-the-hungarian-algorithm-to-account-for-ligand-symmetry-and-similarity-in-structure-based-design.md)
   * [2009](chem-inf-model/jcim2009/jcim2009.md)
     * [Influence Relevance Voting: An Accurate Interpretable Virtual High Throughput Screening Method](chem-inf-model/jcim2009/influence-relevance-voting-an-accurate-interpretable-virtual-high-throughput-screening-method.md)
+  * [2017](chem-inf-model/jcim2015/jcim2017.md)
+    * [Is Multitask Deep Learning Practical for Pharma](chem-inf-model/jcim2015/jcim2017/is-multitask-deep-learning-practical-for-pharma.md)
 * [Bioinformatics](bioinformatics/bioinformatics.md)
   * [2010](bioinformatics/bioinformatics2010/bioinformatics2010.md)
     * [A CROC stronger than ROC: measuring, visualizing and optimizing early retrieval](bioinformatics/bioinformatics2010/a-croc-stronger-than-roc-measuring-visualizing-and-optimizing-early-retrieval.md)
