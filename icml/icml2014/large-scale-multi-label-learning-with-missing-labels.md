@@ -21,4 +21,9 @@ multi-label分类问题有两个challenge
 
 对于每一个data point $$i$$，$$d_i^j = 0/1$$分别表示absent或者present。
 
-目标函数 loss function就是 $$ l(y, f(x;Z)) = \sum_j l( y_j, f_j(x;Z))$$。假设label之间有很强的相互关系，那么我们可以学习一个low-rank matrix $$Z$$。
+目标函数 loss function就是 $$ l(y, f(x;Z)) = \sum_j l( y_j, f_j(x;Z))$$。假设label之间有很强的相互关系，那么我们可以学习一个low-rank matrix $$Z$$。所以能有以下的模型：
+
+$$
+\hat Z = arg\, \underset{Z}{min} J(Z) = \sum_i \sum_j l(Y_{ij}, f^j(x_i;Z)) + \lambda \cdot r(Z)\\
+s.t. rank(Z) \le k
+$$
