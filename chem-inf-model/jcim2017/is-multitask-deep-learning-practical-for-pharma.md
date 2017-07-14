@@ -30,7 +30,7 @@ Progressive Network每个task之间相互独立，Multitask Network每个task之
 
 在Factors行，差不多都是4/12或者5/12个tasks。
 
-其他都差不多。multitask是四个模型里面最好的。
+其他都差不多。multitask是四个模型里面最好的。下面的表格是multi和single的比较。
 
 | data | Improved |
 | ---- | ---- |
