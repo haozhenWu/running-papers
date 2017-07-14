@@ -23,3 +23,18 @@ Progressive Network每个task之间相互独立，Multitask Network每个task之
 使用squared Pearson correlation coefficient。过去的实验发现，multitask model并不是保证给一直的提升，(有些情况提升很大，有些反而有很多下降）。使用Pearson correlation coefficient能够帮我们比较相对于baseline method的提升。
 
 这里提出了一个鲁棒的deep-learning结构能够一直比其他baseline methods好。
+
+# Experimental Results
+
+在Kaggle上，把RF当作baseline，multitask有11/15个更好，progressive，bypass，和singletask有9/15个task更好。
+
+在Factors行，差不多都是4/12或者5/12个tasks。
+
+其他都差不多。multitask是四个模型里面最好的。
+
+| data | Improved |
+| ---- | ---- |
+| Kaggle | 8/15 |
+| Factors | 11/12 |
+| Kinase | 64/99 |
+| UV | 155/190 |
