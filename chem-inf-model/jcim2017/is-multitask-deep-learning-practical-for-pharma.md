@@ -16,4 +16,4 @@ Kaggle和UV按照三比一分成了training和testing set，并且按照了时�
 
 用了三种Network模型，Multi-task Network, Progressive Network,和Bypass Network。其他还有RF和single-task。
 
-Progressive Network每次只更新一个column/task的weight。前面的task可能会参考，但是不用来更新。
+Progressive Network每次只更新一个column/task的weight。前面的task可能会参考，但是不用来更新。而且在task之间还会有一个隐藏的ordering，实际上并不存在这种ordering。
