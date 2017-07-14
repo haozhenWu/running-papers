@@ -20,3 +20,5 @@ multi-label分类问题有两个challenge
 # Problem Formulation
 
 对于每一个data point $$i$$，$$d_i^j = 0/1$$分别表示absent或者present。
+
+目标函数 loss function就是 $$ l(y, f(x;Z)) = \sum_j l( y_j, f_j(x;Z))$$。
