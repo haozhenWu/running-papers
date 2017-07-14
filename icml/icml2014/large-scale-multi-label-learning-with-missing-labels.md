@@ -12,3 +12,5 @@ multi-label分类问题有两个challenge
 2. 有missing data
 
 这篇paper同时解决了这两个问题，使用了Empirical Risk Minimization （ERM）框架。
+
+针对于问题1，常用的解决方案是label space reduction，也就是减少label-space的维度，通过random projection或者canonical correlation analysis(CCA) based projection。
