@@ -38,7 +38,9 @@ $$
 
 $$Z = W H^T$$, where $$W \in \mathbb{R}^{d \times k}, H \in \mathbb{R}^{L \times k}$$。$$\|Z\|_{tr} = \frac{1}{2} ( \|W\|_F^2 + \|H\|_F^2 )$$。
 
-所以最后要优化的函数就是 $$J_\Omega(W,H) = \sum_{ (i,j) \in \Omega} l(Y_{(i,j)}, x_i^T W h_j) + \frac{1}{2} (\|W\|_F^2 + \|H\|_F^2) $$
+所以最后要优化的函数就是
+
+$$J_\Omega(W,H) = \underset{ (i,j) \in \Omega}{\sum} l(Y_{(i,j)}, x_i^T W h_j) + \frac{1}{2} (\|W\|_F^2 + \|H\|_F^2) $$
 
 # Appendix
 
