@@ -24,13 +24,17 @@ multi-label分类问题有两个challenge
 目标函数 loss function就是 $$ l(y, f(x;Z)) = \sum_j l( y_j, f_j(x;Z))$$。假设label之间有很强的相互关系，那么我们可以学习一个low-rank matrix $$Z$$。所以能有以下的模型：
 
 $$
-\hat Z = arg\, \underset{Z}{min} J(Z) = \sum_i \sum_j l(Y_{ij}, f^j(x_i;Z)) + \lambda \cdot r(Z)\\
+\hat Z = arg\, \underset{Z}{min} J(Z) = \sum_i^n \sum_j^L l(Y_{ij}, f^j(x_i;Z)) + \lambda \cdot r(Z)\\
 s.t. rank(Z) \le k
 $$
 
-其中n个data points，J个label。
+其中n个data points，L个label。
 
 类似的设计也可以运用到missing labels的情况。
 
 # Algorithm
+
+有一种更加高效的解决方案。
+
+$$Z = W H^T$$, where $$W \in \mathbb{R}^{d \times k}, H \in \mathbb{R}^{L \times k}$$。$$\|Z\|_{tr} = \frac{1}{2} ( \|W\|_F^2 + \|H\|_F^2 )$$。
 
