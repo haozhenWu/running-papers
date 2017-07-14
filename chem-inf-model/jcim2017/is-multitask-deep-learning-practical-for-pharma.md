@@ -15,3 +15,5 @@ eval metrics包含了squared Pearson Correlation coefficient。
 Kaggle和UV按照三比一分成了training和testing set，并且按照了时间顺序。Factors和Kinase使用neighbor-splits按照三比一的比率分成了training和testing set。
 
 用了三种Network模型，Multi-task Network, Progressive Network,和Bypass Network。其他还有RF和single-task。
+
+Progressive Network每次只更新一个column/task的weight。前面的task可能会参考，但是不用来更新。
