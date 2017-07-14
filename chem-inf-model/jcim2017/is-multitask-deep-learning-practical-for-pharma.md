@@ -19,3 +19,5 @@ Kaggle和UV按照三比一分成了training和testing set，并且按照了时�
 Progressive Network每次只更新一个column/task的weight。前面的task可能会参考，但是不用来更新。而且在task之间还会有一个隐藏的ordering，实际上并不存在这种ordering。
 
 Progressive Network每个task之间相互独立，Multitask Network每个task之间share weights。所以使用Bypass Network将两个整合到一起。
+
+使用squared Pearson correlation coefficient。过去的实验发现，multitask model并不是保证给一直的提升，(有些情况提升很大，有些反而有很多下降）。使用Pearson correlation coefficient能够帮我们比较相对于baseline method的提升。
