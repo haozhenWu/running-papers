@@ -27,3 +27,5 @@ $$
 \hat Z = arg\, \underset{Z}{min} J(Z) = \sum_i \sum_j l(Y_{ij}, f^j(x_i;Z)) + \lambda \cdot r(Z)\\
 s.t. rank(Z) \le k
 $$
+
+其中n个data points，J个label。
