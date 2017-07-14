@@ -44,10 +44,12 @@ $$J_\Omega(W,H) = \underset{ (i,j) \in \Omega}{\sum} l(Y_{(i,j)}, x_i^T W h_j) +
 
 然后可以发现当$$W$$和$$H$$任何一个fix的时候，$$J(W,H)$$都是convex function。所以可以通过迭代求解：
 
+$$a$$
+
 $$
-H^{t} \leftarrow arg \, \underset{W}{min} J_\Omega(W^{(t-1)}, H)
+H^{t} \leftarrow arg \, \underset{W}{min} \, J_\Omega(W^{(t-1)}, H)
 \\
-W^{t} \leftarrow arg \, \underset{H}{min} J_\Omega(W, H^{(t)})
+W^{t} \leftarrow arg \, \underset{H}{min} \, J_\Omega(W, H^{(t)})
 $$
 
 # Appendix
