@@ -42,5 +42,12 @@ $$Z = W H^T$$, where $$W \in \mathbb{R}^{d \times k}, H \in \mathbb{R}^{L \times
 
 $$J_\Omega(W,H) = \underset{ (i,j) \in \Omega}{\sum} l(Y_{(i,j)}, x_i^T W h_j) + \frac{1}{2} (\|W\|_F^2 + \|H\|_F^2) $$
 
+然后可以发现当$$W$$和$$H$$任何一个fix的时候，$$J(W,H)$$都是convex function。所以可以通过迭代求解：
+
+$$
+H^{t} \leftarrow arg \, \underset{H}{min} J_\Omega(W^{(t-1)}, H)
+H^{t} \leftarrow arg \, \underset{H}{min} J_\Omega(W^{(t-1)}, H)
+$$
+
 # Appendix
 
