@@ -21,3 +21,5 @@ Progressive Network每次只更新一个column/task的weight。前面的task可�
 Progressive Network每个task之间相互独立，Multitask Network每个task之间share weights。所以使用Bypass Network将两个整合到一起。
 
 使用squared Pearson correlation coefficient。过去的实验发现，multitask model并不是保证给一直的提升，(有些情况提升很大，有些反而有很多下降）。使用Pearson correlation coefficient能够帮我们比较相对于baseline method的提升。
+
+这里提出了一个鲁棒的deep-learning结构能够一直比其他baseline methods好。
