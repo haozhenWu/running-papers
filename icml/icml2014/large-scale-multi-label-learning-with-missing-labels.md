@@ -46,7 +46,8 @@ $$J_\Omega(W,H) = \underset{ (i,j) \in \Omega}{\sum} l(Y_{(i,j)}, x_i^T W h_j) +
 
 $$
 H^{t} \leftarrow arg \, \underset{H}{min} J_\Omega(W^{(t-1)}, H)
-H^{t} \leftarrow arg \, \underset{H}{min} J_\Omega(W^{(t-1)}, H)
+\\
+W^{t} \leftarrow arg \, \underset{H}{min} J_\Omega(W, H^{(t)})
 $$
 
 # Appendix
