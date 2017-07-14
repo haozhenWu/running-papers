@@ -29,3 +29,8 @@ s.t. rank(Z) \le k
 $$
 
 其中n个data points，J个label。
+
+类似的设计也可以运用到missing labels的情况。
+
+# Algorithm
+
