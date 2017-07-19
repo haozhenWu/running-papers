@@ -38,3 +38,7 @@ Progressive Network每个task之间相互独立，Multitask Network每个task之
 | Factors | 11/12 |
 | Kinase | 64/99 |
 | UV | 155/190 |
+
+# Appendix
+
+这篇paper和Pande group去年暑假出的很类似。
