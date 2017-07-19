@@ -41,4 +41,4 @@ Progressive Network每个task之间相互独立，Multitask Network每个task之
 
 # Appendix
 
-这篇paper和Pande group去年暑假出的很类似。
+这篇paper和Pande group去年暑假出的很类似。但是论文中省去了大量的细节，比如NN的hyperparameter，以及feature如何选取。
