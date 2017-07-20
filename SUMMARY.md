@@ -124,7 +124,7 @@
 * [SGDKDD](sgdkdd/sgdkdd.md)
   * [2015](sgdkdd2015.md)
     * [Pentuum: A New Platform for Distributed Machine Learning on Big Data](sgdkdd/sgdkdd2015/pentuum_a_new_platform_for_distributed_machine_lea.md)
-* [WSDM](wsdm.md)
+* [WSDM](wsdm/wsdm.md)
   * [2017](wsdm/wsdm2017.md)
     * [Recurrent Recommender Networks](wsdm/wsdm2017/recurrent-recommender-networks.md)
     * [Comparative Document Analysis for Large Text Corpora](wsdm/wsdm2017/comparative-document-analysis-for-large-text-corpora.md)
