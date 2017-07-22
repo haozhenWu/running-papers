@@ -10,3 +10,9 @@ seq2seq learning使用的是将不定长度的序列映射到不定长度的序�
 2. many-to-one：多种语言翻译成一种，共享了decoder
 3. many-to-many：多种语言翻译成多种语言，同时共享encoder和decoder
 
+# Sequence To Sequence Learning
+
+目前seq2seq的工作这些区别
+
+1. architecture：undirected，bidirectional和deep multi-layer
+2. RNN type：有LSTM和gated recurrent unit
