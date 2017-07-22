@@ -21,3 +21,6 @@ seq2seq learning使用的是将不定长度的序列映射到不定长度的序�
 # Multi-Task Sequence-To-Sequence Learning
 
 按照前面说的三种设定，one-to-many，many-to-one，many-to-many。
+
+## Unsupervised Learning Tasks
+
