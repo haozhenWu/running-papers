@@ -24,3 +24,4 @@ zero-shot learning（ZSL）就是在test task完全不知情的情况下，训�
 
 # Appendix
 
+似乎也只是一个一拍脑门的想法，没有进行理论分析证明有效性。
