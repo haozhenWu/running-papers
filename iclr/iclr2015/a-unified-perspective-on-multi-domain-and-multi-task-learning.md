@@ -20,7 +20,7 @@ zero-shot learning（ZSL）就是在test task完全不知情的情况下，训�
 
 考虑有M个domains/tasks，第i个domain有$$N_i$$个instances，第i个domain的第j个实例这么表示：$$\{ x_j^{(i)}, z^{(i)} \}$$，而特征就是$$y_j^{(i)}$$。在这个设定下，所有的实例都和semantic descriptor联系。
 
-提出了一个two-sided neural network。左边是使用原始特征作为输入，进行representation learning的representation learning；右边是使用相对应的semantic descriptor z作为特征，尽心的模型构造。
+提出了一个two-sided neural network。左边是使用原始特征作为输入，进行representation learning的representation learning；右边是使用相对应的semantic descriptor z作为特征，进行的模型构造。
 
 # Appendix
 
