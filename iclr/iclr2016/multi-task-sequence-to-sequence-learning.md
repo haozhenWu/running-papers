@@ -16,3 +16,4 @@ seq2seq learning使用的是将不定长度的序列映射到不定长度的序�
 
 1. architecture：undirected，bidirectional和deep multi-layer
 2. RNN type：有LSTM和gated recurrent unit
+3. input representation：早期是使用encoder state；现在提出来attention mechanism，大概是使用随机访问的记忆来处理长文本
