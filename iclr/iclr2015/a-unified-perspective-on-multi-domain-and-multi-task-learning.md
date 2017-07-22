@@ -4,9 +4,13 @@ Yongxin Yang, Timothy M. Hospedales
 
 # Intro
 
-我们提出了一个方法，能够替代zero shot learning：multi-task或者multi-domain是通过在不同的但是相近的任务或者领域之间共享知识。multi-domain指的是在不同的上下文domain中，对于同一个问题；multi-task指的是同一个domain解决不同问题。因为domain和task的气憋很低，这里不做区别。
+我们提出了一个方法，能够替代zero shot learning：multi-task或者multi-domain是通过在不同的但是相近的任务或者领域之间共享知识。multi-domain指的是在不同的上下文domain中，对于同一个问题；multi-task指的是同一个domain解决不同问题。因为domain和task的区别很低，这里不做区别。
 
 # Related Works
+
+## Multi-Task Learning
+
+## Multi-Domain Learning
 
 ## Zero-Shot Learning
 
