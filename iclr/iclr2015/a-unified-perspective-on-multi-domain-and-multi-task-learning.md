@@ -8,7 +8,7 @@ Yongxin Yang, Timothy M. Hospedales
 
 我们这片paper突出了一个核心概念是semantic descriptor。
 
-相关的思路是zero-shot learning，我们的NN也解决了这个问题。而且还带来了一个新的问题：zero-shot domain adaptation，也就是给定descriptor的时候，将一个模型适用于一个新的未见过的domain。
+相关的思路是zero-shot learning，我们的NN也解决了这个问题。而且还带来了一个新的问题：zero-shot domain adaptation，也就是给定descriptor的时候，将模型进行合成，从而适用于一个新的未见过的domain。
 
 # Related Works
 
