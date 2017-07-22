@@ -22,6 +22,8 @@ zero-shot learning（ZSL）就是在test task完全不知情的情况下，训�
 
 提出了一个two-sided neural network。左边是使用原始特征作为输入，进行representation learning的representation learning；右边是使用相对应的semantic descriptor z作为特征，进行的模型构造。
 
+在3.3节提到了，task descriptor可以是一个binary attribute vector，或者是描述task name的continuous word-vector。
+
 # Appendix
 
 似乎也只是一个一拍脑门的想法，没有进行理论分析证明有效性。
