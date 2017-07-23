@@ -33,3 +33,9 @@ seq2seq learning使用的是将不定长度的序列映射到不定长度的序�
 # Experiments
 
 在multi tasks中，选出一个作为reference task。
+
++ Large tasks + small tasks: 一个结果是，如果增加非常少量的parsing mini-batches，能够极大的提高翻译质量。
+
++ Large tasks + medium tasks: 当在另外一个task上训练很小一部分时间的时候，会比原任务有提升。比如5次image caption generation（medium），100次translation。
+
++ Large tasks + large tasks: 对于sequence model，larger networks会有一定的影响。
