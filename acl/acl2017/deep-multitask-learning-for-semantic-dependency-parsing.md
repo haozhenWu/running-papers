@@ -27,6 +27,6 @@ semantic dependency更像是semantic role labeling或者是abstract meaning repr
 
 **formalism（形式化）**：考虑三种形式化
 
-1. DM(Delph-in MRS)
-2. PAS(Predicate-Argument Structures)
+1. DM(Delph-in MRS) 表达方式来自于DeepBank，是人工纠正的parse。来自于LinGO English Resource Grammar。
+2. PAS(Predicate-Argument Structures) 表达方式来自于Enju Treebank，包含了来自于Enju HPSG parsser的自动parse。
 3. PSD(Prague Semantic Dependencies)
