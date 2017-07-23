@@ -32,3 +32,4 @@ seq2seq learning使用的是将不定长度的序列映射到不定长度的序�
 
 # Experiments
 
+在multi tasks中，选出一个作为reference task。
