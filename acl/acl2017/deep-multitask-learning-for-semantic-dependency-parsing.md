@@ -32,3 +32,8 @@ semantic dependency更像是semantic role labeling或者是abstract meaning repr
 3. PSD(Prague Semantic Dependencies) 表达方式来自于Prague Czech-English Dependency Treebank。
 
 三个里面，PAS最贴近语法，而且最容易预测。PSD的标签最多，相应parser在上面的性能偏差。
+
+
+
+# Appendix
+
