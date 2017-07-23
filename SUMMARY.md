@@ -13,7 +13,7 @@
     * [YellowFin and the Art of Momentum Tuning](arxiv/arxiv2017/yellowfin-and-the-art-of-momentum-tuning.md)
     * [Convergence of Deep Neural Networks to a Hierarchical Covariance Matrix Decomposition](arxiv/arxiv2017/convergence-of-deep-neural-networks-to-a-hierarchical-covariance-matrix-decomposition.md)
     * [Multitask Learning with CTC and Segmental CRF for Speech Recognition](arxiv/arxiv2017/multitask-learning-with-ctc-and-segmental-crf-for-speech-recognition.md)
-    * Distral: Robust Multitask Reinforcement Learning
+    * [Distral: Robust Multitask Reinforcement Learning](arxiv/arxiv2017/distral-robust-multitask-reinforcement-learning.md)
     * [Consistent Multitask Learning with Nonlinear Output Relations](arxiv/arxiv2017/consistent-multitask-learning-with-nonlinear-output-relations.md)
   * [2016](arxiv/arxiv2016/arxiv2016.md)
     * [automatic chemical design using a data-driven continuous representation of molecules](arxiv/arxiv2016/automatic_chemical_design_using_a_data-driven_cont.md)
