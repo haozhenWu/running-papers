@@ -40,7 +40,7 @@ seq2seq learning使用的是将不定长度的序列映射到不定长度的序�
 
 + Large tasks + large tasks: 对于sequence model，larger networks会有一定的影响。
 
-+ Multi-tasks + Unsupervised Learning: 想探究autoencoder能否帮助提升翻译性能。
++ Multi-tasks + Unsupervised Learning: 想探究autoencoder能否帮助提升翻译性能。按照many-to-many的设定，增加两个单独语言的autoencoder，对效果有一定的提升，取决于umixing coefficient（迭代次数比例）。使用skip-thought vector方法，perplexity和BLEU scores给出相反的结果，前者增加，后者减少。
 
 # Appendix
 
