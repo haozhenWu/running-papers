@@ -37,5 +37,11 @@ semantic dependency更像是semantic role labeling或者是abstract meaning repr
 
 basic model，每一个形式化的training和prediction都是独立的。
 
+问题定义：每一个arc的标签都来自于一个已经定义好的集合$$\mathcal{L}$$，表示两个点之间的语法关系。给定一个句子$$x$$，$$\mathcal{Y}(x)$$是可能的semantic graphs集合。优化一个score function：
+
+$$\hat y = arg\,max S(x,y), \,y \in \mathcal{Y}$$
+
+
+
 # Appendix
 
