@@ -28,4 +28,4 @@ seq2seq learning使用的是将不定长度的序列映射到不定长度的序�
 
 ## Learning
 
-训练使用alternating training approach，也就是对于每一个task，进行固定的epochs，然后换到下一个task（也就是不同的language pair）
+训练使用alternating training approach，也就是对于每一个task，进行固定的epochs，然后换到下一个task（也就是不同的language pair）。
