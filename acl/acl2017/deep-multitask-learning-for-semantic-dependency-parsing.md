@@ -33,7 +33,9 @@ semantic dependency更像是semantic role labeling或者是abstract meaning repr
 
 三个里面，PAS最贴近语法，而且最容易预测。PSD的标签最多，相应parser在上面的性能偏差。
 
+# Single-Task SDP
 
+basic model，每一个形式化的training和prediction都是独立的。
 
 # Appendix
 
