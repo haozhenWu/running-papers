@@ -13,7 +13,6 @@
     * [YellowFin and the Art of Momentum Tuning](arxiv/arxiv2017/yellowfin-and-the-art-of-momentum-tuning.md)
     * [Convergence of Deep Neural Networks to a Hierarchical Covariance Matrix Decomposition](arxiv/arxiv2017/convergence-of-deep-neural-networks-to-a-hierarchical-covariance-matrix-decomposition.md)
     * [Multitask Learning with CTC and Segmental CRF for Speech Recognition](arxiv/arxiv2017/multitask-learning-with-ctc-and-segmental-crf-for-speech-recognition.md)
-    * [Deep Multitask Learning for Semantic Dependency Parsing](arxiv/arxiv2017/deep-multitask-learning-for-semantic-dependency-parsing.md)
     * Distral: Robust Multitask Reinforcement Learning
     * [Consistent Multitask Learning with Nonlinear Output Relations](arxiv/arxiv2017/consistent-multitask-learning-with-nonlinear-output-relations.md)
   * [2016](arxiv/arxiv2016/arxiv2016.md)
@@ -162,10 +161,11 @@
 ## NLP
 
 * [ACL](acl/acl.md)
+  * [2017](acl/acl2017/acl2017.md)
+    * [Deep Multitask Learning for Semantic Dependency Parsing](acl/acl2017/deep-multitask-learning-for-semantic-dependency-parsing.md)
   * [2016](acl/acl2016/acl2016.md)
     * [Summarizing Source Code using a Neural Attention Model](acl/acl2016/summarizing_source_code_using_a_neural_attention_m.md)
     * [Document-level Sentiment Inference with Social, Faction, and Discourse Context](acl/acl2016/document-level-sentiment-inference-with-social-faction-and-discourse-context.md)
-  * [2017](acl/acl2016/acl2017.md)
 * [EMNLP](emnlp/emnlp.md)
   * [2016](emnlp/emnlp2016/emnlp2016.md)
     * [cached long short-term memory neural networks for document-level sentiment classification](emnlp/emnlp2016/cached_long_short-term_memory_neural_networks_for_.md)
