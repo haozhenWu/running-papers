@@ -41,7 +41,9 @@ basic model，每一个形式化的training和prediction都是独立的。
 
 $$\hat y = arg\,max S(x,y), \,y \in \mathcal{Y}$$
 
+将score function进行分解成每一个local structures/parts $$p$$：
 
+$$ S(x,y) = \sum s(p) $$
 
 # Appendix
 
