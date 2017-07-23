@@ -24,7 +24,7 @@ seq2seq learning使用的是将不定长度的序列映射到不定长度的序�
 
 ## Unsupervised Learning Tasks
 
-在autoencoder的训练上，考虑加入skip-thought vectors。skip-thought vectors是在连续的两个句子对上进行训练，从而能够学习到长范围的，会skip-thought的objective。唯一的要求就是训练数据必须要是有顺序的句子，比如段落。
+**autoencoder**和**skip-thought vectors**。skip-thought vectors是在连续的两个句子对上进行训练，从而能够学习到长范围的，会skip-thought的objective。唯一的要求就是训练数据必须要是有顺序的句子，比如段落。
 
 ## Learning
 
@@ -40,7 +40,7 @@ seq2seq learning使用的是将不定长度的序列映射到不定长度的序�
 
 + Large tasks + large tasks: 对于sequence model，larger networks会有一定的影响。
 
-+ Multi-tasks + Unsupervised Learning: 想探究autoencoder能否帮助提升翻译性能。按照many-to-many的设定，增加两个单独语言的autoencoder，对效果有一定的提升，取决于umixing coefficient（迭代次数比例）。使用skip-thought vector方法，perplexity和BLEU scores给出相反的结果，前者增加，后者减少。
++ Multi-tasks + Unsupervised Learning: 想探究**autoencoder**能否帮助提升翻译性能。按照many-to-many的设定，增加两个单独语言的autoencoder，对效果有一定的提升，取决于mixing coefficient（迭代次数比例）。使用**skip-thought vector**方法，perplexity和BLEU scores给出相反的结果，前者增加，后者减少。猜测是因为skip thought改变了翻译任务的本质：它是用一个句子来预测另外一个句子。
 
 # Appendix
 
