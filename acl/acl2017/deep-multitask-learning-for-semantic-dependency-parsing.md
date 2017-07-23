@@ -14,4 +14,4 @@ Hao Peng, Sam Thomson, Noah A. Smith
 
 # Broad-Coverage Semantic Dependency Parsing(SDP)
 
-大致集中在三种semantic formalisms，每一个formalism的标记都是双方向的词汇关系（比如及物动词的主宾）
+大致集中在三种semantic formalisms，每一个formalism的标记都是双方向的词汇关系（比如及物动词的主宾）。
