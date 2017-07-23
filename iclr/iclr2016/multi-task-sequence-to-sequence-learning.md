@@ -40,6 +40,8 @@ seq2seq learning使用的是将不定长度的序列映射到不定长度的序�
 
 + Large tasks + large tasks: 对于sequence model，larger networks会有一定的影响。
 
++ Multi-tasks + Unsupervised Learning: 想探究autoencoder能否帮助提升翻译性能。
+
 # Appendix
 
 所以整个来说，还是共享同一个模型架构。但是迭代地进行参数训练。
