@@ -45,3 +45,5 @@ seq2seq learning使用的是将不定长度的序列映射到不定长度的序�
 # Appendix
 
 所以整个来说，还是共享同一个模型架构。但是迭代地进行参数训练。
+
+而且和我们关注的virtual screening还不一样，它是将不同种类的task结合到一起。而VS本质还是multi-label。
