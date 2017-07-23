@@ -25,4 +25,8 @@ semantic dependency更像是semantic role labeling或者是abstract meaning repr
 
 预处理，将有环的图去掉，保证剩余的都是DAG。
 
-**formalism（形式化）**：
+**formalism（形式化）**：考虑三种形式化
+
+1. DM(Delph-in MRS)
+2. PAS(Predicate-Argument Structures)
+3. PSD(Prague Semantic Dependencies)
