@@ -16,4 +16,4 @@ Hao Peng, Sam Thomson, Noah A. Smith
 
 大致集中在三种semantic formalisms，每一个formalism的标记都是双方向的词汇关系（比如及物动词的主宾）。这三种formalism从不同的语言习惯中来，但是都为了抓住单词间predicate-argument关系。
 
-semantic dependency更像是semantic role labeling。
+semantic dependency更像是semantic role labeling或者是abstract meaning representation。
