@@ -25,3 +25,7 @@ seq2seq learning使用的是将不定长度的序列映射到不定长度的序�
 ## Unsupervised Learning Tasks
 
 在autoencoder的训练上，考虑加入skip-thought vectors。skip-thought vectors是在连续的两个句子对上进行训练，从而能够学习到长范围的，会skip-thought的objective。唯一的要求就是训练数据必须要是有顺序的句子，比如段落。
+
+## Learning
+
+训练使用alternating training approach，也就是对于每一个task，进行固定的epochs，然后换到下一个task（也就是不同的language pair）
