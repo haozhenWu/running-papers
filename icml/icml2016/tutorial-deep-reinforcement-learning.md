@@ -50,6 +50,14 @@ $$\pi^{*}(s) = \underset{a}{arg \, max} \, Q^*(s,a)$$
 
 # Value-Based Deep RL
 
+## Q-Network
+
+使用一个network来表示决策的分布
+
+也就是输入为$$\langle s, a \rangle$$，Q-network表示为$$w$$，那么输出就是reward
+
+$$ Q(s,a,w) \approx Q^*(s,a) $$
+
 ## Q-learning
 
 给定一个状态和行为，来得到最优future reward
