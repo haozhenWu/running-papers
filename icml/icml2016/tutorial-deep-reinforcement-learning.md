@@ -48,3 +48,11 @@ $$\pi^{*}(s) = \underset{a}{arg \, max} \, Q^*(s,a)$$
 + policy
 + Model
 
+# Value-Based Deep RL
+
+# Policy-Based Deep RL
+
+# Model-Based Deep RL
+
+# Appendix
+
