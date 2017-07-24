@@ -70,6 +70,8 @@ $$Q^{*}(s,a) = \mathbb{E}_{s'} [ r + \gamma \, \underset{a'}{max} \, Q(s',a')^{*
 
 ## Deep Q-Networks(DQN)
 
+DQN是end-to-end learning。
+
 # Policy-Based Deep RL
 
 # Model-Based Deep RL
