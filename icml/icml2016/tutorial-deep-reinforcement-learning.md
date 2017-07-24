@@ -42,3 +42,9 @@ $$\pi^{*}(s) = \underset{a}{arg \, max} \, Q^*(s,a)$$
 + Model-based RL
     + 通过环境构造一个模型
     + 让这个模型来进行决策
+
+所以Deep RL就有相对应的三种方法，分别用来表示
++ Value function
++ policy
++ Model
+
