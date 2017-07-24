@@ -94,7 +94,7 @@ $$ L(u) = \mathbb{E}[r_1 + \gamma r_2 + \gamma^2 r_3 + ... | \pi(\cdot,u)] $$
     
 + deterministic policy:
 
-    $$\frac{\partial L(u)}{\partial u} = \mathbb{E}[ \frac{\partial log \pi(a|s,u)}{\partial u} Q^\pi(s,a)]$$
+    $$\frac{\partial L(u)}{\partial u} = \mathbb{E}[ \frac{\partial Q^\pi(s,a)}{\partial a} \frac{\partial a}{\partial u}]$$
 
 # Model-Based Deep RL
 
