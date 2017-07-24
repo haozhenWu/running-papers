@@ -89,8 +89,11 @@ $$ L(u) = \mathbb{E}[r_1 + \gamma r_2 + \gamma^2 r_3 + ... | \pi(\cdot,u)] $$
 ## Policy Gradient
 
 + stochastic policy:
-$$\frac{\partial L(u)}{\partial u} = \mathbb{E}[ \frac{\partial log \pi(a|s,u)}{\partial u} Q^\pi(s,a)]$$
+
+    $$\frac{\partial L(u)}{\partial u} = \mathbb{E}[ \frac{\partial log \pi(a|s,u)}{\partial u} Q^\pi(s,a)]$$
 + deterministic policy:
+
+    $$\frac{\partial L(u)}{\partial u} = \mathbb{E}[ \frac{\partial log \pi(a|s,u)}{\partial u} Q^\pi(s,a)]$$
 
 # Model-Based Deep RL
 
