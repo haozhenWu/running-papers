@@ -101,3 +101,5 @@ $$ L(u) = \mathbb{E}[r_1 + \gamma r_2 + \gamma^2 r_3 + ... | \pi(\cdot,u)] $$
 # Appendix
 
 省略了很多细节，不过补充了几篇paper应该足够。
+
+对于DP的理解比较容易，传统的Q-learning在给定所有action和state reward之后也比较容易计算。但是在未知的时候，如何结合Deep Learning进行一系列决策就比较有意思了。
