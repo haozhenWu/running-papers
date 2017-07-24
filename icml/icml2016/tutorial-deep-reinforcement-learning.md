@@ -1,4 +1,4 @@
-# Tutorial: Deep Reinforcement Learning
+asd撒旦发撒旦# Tutorial: Deep Reinforcement Learning
 
 Davud Sukter, Google DeepMind
 
@@ -70,7 +70,7 @@ $$Q^{*}(s,a) = \mathbb{E}_{s'} [ r + \gamma \, \underset{a'}{max} \, Q(s',a')^{*
 
 ## Deep Q-Networks(DQN)
 
-DQN是end-to-end learning。
+DQN是end-to-end learning。输出可以是$$\langle s, a \rangle$$，然后再转换成reward。
 
 # Policy-Based Deep RL
 
