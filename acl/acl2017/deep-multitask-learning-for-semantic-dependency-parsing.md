@@ -45,5 +45,11 @@ $$\hat y = arg\,max S(x,y), \,y \in \mathcal{Y}$$
 
 $$ S(x,y) = \sum s(p) $$
 
+因为会搜索所有可能的图像，所以这个方法叫做graph-based（或者all-pairs） method。
+
+# Multi-Task SDP
+
+用$$t\in \mathcal{T}$$来分别不同的formalism tasks。
+
 # Appendix
 
