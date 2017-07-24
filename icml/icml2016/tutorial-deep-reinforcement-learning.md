@@ -19,4 +19,6 @@ $$Q^{\pi}(s,a) = \mathbb{E}(r_{t+1} + \gamma r_{t+2} + \gamma^2 r_{t+3} + ... | 
 
 value function可以分解为Bellman equation:
 
-$$Q^{\pi}(s,a) = \mathbb{E}_{s',a'} (r + \gamma Q^{\pi}(s',a') |s,a )  $$
+$$Q^{\pi}(s,a) = \mathbb{E}_{s',a'} (r + \gamma Q^{\pi}(s',a') |s,a ) $$
+
+
