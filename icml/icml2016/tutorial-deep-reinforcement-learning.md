@@ -74,6 +74,16 @@ DQN是end-to-end learning。输出可以是$$\langle s, a \rangle$$，然后再�
 
 # Policy-Based Deep RL
 
+## Deep Policy Networks
+
+通过使用deep network，权重为$$u$$，来表示policy
+
+$$ a = \pi(a|s,u) $$ 或者 $$a = \pi(s,u)$$
+
+将目标函数表示为所有的reward
+
+$$ L(u) = \mathbb{E}[r_1 + \gamma r_2 + \gamma^2 r_3 + ... | \pi(\cdot,u)] $$
+
 # Model-Based Deep RL
 
 # Appendix
