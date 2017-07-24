@@ -102,6 +102,7 @@
   * [2016](icml/icml2016/icml2016.md)
     * [Learning Relational Sum-Product Networks](icml/icml2016/learning_relational_sum-product_networks.md)
     * [Towards an Empirical Foundation for Assessing Bayesian Optimization of Hyperparameters](icml/icml2016/towards-an-empirical-foundation-for-assessing-bayesian-optimization-of-hyperparameters.md)
+    * [Tutorial: Deep Reinforcement Learning](icml/icml2016/tutorial-deep-reinforcement-learning.md)
   * [2014](icml/icml2014/icml2014.md)
     * [Distributed Representations of Sentences and Documents](icml/icml2014/distributed-representations-of-sentences-and-documents.md)
     * [Large-scale Multi-label Learning with Missing Labels](icml/icml2014/large-scale-multi-label-learning-with-missing-labels.md)
