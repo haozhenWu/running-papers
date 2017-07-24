@@ -50,6 +50,12 @@ $$\pi^{*}(s) = \underset{a}{arg \, max} \, Q^*(s,a)$$
 
 # Value-Based Deep RL
 
+## Q-learning
+
+
+
+## Deep Q-Networks(DQN)
+
 # Policy-Based Deep RL
 
 # Model-Based Deep RL
