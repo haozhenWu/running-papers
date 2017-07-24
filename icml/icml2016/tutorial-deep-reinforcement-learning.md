@@ -52,7 +52,13 @@ $$\pi^{*}(s) = \underset{a}{arg \, max} \, Q^*(s,a)$$
 
 ## Q-learning
 
+给定一个状态和行为，来得到最优future reward
 
+$$Q^{*}(s,a) = \mathbb{E}_{s'} [ r + \gamma \, \underset{a'}{max} \, Q(s',a')^{*} |s,a ] $$
+
+将右侧 $$r + \gamma \, \underset{a'}{max} \, Q(s',a')^{*} $$当作目标函数
+
+优化目标是$$I = ( r + \gamma \, \underset{a'}{max} \, Q(s',a')^{*} - Q(s,a,w) )^2$$
 
 ## Deep Q-Networks(DQN)
 
