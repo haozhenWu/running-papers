@@ -21,3 +21,4 @@ value function可以分解为Bellman equation:
 
 $$Q^{\pi}(s,a) = \mathbb{E}_{s',a'} [ r + \gamma Q^{\pi}(s',a') |s,a ] $$
 
+Bellman equation可以让我们很方便的使用DP方法来求解，因为这就是一个状态转移方程。可以通过穷尽搜索，找到所有状态，或者记忆化搜索，然后迭代地更新。
