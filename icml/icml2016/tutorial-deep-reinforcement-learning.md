@@ -100,3 +100,4 @@ $$ L(u) = \mathbb{E}[r_1 + \gamma r_2 + \gamma^2 r_3 + ... | \pi(\cdot,u)] $$
 
 # Appendix
 
+省略了很多细节，不过补充了几篇paper应该足够。
