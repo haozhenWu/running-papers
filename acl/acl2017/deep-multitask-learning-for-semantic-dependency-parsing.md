@@ -49,7 +49,8 @@ $$ S(x,y) = \sum s(p) $$
 
 # Multi-Task SDP
 
-用$$t\in \mathcal{T}$$来分别不同的formalism tasks，$$\mathcal{T} = \{ DM, PAS, PSD \}$$。现在的任务就是已知输入的句子，分别出三个图。
+用$$t\in \mathcal{T}$$来分别不同的formalism tasks，$$\mathcal{T} = \{ DM, PAS, PSD \}$$。现在的任务就是已知输入的句子，分辨出三个图。
 
 # Appendix
 
+使用BiLSTM对图进行分解。
