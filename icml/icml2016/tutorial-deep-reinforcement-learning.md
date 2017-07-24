@@ -84,6 +84,8 @@ $$ a = \pi(a|s,u) $$ 或者 $$a = \pi(s,u)$$
 
 $$ L(u) = \mathbb{E}[r_1 + \gamma r_2 + \gamma^2 r_3 + ... | \pi(\cdot,u)] $$
 
+通过SGD更新$$u$$，来获取更多的reward
+
 # Model-Based Deep RL
 
 # Appendix
