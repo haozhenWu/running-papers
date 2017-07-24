@@ -30,3 +30,15 @@ $$Q^*(s,a) = \underset{\pi}{max} \, Q^{\pi}(s,a) = Q^{\pi^{*}}(s,a)$$
 然后在更新的时候，我们可以有
 
 $$\pi^{*}(s) = \underset{a}{arg \, max} \, Q^*(s,a)$$
+
+# Approaches To Reinforcement Learning
+
++ Value-based RL
+    + 估计optimal value function
+    + 在任何policy下，能获得的最大value
++ Policy-based RL
+    + 直接搜索最优的policy $$\pi^*$$
+    + 这个policy会获取最大的future reward
++ Model-based RL
+    + 通过环境构造一个模型
+    + 让这个模型来进行决策
