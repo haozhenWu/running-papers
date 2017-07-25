@@ -22,6 +22,16 @@ ORGAN在RL的reward函数上，还增加了一个GAN discriminator项。generato
 
 通过Figure 1，可以发现，前面通过G生成数据，来欺骗D的步骤没有变化，改变的是G的训练部分，多增加了一个RL过程。
 
+# Experiment
+
+在molecule generation中，使用如下进行model evaluation：
+
+1. novelty：如果是novel，并且valid，返回1；novel但是invalid，返回0.3；否则不是novel，返回0
+2. diversity：训练集中随机选择一些molecule，并且计算average similarity
+3. solubility（$$Log(P)$$）：能够溶解于水的概率，使用RDKit内置函数
+4. synthetizability：RDKit内置的，正则化后测量合成性的函数。基于分子复杂性和组成复杂分子的难易程度
+5. druglikeness：heuristic的方法，来测量一个分子可能被用于人体的测度，是前面四个测度的线性合成
+
 # Appendix
 
 附refer的文章，也是用的RL进行molecule generation
