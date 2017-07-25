@@ -24,3 +24,14 @@ Distral最核心的是一个shared policy，将task-specific policy中的共同�
 
 目标函数是期望返回值加上policy regularization。policy regularizer是$$\gamma$$-discounted KL divergence: $$\mathbb{E}_{\pi_i} [\sum_{t \ge 0} \gamma^t log \frac{\pi_i(a_t|s_t)}{\pi_0(a_t|s_t)} ] $$
 
+所以最终的objective function是
+
+$$ J(\pi_0\{ \pi_i \}_{1}^n ) = \sum_i \mathbb{E}_{\pi_i}[ \sum_{t \ge 0} \gamma^t R_i(a_t, s_t) - c_{KL} \gamma^t log \frac{\pi_i(a_t|s_t)}{\pi_0(a_t|s_t)} - c_{Ent} \gamma^t log \,  \pi_i(a_t|s_t) ]  $$
+
+$$ = \sum_i \mathbb{E}_{\pi_i}[ \sum_{t \ge 0} \gamma^t R_i(a_t, s_t) + \frac{\gamma^t \alpha}{\beta} log \, \pi_0(a_t|s_t) - \frac{\gamma^t}{\beta} log \, \pi_i(a_t|s_t) ]  $$
+
+其中$$c_{KL}$$和$$c_{Ent}$$是regularizer的因子，$$\alpha = \frac{c_{KL}}{c_{KL}+c_{Ent}}$$, $$\beta = \frac{1}{c_{KL}+c_{Ent}}$$。
+
+
+# Appendix
+
