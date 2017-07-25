@@ -10,6 +10,10 @@ RL可以生成任意的序列。在naive RL中，使用固定的reward并且将�
 
 这篇paper提出了Objective-Reinforced Generative Adversarial Network(ORGAN)，除了RL，还是用GAN来矫正生成（分子）的过程。
 
+ORGAN在RL的reward函数上，还增加了一个GAN discriminator项。generator是最大化两个reward的平均
+1. 原始的objective函数，是固定的
+2. discriminator部分，有generator动态决定的
+
 # Appendix
 
 附refer的文章，也是用的RL进行molecule generation
