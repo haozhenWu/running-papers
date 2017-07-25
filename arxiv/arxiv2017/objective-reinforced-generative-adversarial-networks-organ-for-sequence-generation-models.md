@@ -8,6 +8,8 @@ Harvad
 
 RL可以生成任意的序列。在naive RL中，使用固定的reward并且将模型用于决策。这会产生unphysical/uninteresting samples。
 
+这篇paper提出了Objective-Reinforced Generative Adversarial Network(ORGAN)，除了RL，还是用GAN来矫正生成（分子）的过程。
+
 # Appendix
 
 附refer的文章，也是用的RL进行molecule generation
