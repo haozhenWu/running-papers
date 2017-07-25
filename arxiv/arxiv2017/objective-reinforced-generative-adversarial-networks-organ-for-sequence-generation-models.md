@@ -20,7 +20,7 @@ ORGAN在RL的reward函数上，还增加了一个GAN discriminator项。generato
 
 通过policy gradient来训练generator，从而同时最大化两个reward：一个是用来最大化hard-coded objective，另外一个是为了骗discriminator。
 
-
+通过Figure 1，可以发现，前面通过G生成数据，来欺骗D的步骤没有变化，改变的是G的训练部分，多增加了一个RL过程。
 
 # Appendix
 
