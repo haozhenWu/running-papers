@@ -12,3 +12,4 @@ DeepMind, London, UK
 
 这里提出来了一个Distral的multitask训练方法，Distill & transfer learning。与共享参数不同，这里提出了使用“distilled” policy，来抓取不同任务之间的共同行为。
 
+DQN中，
