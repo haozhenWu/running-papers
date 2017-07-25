@@ -24,6 +24,8 @@ ORGAN在RL的reward函数上，还增加了一个GAN discriminator项。generato
 
 # Experiment
 
+## molecule
+
 在molecule generation中，使用如下进行model evaluation：
 
 1. novelty：如果是novel，并且valid，返回1；novel但是invalid，返回0.3；否则不是novel，返回0
@@ -31,6 +33,14 @@ ORGAN在RL的reward函数上，还增加了一个GAN discriminator项。generato
 3. solubility（$$Log(P)$$）：能够溶解于水的概率，使用RDKit内置函数
 4. synthetizability：RDKit内置的，正则化后测量合成性的函数。基于分子复杂性和组成复杂分子的难易程度
 5. druglikeness：heuristic的方法，来测量一个分子可能被用于人体的测度，是前面四个测度的线性合成
+
+## music
+
+在音乐合成的部分，提出了三个evaluation
+
+1. tonality：有多少个生成的fifths（太专业了，谁能帮忙？）
+2. melodicity：为了降低的和音，有几种interval。如果一个interval要上melodic，必需是前三个中的一种。
+3. ratio of steps
 
 # Appendix
 
