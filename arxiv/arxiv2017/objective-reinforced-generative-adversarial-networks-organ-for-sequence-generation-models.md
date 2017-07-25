@@ -16,6 +16,12 @@ ORGAN在RL的reward函数上，还增加了一个GAN discriminator项。generato
 
 动态的discriminator部分能够避免产生uninteresting或者重复的数据。
 
+# Model
+
+通过policy gradient来训练generator，从而同时最大化两个reward：一个是用来最大化hard-coded objective，另外一个是为了骗discriminator。
+
+
+
 # Appendix
 
 附refer的文章，也是用的RL进行molecule generation
