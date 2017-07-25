@@ -9,3 +9,5 @@ Harvad
 附refer的文章，也是用的RL进行molecule generation
 
 Jarques, etc. Sequence Tutor: Conservative Fine-Tuning of Sequence Generation Models with KL-control
+
+L. Yu, etc. SeqGAN: Sequence Generative Adversarial Nets with Policy Gradient
