@@ -15,6 +15,7 @@
     * [Multitask Learning with CTC and Segmental CRF for Speech Recognition](arxiv/arxiv2017/multitask-learning-with-ctc-and-segmental-crf-for-speech-recognition.md)
     * [Distral: Robust Multitask Reinforcement Learning](arxiv/arxiv2017/distral-robust-multitask-reinforcement-learning.md)
     * [Consistent Multitask Learning with Nonlinear Output Relations](arxiv/arxiv2017/consistent-multitask-learning-with-nonlinear-output-relations.md)
+    * [Objective-Reinforced Generative Adversarial Networks \(ORGAN\) for Sequence Generation Models](arxiv/arxiv2017/objective-reinforced-generative-adversarial-networks-organ-for-sequence-generation-models.md)
   * [2016](arxiv/arxiv2016/arxiv2016.md)
     * [automatic chemical design using a data-driven continuous representation of molecules](arxiv/arxiv2016/automatic_chemical_design_using_a_data-driven_cont.md)
     * [achieving human parity in conversational speech recognition](arxiv/arxiv2016/achieving_human_parity_in_conversational_speech_re.md)
