@@ -20,4 +20,7 @@ Distral最核心的是一个shared policy，将task-specific policy中的共同�
 
 ## Mathematical framework
 
-假设action space $$A$$和state space $$S$$对于所有的task都一样。但是转换$$p_i(s'|s,a)$$和reward function $$R_i(a,s)$$对于每一个task都不一样。
+假设action space $$A$$和state space $$S$$对于所有的task都一样。但是转换$$p_i(s'|s,a)$$和reward function $$R_i(a,s)$$对于每一个task都不一样。$$\pi_i$$是task-specific stochastic policy。
+
+目标函数是期望返回值加上policy regularization。policy regularizer是$$\gamma$$-discounted KL divergence: $$\mathbb{E}_{\pi_i} [\sum_{t \ge 0} \gamma^t log \frac{\pi_i(a_t|s_t)}{\pi_0(a_t|s_t)} ] $$
+
