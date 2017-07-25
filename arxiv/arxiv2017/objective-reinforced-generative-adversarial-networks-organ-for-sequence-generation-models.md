@@ -40,7 +40,7 @@ ORGAN在RL的reward函数上，还增加了一个GAN discriminator项。generato
 
 1. tonality：有多少个生成的fifths（太专业了，谁能帮忙？）
 2. melodicity：为了降低的和音，有几种interval。如果一个interval要上melodic，必需是前三个中的一种。
-3. ratio of steps
+3. ratio of steps：step是两个连续note中间的interval。skip是longer interval。通过增加steps，能够使得音乐的跳跃性变小，从而更加好听。
 
 # Appendix
 
