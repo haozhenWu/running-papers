@@ -123,6 +123,7 @@
     * [Order Matters: Sequence To Sequence For Sets](iclr/iclr2016/order_matters_sequence_to_sequence_for_sets.md)
     * [Learning to SMILE\(S\)](iclr/iclr2016/learning-to-smiles.md)
     * [Multi-task Sequence To Sequence Learning](iclr/iclr2016/multi-task-sequence-to-sequence-learning.md)
+    * [Actor-Mimic Deep Multitask and Transfer Reinforcement Learning](iclr/iclr2016/actor-mimic-deep-multitask-and-transfer-reinforcement-learning.md)
   * [2015](iclr/iclr2015/iclr2015.md)
     * [Adam: A Method For Stochastic Optimization](iclr/iclr2015/adam_a_method_for_stochastic_optimization.md)
     * [A Unified Perspective on Multi-Domain And Multi-Task Learning](iclr/iclr2015/a-unified-perspective-on-multi-domain-and-multi-task-learning.md)
