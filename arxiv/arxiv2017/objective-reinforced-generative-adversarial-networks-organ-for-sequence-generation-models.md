@@ -14,6 +14,8 @@ ORGAN在RL的reward函数上，还增加了一个GAN discriminator项。generato
 1. 原始的objective函数，是固定的
 2. discriminator部分，有generator动态决定的
 
+动态的discriminator部分能够避免产生uninteresting或者重复的数据。
+
 # Appendix
 
 附refer的文章，也是用的RL进行molecule generation
