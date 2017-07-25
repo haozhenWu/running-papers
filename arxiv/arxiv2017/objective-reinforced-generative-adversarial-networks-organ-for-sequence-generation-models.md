@@ -6,7 +6,7 @@ Harvad
 
 # Intro
 
-RL可以生成任意的序列。在naive RL中，使用固定的reward并且将模型用于决策。
+RL可以生成任意的序列。在naive RL中，使用固定的reward并且将模型用于决策。这会产生unphysical/uninteresting samples。
 
 # Appendix
 
