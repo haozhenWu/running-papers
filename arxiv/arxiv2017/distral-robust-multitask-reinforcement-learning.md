@@ -17,3 +17,7 @@ DQN中，使用DNN作为agent，但是训练需要大量的数据和时间，学
 # Distral: Distill and Transfer Learning
 
 Distral最核心的是一个shared policy，将task-specific policy中的共同行为和表达提取出来。然后关键步骤是，提取的distilled policy会通过使用KL divergence作为regularization，来指导task-specific policies。
+
+## Mathematical framework
+
+假设action space $$A$$和state space $$S$$对于所有的task都一样。但是转换$$p_i(s'|s,a)$$和reward function $$R_i(a,s)$$对于每一个task都不一样。
