@@ -30,7 +30,7 @@ $$ J(\pi_0\{ \pi_i \}_{1}^n ) = \sum_i \mathbb{E}_{\pi_i}[ \sum_{t \ge 0} \gamma
 
 $$ = \sum_i \mathbb{E}_{\pi_i}[ \sum_{t \ge 0} \gamma^t R_i(a_t, s_t) + \frac{\gamma^t \alpha}{\beta} log \, \pi_0(a_t|s_t) - \frac{\gamma^t}{\beta} log \, \pi_i(a_t|s_t) ]  $$
 
-其中$$c_{KL}$$和$$c_{Ent}$$是regularizer的因子，$$\alpha = \frac{c_{KL}}{c_{KL}+c_{Ent}}$$, $$\beta = \frac{1}{c_{KL}+c_{Ent}}$$。
+其中$$c_{KL}$$和$$c_{Ent}$$是regularizer的因子，$$\alpha = \frac{c_{KL}}{c_{KL}+c_{Ent}}$$, $$\beta = \frac{1}{c_{KL}+c_{Ent}}$$。$$log \, \pi_0(a_t|s_t)$$ is a reward shaping term, $$-\pi_i(a_t|s_t)$$ encourages exploration。
 
 
 # Appendix
