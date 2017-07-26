@@ -141,6 +141,7 @@
 * [AAAI](aaai/aaai.md)
   * [2017](aaai/aaai2017/aaai2017.md)
     * [Deep MIML Network](aaai/aaai2017/deep-miml-network.md)
+    * [SeqGAN: Sequence Generative Adversarial Nets with Policy Gradient](aaai/aaai2017/seqgan-sequence-generative-adversarial-nets-with-policy-gradient.md)
 * [AISTAT](aistat/aistat.md)
   * [2017](aistat/aistat2017/aistat2017.md)
     * [Less Than a Single Pass: Stochastically Controlled Stochastic Gradient](aistat/aistat2017/less-than-a-single-pass-stochastically-controlled-stochastic-gradient.md)
