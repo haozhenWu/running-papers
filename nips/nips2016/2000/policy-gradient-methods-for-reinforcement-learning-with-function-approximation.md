@@ -22,7 +22,7 @@ value function approximation有几个缺陷：
 1. average reward formulation，使用long-term expected reward per step来评估policy
 $$ \rho(\pi) = \underset{n \to \infty}{lim} \, \frac{1}{n} \, \mathbb{E}[r_1 + r_2 + ... + r_n|\pi] = \sum_s d^\pi(s) \sum_a \pi(s,a) R_s^a $$
 其中$$ d^\pi(s) = lim_{t \to \infty} Pr\{ s_t=s|s_0,\pi \} $$ 是在策略$$\pi$$下，状态的分布。
-
+2. 第二种是已经有了初始状态$$s_0$$，只关心从这个初始状态开始的long-term reward。
 
 # Appendix
 
