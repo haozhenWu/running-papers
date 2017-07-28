@@ -107,3 +107,5 @@ $$ L(u) = \mathbb{E}[r_1 + \gamma r_2 + \gamma^2 r_3 + ... | \pi(\cdot,u)] $$
 对于DP的理解比较容易，传统的Q-learning在给定所有action和state reward之后也比较容易计算。但是在未知的时候，如何结合Deep Learning进行一系列决策就比较有意思了。
 
 Model-based Deep RL部分介绍比较简单，不过前面的已经可以尝试一下。
+
+另外附上找到的一个[blog](https://kofzor.github.io/Reinforcement_Learning_101/#comparing-reinforcement-learning-algorithms)，很好的介绍了on-policy和off-policy的区别。
