@@ -11,3 +11,5 @@ AT&T
 value function approximation有几个缺陷：
 1. 找到的是deterministic policy
 2. 对某一个action的value function只要有一点点小改变，就可能改变这个行为是否会被选中。比如Q-learning，Sarsa，DP对于很简单的MDP，都可能会收敛到不同的policy
+
+以往都是估计value function，并用这个数值来得到/更新一个stochastic policy，我们提出了使用一个stochastic policy。
