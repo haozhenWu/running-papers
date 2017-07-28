@@ -101,6 +101,8 @@
     * [Distance metric learning, with application to clustering with side-information](nips/nips2003/distance_metric_learning,_with_application_to_clus.md)
   * [2002](nips/nips2002/nips2002.md)
     * [An Impossibility Theorem for Clustering](nips2002/an-impossibility-theorem-for-clustering.md)
+  * [2000](nips/nips2016/2000.md)
+    * [Policy Gradient Methods for Reinforcement Learning with Function Approximation](nips/nips2016/2000/policy-gradient-methods-for-reinforcement-learning-with-function-approximation.md)
 * [ICML](icml/icml.md)
   * [2016](icml/icml2016/icml2016.md)
     * [Learning Relational Sum-Product Networks](icml/icml2016/learning_relational_sum-product_networks.md)
