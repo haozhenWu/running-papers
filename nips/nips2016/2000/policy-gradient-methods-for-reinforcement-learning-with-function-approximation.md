@@ -32,6 +32,10 @@ $$d^\pi(s) = \sum_{t=0} \gamma^t Pr\{s_t=s|s_0, \pi \}$$是定义的discounted w
 > Theorem (Policy Gradient),对于任意的MDP，不管是average-reward还是start-state，都有
 $$\frac{\partial \rho}{\partial \theta} = \sum_s d^\pi(s) \sum_a \frac{\partial \pi(s,a)}{\partial \theta} Q^\pi(s,a)$$
 
+# Policy Gradient with Approximation
+
+$$f_w: S \times A \to R$$是对$$Q^\pi$$的估计。
+
 # Appendix
 
 可以配合David Silver的[讲义](http://www0.cs.ucl.ac.uk/staff/d.silver/web/Teaching_files/FA.pdf)理解。简单地说，value function approximation都是预测state/action function value，而这里我们预测的是action probability。第一个问题是，如果action space是连续的，那我们如何进行预测？通过regression方法输出连续的数值么？
