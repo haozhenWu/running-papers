@@ -13,3 +13,7 @@ value function approximation有几个缺陷：
 2. 对某一个action的value function只要有一点点小改变，就可能改变这个行为是否会被选中。比如Q-learning，Sarsa，DP对于很简单的MDP，都可能会收敛到不同的policy
 
 以往都是估计value function，并用这个数值来得到/更新一个stochastic policy，我们提出了使用一个stochastic policy。比如，一个policy可以是使用一个NN表示，其中输入时状态，输出是每个action选择的概率，weight就是参数。然后就可以使用gradient descent的方法来更新NN。
+
+# Appendix
+
+可以配合David Silver的[讲义](http://www0.cs.ucl.ac.uk/staff/d.silver/web/Teaching_files/FA.pdf)理解。简单地说，value function approximation都是预测state/action function value，而这里我们预测的是action probability。第一反应是，如果action space是连续的，那我们如何进行预测？
