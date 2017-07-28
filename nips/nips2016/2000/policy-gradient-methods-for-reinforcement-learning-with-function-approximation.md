@@ -19,10 +19,14 @@ value function approximation有几个缺陷：
 环境的动态表现为状态转移的概率$$P_{ss'}^a = Pr\{ s_{t+1}=s' | s_t=s, a_t=a \} $$，和期望reward $$R_s^a = E\{ r_{t+1} | s_t=s, a_t=a \} $$。agent每一个时刻的决策制定是policy，$$\pi(s,a,\theta) = Pr\{a_t=a|s_t=s,\theta \} $$，并且$$\theta$$是parameter向量，远远小于状态空间。
 
 对于function approximation，有两种方法：
-1. average reward formulation，使用long-term expected reward per step来评估policy
+1. average reward formulation: 使用long-term expected reward per step来评估policy
 $$ \rho(\pi) = \underset{n \to \infty}{lim} \, \frac{1}{n} \, \mathbb{E}[r_1 + r_2 + ... + r_n|\pi] = \sum_s d^\pi(s) \sum_a \pi(s,a) R_s^a $$
+$$ Q^\pi(s,a) = \sum_{t=1} \mathbb{E}\{ r_t - \rho(\pi) | s_0=s, a_0=a,\pi \} $$
 其中$$ d^\pi(s) = lim_{t \to \infty} Pr\{ s_t=s|s_0,\pi \} $$ 是在策略$$\pi$$下，状态的分布。
-2. 第二种是已经有了初始状态$$s_0$$，只关心从这个初始状态开始的long-term reward。
+2. start-state formulation: 第二种是已经有了初始状态$$s_0$$，只关心从这个初始状态开始的long-term reward。
+$$\rho(\pi) = \mathbb{E}\{ \sum_{t=1} \gamma^{t-1} r_t | s_0, \pi\}$$
+$$ Q^\pi(s,a) = \mathbb{E} \{ \sum_{k=1} \gamma^{k-1} r_{t+k} | s_t=s, a_t=a, \pi \} $$
+期中$$\gamma$$是discount rate。
 
 # Appendix
 
