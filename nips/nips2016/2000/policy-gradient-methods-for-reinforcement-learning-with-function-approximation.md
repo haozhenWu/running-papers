@@ -27,6 +27,7 @@ $$ Q^\pi(s,a) = \sum_{t=1} \mathbb{E}\{ r_t - \rho(\pi) | s_0=s, a_0=a,\pi \} $$
 $$\rho(\pi) = \mathbb{E}\{ \sum_{t=1} \gamma^{t-1} r_t | s_0, \pi\}$$
 $$ Q^\pi(s,a) = \mathbb{E} \{ \sum_{k=1} \gamma^{k-1} r_{t+k} | s_t=s, a_t=a, \pi \} $$
 期中$$\gamma$$是discount rate。
+$$d^\pi(s) = \sum_{t=0} \gamma^t Pr\{s_t=s|s_0, \pi \}$$是定义的discounted weight of states。
 
 # Appendix
 
