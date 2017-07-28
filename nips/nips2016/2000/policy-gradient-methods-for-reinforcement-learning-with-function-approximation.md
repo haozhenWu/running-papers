@@ -20,4 +20,4 @@ value function approximation有几个缺陷：
 
 # Policy Gradient Theorem
 
-环境的动态表现为状态转移的概率$$P_{ss'}^a = Pr\{ s_{t+1}=s' | s_t=s, a_t=a \} $$，和期望reward $$R_s^a = E\{ r_{t+1} | s_t=s, a_t=a \} $$。agent每一个时刻的决策制定是policy，$$\pi(s,a,\theta) = Pr\{a_t=a|s_t=s,\theta \} $$。
+环境的动态表现为状态转移的概率$$P_{ss'}^a = Pr\{ s_{t+1}=s' | s_t=s, a_t=a \} $$，和期望reward $$R_s^a = E\{ r_{t+1} | s_t=s, a_t=a \} $$。agent每一个时刻的决策制定是policy，$$\pi(s,a,\theta) = Pr\{a_t=a|s_t=s,\theta \} $$，并且$$\theta$$是parameter向量，远远小于状态空间。
