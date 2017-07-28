@@ -17,3 +17,7 @@ value function approximation有几个缺陷：
 # Appendix
 
 可以配合David Silver的[讲义](http://www0.cs.ucl.ac.uk/staff/d.silver/web/Teaching_files/FA.pdf)理解。简单地说，value function approximation都是预测state/action function value，而这里我们预测的是action probability。第一个问题是，如果action space是连续的，那我们如何进行预测？通过regression方法输出连续的数值么？
+
+# Policy Gradient Theorem
+
+环境的动态表现为状态转移的概率$$P_{ss'}^a = Pr\{ s_{t+1}=s' | s_t=s, a_t=a \} $$，和期望reward $$R_s^a = E\{ r_{t+1} | s_t=s, a_t=a \} $$。agent每一个时刻的决策制定是policy，$$\pi(s,a,\theta) = Pr\{a_t=a|s_t=s,\theta \} $$。
