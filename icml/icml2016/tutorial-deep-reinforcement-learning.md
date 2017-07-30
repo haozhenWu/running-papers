@@ -1,6 +1,6 @@
 asd撒旦发撒旦# Tutorial: Deep Reinforcement Learning
 
-Davud Sukter, Google DeepMind
+David Silver, Google DeepMind
 
 # Reinforcement Learning
 
