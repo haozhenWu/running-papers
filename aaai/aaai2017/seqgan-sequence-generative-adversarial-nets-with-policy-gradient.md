@@ -9,3 +9,5 @@ RNN经常用于sequence generation，而且通常是最大化log predictive like
 GAN模型也可以用来处理上面问题。但是将GAN用于seq generation有两个问题
 1. GAN是为了产生连续的数据，对于discrete还有问题
 2. GAN只有为整个序列产生score/loss，对于partially generated seq没有
+
+通过这个办法解决：把sequence generation当作sequential decision making过程，生成模型就被当作RL中的agent，state是已经生成的token，action是下一个选什么token赖声川。为了给reward，我们使用discriminator来评估生成的序列，而用评估的反馈来指导generative model。
