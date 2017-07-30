@@ -32,5 +32,7 @@ $$ J_\beta(\pi_\theta) = \int_S \rho^\beta(s) V^\pi(s) ds = \int_S \int_A \rho^\
 
 $$ \bigtriangledown_\theta J_\beta(\pi_\theta) \approx \int_S \int_A \rho^\beta(s) \bigtriangledown_\theta \pi_\theta(a|s) Q^\pi(s,a) da ds = \mathbb{E}_{s \sim \rho^\beta ,a \sim \beta} \bigtriangledown_\theta log \pi_\theta (a|s) Q^\pi(s,a) $$
 
+TBC
+
 # Appendix
 
