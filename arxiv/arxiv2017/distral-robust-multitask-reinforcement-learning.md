@@ -43,3 +43,6 @@ $$
 
 # Appendix
 
+有几篇相关paper
+
+Razvan, etc. Actor-mimic: Deep multitask and transfer reinforcement learning
