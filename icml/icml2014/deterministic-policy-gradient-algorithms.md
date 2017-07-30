@@ -10,4 +10,4 @@ David Silver, Guy Lever, Nicolas Heess, Thomas Degris, Daan Wierstra, Martin Rie
 
 这篇论文相反考虑deterministic policy $$a=\mu_\theta(s)$$。证明了有效性和简洁性。并且也展示了deterministic policy gradient是stochastic在policy variance接近0的特殊情况。
 
-中间还是使用了bootstrap的想法，设计一个off-policy算法，通过behavior policy进行随机选择action。基本思路还是通过stochastic behavior policy选择action，但是学的target policy是deterministic。使用deterministic policy gradient来获得一个off-policy actor-critic算法，来获取一个可导的action-value function，然后更新。（这里是off-policy的原因是，behavior policy和target policy不同，前者stochastic，后者deterministic）
+中间还是使用了bootstrap的想法，设计一个off-policy算法，通过behavior policy进行随机选择action。基本思路还是通过stochastic behavior policy选择action，但是学的target policy是deterministic。使用deterministic policy gradient来获得一个off-policy actor-critic算法，来获取一个可导的估计值来估计action-value function，然后更新。（这里是off-policy的原因是，behavior policy和target policy不同，前者stochastic，后者deterministic）同时引入了compatible function approximation的概念，来保证/减少估计不会bias policy gradient。
