@@ -51,3 +51,5 @@ DNN,CNN,RCNN是常用的序列分类算法。这里使用CNN。
 # Appendix
 
 正好看这篇paper的weekday，Paper Weekly请来了作者进行介绍。附上[slide](http://lantaoyu.com/files/2017-07-26-gan-for-discrete-data.pdf)
+
+文章结尾说它这是使用GAN生成离散序列最早的应用，但我记得2017年年初的时候就有人用GAN model生成SMILES序列，会挺再比较一下。
