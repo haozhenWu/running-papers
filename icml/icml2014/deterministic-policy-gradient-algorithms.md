@@ -18,4 +18,5 @@ David Silver, Guy Lever, Nicolas Heess, Thomas Degris, Daan Wierstra, Martin Rie
 
 除了一些通用的anotation之外，这里再注明一下。
 
-stochastic policy中，$$\pi_\theta$$是任意一个参数为$$\theta$$的policy，而$$\pi_\theta(s_t,a_t)$$就是在时间t，状态为s的情况下，选择动作a的条件概率。
+stochastic policy中，$$\pi_\theta$$是任意一个参数为$$\theta$$的policy，而$$\pi_\theta(s_t,a_t)$$就是在时间t，状态为s的情况下，选择动作a的条件概率。然后agent给一个state，action和reward的trajectory，而返回是total discounted reward。value function是total discounted reward的期望。agent就为了找一个return最大的policy。
+
