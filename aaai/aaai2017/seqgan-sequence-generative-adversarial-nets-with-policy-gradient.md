@@ -14,3 +14,6 @@ GAN模型也可以用来处理上面问题。但是将GAN用于seq generation有
 
 # Sequence Generative Adversarial Nets
 
+# Appendix
+
+正好看这篇paper的weekday，Paper Weekly请来了作者进行介绍。附上[slide](http://lantaoyu.com/files/2017-07-26-gan-for-discrete-data.pdf)。
