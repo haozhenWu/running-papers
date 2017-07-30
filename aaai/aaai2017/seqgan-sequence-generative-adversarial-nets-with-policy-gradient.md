@@ -22,7 +22,7 @@ GAN模型也可以用来处理上面问题。但是将GAN用于seq generation有
 
 $$J(\theta) = \mathbb{E}[R_T|s_0, \theta] = \sum_{y_1} G_\theta(y_1|s_0) \cdot Q_{D_\phi}^{G_\theta} (s_0, y_1) $$
 
-一个问题是如何policy evaluation。考虑使用$$D_\phi$$给出的概率值作为reward。但是判别器只给finished sequence提供reward value。既然我们关心的是长期的reward，那么每一个timestep，不应该直关心前面已经生成序列的fitness，同时也要关心最终的outcome。
+一个问题是如何policy evaluation。考虑使用$$D_\phi$$给出的概率值作为reward。但是判别器只给finished sequence提供reward value。既然我们关心的是长期的reward，那么每一个timestep，不应该直关心前面已经生成序列的fitness，同时也要关心最终的outcome。因此，为了评估中间状态的action-state value，在MC搜索上再应用roll-out policy $$G_\beta$$，来抽样后面的tokens。
 
 # Appendix
 
