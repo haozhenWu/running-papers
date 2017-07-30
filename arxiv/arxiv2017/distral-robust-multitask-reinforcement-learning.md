@@ -45,6 +45,16 @@ $$
 
 分别有KL divergence和entropy作为regularization情况。可以使用两种优化策略，alternating或者joint；前者同时训练distilled policy和task policy；后者类似EM，迭代的固定一个训练另外一个。对于每一个task训练的时候，也可以使用soft Q-learning代替policy gradient。soft Q-learning可能会训练的慢一点，但是训练的模型会更加稳定，尤其是非常不相同的task。
 
+# Experiment
+
+## Two room grid world
+
+每一个task都是由不同的终点区分，每一个state都是由地图位置和前一次行为和reward表示。
+
+## Complex tasks
+
+在3D环境下的游戏做测试。
+
 # Appendix
 
 有几篇相关paper
