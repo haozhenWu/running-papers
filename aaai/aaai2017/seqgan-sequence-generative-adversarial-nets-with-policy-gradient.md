@@ -46,6 +46,8 @@ DNN,CNN,RCNN是常用的序列分类算法。这里使用CNN。
 
 在generated texts和human-created texts进行评估时，用BLUE scores。
 
+被证明SeqGAN比MLE有效。
+
 # Appendix
 
 正好看这篇paper的weekday，Paper Weekly请来了作者进行介绍。附上[slide](http://lantaoyu.com/files/2017-07-26-gan-for-discrete-data.pdf)
