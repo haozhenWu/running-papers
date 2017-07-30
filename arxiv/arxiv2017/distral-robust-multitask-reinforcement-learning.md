@@ -55,6 +55,12 @@ $$
 
 在3D环境下的游戏做测试。
 
+**Mazes** 不同的任务是不同的迷宫组成，随机的reward，和不同的目标。distral算法训练得更加快，并且更加稳定。
+
+**Navigation**
+
+**Laser-tag**
+
 # Appendix
 
 有几篇相关paper
