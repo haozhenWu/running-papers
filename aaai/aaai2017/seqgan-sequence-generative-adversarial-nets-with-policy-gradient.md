@@ -26,6 +26,22 @@ $$J(\theta) = \mathbb{E}[R_T|s_0, \theta] = \sum_{y_1} G_\theta(y_1|s_0) \cdot Q
 
 Algorithm. 1描述了完整的流程。pre-train可以有效提训练效率。
 
+## The Generative Model For Sequences
+
+使用LSTM
+
+## The Discriminative Model for Sequences
+
+DNN,CNN,RCNN是常用的序列分类算法。这里使用CNN。
+
+# Synthetic Data Experiments
+
+测试是使用了一个随机的LSTM作为true model，来产生real data distribution。
+
+## Evaluation Metric
+
+使用人工合成的LSTM好处就是能够准确的评估性能。（evaluation在generation model中也是一个困难点）
+
 # Appendix
 
 正好看这篇paper的weekday，Paper Weekly请来了作者进行介绍。附上[slide](http://lantaoyu.com/files/2017-07-26-gan-for-discrete-data.pdf)
