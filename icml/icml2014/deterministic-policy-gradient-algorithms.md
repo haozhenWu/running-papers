@@ -16,3 +16,4 @@ David Silver, Guy Lever, Nicolas Heess, Thomas Degris, Daan Wierstra, Martin Rie
 
 # Background
 
+除了一些通用的anotation之外，这里再注明一下。$$\pi_\theta$$是任意一个参数为$$\theta$$的policy。
