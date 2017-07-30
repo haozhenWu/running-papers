@@ -44,7 +44,7 @@ DNN,CNN,RCNN是常用的序列分类算法。这里使用CNN。
 
 # Real-world Scenario
 
-在generated texts和human-created texts进行评估时，经常会用到BLUE scores。
+在generated texts和human-created texts进行评估时，用BLUE scores。
 
 # Appendix
 
