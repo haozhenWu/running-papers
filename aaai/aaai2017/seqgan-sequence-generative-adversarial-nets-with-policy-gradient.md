@@ -14,9 +14,7 @@ GAN模型也可以用来处理上面问题。但是将GAN用于seq generation有
 
 # Sequence Generative Adversarial Nets
 
-训练一个generative model $$G_\theta$$，策略是随机的。
-
-判别模型discriminative model $$D_\phi$$，是用来判断多大概率这个序列是真实数据还是人工生成的。
+训练一个generative model $$G_\theta$$，策略是随机的。判别模型discriminative model $$D_\phi$$，是用来判断多大概率这个序列是真实数据还是人工生成的。同时使用policy gradient和蒙特卡洛搜索来更新$$G_\theta$$。其中MC收到的reward期望是来自于$$D_\phi$$判断为真是序列的likelihood。
 
 # Appendix
 
