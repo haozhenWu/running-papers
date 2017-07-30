@@ -34,7 +34,12 @@ $$ = \sum_i \mathbb{E}_{\pi_i}[ \sum_{t \ge 0} \gamma^t R_i(a_t, s_t) + \frac{\g
 
 ## Soft Q-Learning and Distillation
 
-上述的目标函数可以当作优化：在给定$$\pi_0$$情况下，对每一个$$\pi_i$$进行优化。也就是$$\pi_0$$固定时，每一个任务
+上述的目标函数可以当作优化：在给定$$\pi_0$$情况下，对每一个$$\pi_i$$进行优化。也就是$$\pi_0$$固定时，每一个任务都可以当作独立的优化。可以使用soft Q-learning，也就是G learning优化：
+
+$$
+V_i(s_t) = \frac{1}{\beta} log \sum_{a_t} \pi_0^\alpha (a_t|s_t) exp [\beta Q_i (a_t,s_t)]\\
+Q_i(a_t, s_t) = R_i(a_t, s_t) + \gamma \sum_{s_t} p_i(s_{t+1} | s_t, a_t) V_i (s_{t+1})
+$$
 
 # Appendix
 
