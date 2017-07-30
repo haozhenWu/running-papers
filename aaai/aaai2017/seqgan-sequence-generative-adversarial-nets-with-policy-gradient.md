@@ -16,6 +16,12 @@ GAN模型也可以用来处理上面问题。但是将GAN用于seq generation有
 
 训练一个generative model $$G_\theta$$，策略是随机的。判别模型discriminative model $$D_\phi$$，是用来判断多大概率这个序列是真实数据还是人工生成的。同时使用policy gradient和蒙特卡洛搜索来更新$$G_\theta$$。其中MC收到的reward期望是来自于$$D_\phi$$判断为真是序列的likelihood。
 
+## SeqGAN via Policy Gradient
+
+生成模型的目的是为了返回从开始状态能生成最大reward期望的序列
+
+$$J(\theta) = \mathbb{E}[R_T|s_0, \theta] = \sum_{y_1} G_\theta(y_1|s_0) \cdot Q_{D_\phi}^{G_\theta} (s_0, y_1) $$
+
 # Appendix
 
 正好看这篇paper的weekday，Paper Weekly请来了作者进行介绍。附上[slide](http://lantaoyu.com/files/2017-07-26-gan-for-discrete-data.pdf)
