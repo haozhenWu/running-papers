@@ -11,3 +11,4 @@ David Silver, Guy Lever, Nicolas Heess, Thomas Degris, Daan Wierstra, Martin Rie
 这篇论文相反考虑deterministic policy $$a=\mu_\theta(s)$$。证明了有效性和简洁性。并且也展示了deterministic policy gradient是stochastic在policy variance接近0的特殊情况。
 
 中间还是使用了bootstrap的想法，设计一个off-policy算法，通过behavior policy进行随机选择action。
+

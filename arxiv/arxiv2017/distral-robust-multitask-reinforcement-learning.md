@@ -32,6 +32,9 @@ $$ = \sum_i \mathbb{E}_{\pi_i}[ \sum_{t \ge 0} \gamma^t R_i(a_t, s_t) + \frac{\g
 
 其中$$c_{KL}$$和$$c_{Ent}$$是regularizer的因子，$$\alpha = \frac{c_{KL}}{c_{KL}+c_{Ent}}$$, $$\beta = \frac{1}{c_{KL}+c_{Ent}}$$。$$log \, \pi_0(a_t|s_t)$$ is a reward shaping term, $$- log \, \pi_i(a_t|s_t)$$ encourages exploration。
 
+## Soft Q-Learning and Distillation
+
+上述的目标函数可以当作优化：在给定$$\pi_0$$情况下，对每一个$$\pi_i$$进行优化。也就是$$\pi_0$$固定时，每一个任务
 
 # Appendix
 
