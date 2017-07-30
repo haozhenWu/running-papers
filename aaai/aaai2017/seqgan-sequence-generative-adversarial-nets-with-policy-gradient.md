@@ -42,6 +42,10 @@ DNN,CNN,RCNN是常用的序列分类算法。这里使用CNN。
 
 使用人工合成的LSTM好处就是能够准确的评估性能。（evaluation在generation model中也是一个困难点）MLE是为了最小化真实数据和生成数据的cross-entropy，但是更有效的评估方法是让人工观察（这个会不会有些主观）。
 
+# Real-world Scenario
+
+在generated texts和human-created texts进行评估时，经常会用到BLUE scores。
+
 # Appendix
 
 正好看这篇paper的weekday，Paper Weekly请来了作者进行介绍。附上[slide](http://lantaoyu.com/files/2017-07-26-gan-for-discrete-data.pdf)
