@@ -59,7 +59,11 @@ $$
 
 **Navigation** 和前一个任务不同，这里每一个episode（可以认为是一次完整的轮回）每一个task都有一样的地图，但是返回内容不一样。比如有的reward是随机的，有的要反复从不同的起始点出发，有的是有随机开闭的门。distral结果更优。
 
-**Laser-tag**
+**Laser-tag** 需要agent学习标签自动程序。这里的结果distral并不是最好。
+
+# Discussion
+
+贡献是提出了一个distral RL方法，效果比纯粹的共享NN parameter方法的multitask要好。
 
 # Appendix
 
