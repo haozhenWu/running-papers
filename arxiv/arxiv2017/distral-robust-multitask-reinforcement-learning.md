@@ -41,6 +41,10 @@ V_i(s_t) = \frac{1}{\beta} log \sum_{a_t} \pi_0^\alpha (a_t|s_t) exp [\beta Q_i 
 Q_i(a_t, s_t) = R_i(a_t, s_t) + \gamma \sum_{s_t} p_i(s_{t+1} | s_t, a_t) V_i (s_{t+1})
 $$
 
+# Algorithm
+
+分别有KL divergence和entropy作为regularization情况。可以使用两种优化策略，alternating或者joint；前者同时训练distilled policy和task policy；后者类似EM，迭代的固定一个训练另外一个。对于每一个task训练的时候，也可以使用soft Q-learning代替policy gradient。
+
 # Appendix
 
 有几篇相关paper
