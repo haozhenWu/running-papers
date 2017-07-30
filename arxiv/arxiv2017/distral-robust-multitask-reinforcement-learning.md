@@ -65,6 +65,8 @@ $$
 
 贡献是提出了一个distral RL方法，效果比纯粹的共享NN parameter方法的multitask要好。
 
+另外观察到NN的参数没有什么具体的语法含义，所以预期从parameter space的角度进行regularization，不然从语义的角度进行regularization，比如policy。
+
 # Appendix
 
 有几篇相关paper
