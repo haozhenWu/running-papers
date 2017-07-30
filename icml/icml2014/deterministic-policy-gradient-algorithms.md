@@ -16,4 +16,6 @@ David Silver, Guy Lever, Nicolas Heess, Thomas Degris, Daan Wierstra, Martin Rie
 
 # Background
 
-除了一些通用的anotation之外，这里再注明一下。$$\pi_\theta$$是任意一个参数为$$\theta$$的policy。
+除了一些通用的anotation之外，这里再注明一下。
+
+stochastic policy中，$$\pi_\theta$$是任意一个参数为$$\theta$$的policy，而$$\pi_\theta(s_t,a_t)$$就是在时间t，状态为s的情况下，选择动作a的条件概率。
