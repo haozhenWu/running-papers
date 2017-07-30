@@ -23,3 +23,14 @@ stochastic policy中，$$\pi_\theta$$是任意一个参数为$$\theta$$的policy
 ## Off-Policy Actor-Critic
 
 actor是为了调整参数，critic是为了评估Q函数。
+
+在off-policy的设定中，performance objective函数是特定为了改变target policy的value function（平均到behavior policy的state distribution）
+
+$$ J_\beta(\pi_\theta) = \int_S \rho^\beta(s) V^\pi(s) ds = \int_S \int_A \rho^\beta(s) \pi_\theta(a|s) Q^\pi(s,a) da ds $$
+
+之后对其求导，已经使用估计值，能有
+
+$$ \bigtriangledown_\theta J_\beta(\pi_\theta) \approx \int_S \int_A \rho^\beta(s) \bigtriangledown_\theta \pi_\theta(a|s) Q^\pi(s,a) da ds = \mathbb{E}_{s \sim \rho^\beta ,a \sim \beta} \bigtriangledown_\theta log \pi_\theta (a|s) Q^\pi(s,a) $$
+
+# Appendix
+
