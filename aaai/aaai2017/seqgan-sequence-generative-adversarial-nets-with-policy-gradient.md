@@ -24,6 +24,8 @@ $$J(\theta) = \mathbb{E}[R_T|s_0, \theta] = \sum_{y_1} G_\theta(y_1|s_0) \cdot Q
 
 一个问题是如何policy evaluation。考虑使用$$D_\phi$$给出的概率值作为reward。但是判别器只给finished sequence提供reward value。既然我们关心的是长期的reward，那么每一个timestep，不应该直关心前面已经生成序列的fitness，同时也要关心最终的outcome。因此，为了评估中间状态的action-state value，在MC搜索上再应用roll-out policy $$G_\beta$$，来抽样后面的tokens。如果rollout是non-uniform，就可以有$$\epsilon-greedy$$。，不过这里没有提具体哪种rollout。
 
+Algorithm. 1描述了完整的流程。pre-train可以有效提训练效率。
+
 # Appendix
 
 正好看这篇paper的weekday，Paper Weekly请来了作者进行介绍。附上[slide](http://lantaoyu.com/files/2017-07-26-gan-for-discrete-data.pdf)
