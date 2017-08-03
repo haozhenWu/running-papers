@@ -87,6 +87,12 @@ $$V^\pi(s_t) = \mathbb{E}_\pi [ \sum_{t'=t}^\infty r(s_{t'}, a_{t'})/c + log \, 
 
 感兴趣的还是molecule generation，是上次NIPS 2016 workshop之后新添加的实验内容。
 
+使用Tutor Seq产生的序列只有三分之一是valid。另外使用这么几个evaluation method：
+
+1. water-octanol partition coefficient (logP)
+2. synthetic accessibility (SA)
+3. quantitative estimation of drug-likeness (QED)
+
 # Appendix
 
 DQN的paper：Mnih et al. Playing atari with deep reinforcement learning
