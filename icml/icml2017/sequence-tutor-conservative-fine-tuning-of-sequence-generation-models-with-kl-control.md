@@ -45,7 +45,7 @@ L(\theta) = \mathbb{E}_\beta [ ( log \, p(a|s) + r(s,a)/c + \gamma \, \underset{
 \pi_\theta(a|s) = \delta(a= arg \, \underset{a}{max} \, Q(s,a;\theta))
 $$
 
-如同最后一个式子展示的，DQN学习的是一个deterministic policy，对于sequence generator不理想，最佳的应该是stochastic。
+如同最后一个式子展示的，DQN学习的是一个deterministic policy，对于sequence generator不理想，最佳的应该是stochastic。因此，在模型训练完之后，我们通过预测的Q-value，成指数级地进行抽样。
 
 # Appendix
 
