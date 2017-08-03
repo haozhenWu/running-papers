@@ -81,6 +81,12 @@ $$V^\pi(s_t) = \mathbb{E}_\pi [ \sum_{t'=t}^\infty r(s_{t'}, a_{t'})/c + log \, 
 
 后面的内容都是新添加的，TBC
 
+# Experiment
+
+首先做了melody generation，估计因为作者本身学艺术，而且是MIT media group的原因吧，domain knowledge足够。
+
+感兴趣的还是molecule generation，是上次NIPS 2016 workshop之后新添加的实验内容。
+
 # Appendix
 
 DQN的paper：Mnih et al. Playing atari with deep reinforcement learning
