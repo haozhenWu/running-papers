@@ -77,6 +77,8 @@ $$
 
 $$V^\pi(s_t) = \mathbb{E}_\pi [ \sum_{t'=t}^\infty r(s_{t'}, a_{t'})/c + log \, p(a_{t'}|s_{t'}) - log \, \pi(a_{t'}|s_{t'}) ] $$
 
+这个叫做generalized $$\Psi$$ function。
+
 # Appendix
 
 DQN的paper：Mnih et al. Playing atari with deep reinforcement learning
