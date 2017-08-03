@@ -80,3 +80,5 @@ $$V^\pi(s_t) = \mathbb{E}_\pi [ \sum_{t'=t}^\infty r(s_{t'}, a_{t'})/c + log \, 
 # Appendix
 
 DQN的paper：Mnih et al. Playing atari with deep reinforcement learning
+
+这篇paper还有一个类似内容，被ICLR 2017收录，叫Tuning Recurrent Neural Networks with Reinforcement Learning
