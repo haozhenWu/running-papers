@@ -30,6 +30,10 @@ $$L(\theta) = \mathbb{E}_\beta [ (r(s,a) + \gamma \, \underset{a'}{max} Q(s',a';
 
 一共有三种LSTM模型，图1展示了流程。Reward RNN在训练的时候是固定的，并且当作prior policy。
 
+## Q-learning with log prior augmentation
+
+
+
 # Appendix
 
 DQN的paper：Mnih et al. Playing atari with deep reinforcement learning
