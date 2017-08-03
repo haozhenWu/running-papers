@@ -23,3 +23,7 @@ $$
 $$L(\theta) = \mathbb{E}_\beta [ (r(s,a) + \gamma \, \underset{a'}{max} Q(s',a'; \theta^-) - Q(s,a;\theta))^2 ]$$
 
 其中$$\beta$$是exploration policy，或者说是behavior policy，而$$\theta^-$$是target policy。说off－policy，是因为在训练的时候，只更新behavior policy，而固定target policy。
+
+# Sequence Tutor
+
+给定已经训练好的
