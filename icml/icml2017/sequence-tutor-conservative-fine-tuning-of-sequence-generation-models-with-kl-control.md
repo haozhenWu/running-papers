@@ -26,7 +26,7 @@ $$L(\theta) = \mathbb{E}_\beta [ (r(s,a) + \gamma \, \underset{a'}{max} Q(s',a';
 
 # Sequence Tutor
 
-给定已经训练好的sequence generation RNN，
+给定已经训练好的sequence generation RNN，把pre-trained model当作黑箱的prior policy。
 
 # Appendix
 
