@@ -13,4 +13,4 @@ DL和RL有这么几个不同：
 + DL假设数据是相互独立的，而RL则是有连续关系的。
 + RL的data distribution/policy是变换的，而DL是假设有一个固定的data distribution。
 
-这篇论文就证明了，将CNN和RL结合起来，能够克服这些问题。
+这篇论文就证明了，将CNN和RL结合起来，能够克服这些问题。为了解决最后两个问题，correlated data和non-stationary distribution，用了relay mechanism，就是将历史数据进行打散，因此来使得training distribution over past behaviors更加平缓。
