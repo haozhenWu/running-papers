@@ -49,7 +49,7 @@ $$
 
 ## KL Control for Sequence Generation
 
-如果能把这个问题变成sequential decision-making problem，而生产的序列性质是由target reward决定的，那么这个问题可以被认为是non-Markovian system的KL control问题。KL control就是让agent最大化task reward的同时，还要最小化deviation from a prior policy。
+如果能把这个问题变成sequential decision-making problem，而生产的序列性质是由target reward决定的，那么这个问题可以被认为是non-Markovian system的KL control问题。KL control就是让agent最大化task reward的同时，还要最小化deviation from a prior policy。这里，我们把一个训练好的MLE sequence model当作prior policy，目标就是训练一个新的sequence model，来最大化一下reward，同时还要尽可能接近原来的MLE模型。
 
 # Appendix
 
