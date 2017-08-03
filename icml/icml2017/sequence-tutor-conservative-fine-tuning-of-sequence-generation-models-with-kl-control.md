@@ -93,6 +93,8 @@ $$V^\pi(s_t) = \mathbb{E}_\pi [ \sum_{t'=t}^\infty r(s_{t'}, a_{t'})/c + log \, 
 2. synthetic accessibility (SA)
 3. quantitative estimation of drug-likeness (QED)
 
+使用的reward function也是为了提高validity, logP, SA, 和QED。
+
 # Appendix
 
 DQN的paper：Mnih et al. Playing atari with deep reinforcement learning
