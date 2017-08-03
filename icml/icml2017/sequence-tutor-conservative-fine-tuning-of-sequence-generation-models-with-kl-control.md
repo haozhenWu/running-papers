@@ -34,7 +34,7 @@ $$L(\theta) = \mathbb{E}_\beta [ (r(s,a) + \gamma \, \underset{a'}{max} Q(s',a';
 
 $$r(s,a) = log p(a|s) + r_T(a,s)/c$$
 
-其中c是一个常数
+其中c是一个常数，控制task-specific reward的重要性。
 
 # Appendix
 
