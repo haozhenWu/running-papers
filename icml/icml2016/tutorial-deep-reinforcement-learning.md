@@ -1,4 +1,4 @@
-asd撒旦发撒旦# Tutorial: Deep Reinforcement Learning
+# Tutorial: Deep Reinforcement Learning
 
 David Silver, Google DeepMind
 
