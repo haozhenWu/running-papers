@@ -94,6 +94,7 @@
     * [Parameter Server for Distributed Machine Learning](nips/nips2013/parameter-server-for-distributed-machine-learning.md)
     * [Multi-Task Bayesian Optimization](nips/nips2013/multi-task_bayesian_optimization.md)
     * [Distributed Representations of Words and Phrases and their Compositionality](nips/nips2013/distributed-representations-of-words-and-phrases-and-their-compositionality.md)
+    * [Playing Atari with Deep Reinforcement Learning](nips/nips2013/playing-atari-with-deep-reinforcement-learning.md)
   * [2012](nips/nips2012/nips2012.md)
     * [Practical Bayesian Optimization of Machine Learning Algorithms](nips/nips2012/practical_bayesian_optimization_of_machine_learnin.md)
   * [2009](nips/nips2009/nips2009.md)
