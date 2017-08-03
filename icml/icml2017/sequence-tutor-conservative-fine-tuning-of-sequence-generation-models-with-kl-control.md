@@ -18,4 +18,6 @@ $$
 Q(s_t, a_t; \pi^*) = r(s_t, a_t) + \gamma \mathbb{E}_{p(s_{t+1}|s_t,a_t)} [\underset{a_{t+1}}{max} \, Q(s_{t+1}, a_{t+1}; \pi^*)]
 $$
 
-其中$$Q^\pi(s_t, a_t) = \mathbb{E}_\pi[\sum_{t'=t}^\infty \gamma^{t'-t}r(s_{t'}, a_{t'})]$$是policy的Q function。
+其中$$Q^\pi(s_t, a_t) = \mathbb{E}_\pi[\sum_{t'=t}^\infty \gamma^{t'-t}r(s_{t'}, a_{t'})]$$是policy的Q function。在Deep Q-Network中，就是使用下面的loss function来估计Q function：
+
+$$L(\theta)$$
