@@ -107,6 +107,7 @@
   * [2017](icml/icml2017/icml2017.md)
     * [Grammar Variational Autoencoder](icml/icml2017/grammar-variational-autoencoder.md)
     * [Multi-task Learning with Labeled and Unlabeled Tasks](icml/icml2017/multi-task-learning-with-labeled-and-unlabeled-tasks.md)
+    * [Sequence Tutor: Conservative Fine-Tuning of Sequence Generation Models with KL-control](icml/icml2017/sequence-tutor-conservative-fine-tuning-of-sequence-generation-models-with-kl-control.md)
   * [2016](icml/icml2016/icml2016.md)
     * [Learning Relational Sum-Product Networks](icml/icml2016/learning_relational_sum-product_networks.md)
     * [Towards an Empirical Foundation for Assessing Bayesian Optimization of Hyperparameters](icml/icml2016/towards-an-empirical-foundation-for-assessing-bayesian-optimization-of-hyperparameters.md)
