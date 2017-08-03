@@ -53,7 +53,7 @@ $$
 
 我们展示了，这样的KL control形式可以写作Q-learning的变形。
 
-
+让$$\tau=\{a_1, a_2, ... \}$$表示序列，$$r(\tau)$$是整个序列的reward，$$p(\tau)$$是prior distribution，由pre-trained model提供，$$q(\tau)$$则是Sequence Tutor model学习到的distribution/policy。
 
 # Appendix
 
