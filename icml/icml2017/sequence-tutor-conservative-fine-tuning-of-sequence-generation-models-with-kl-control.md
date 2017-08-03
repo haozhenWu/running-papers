@@ -55,6 +55,14 @@ $$
 
 让$$\tau=\{a_1, a_2, ... \}$$表示序列，$$r(\tau)$$是整个序列的reward，$$p(\tau)$$是prior distribution，由pre-trained model提供，$$q(\tau)$$则是Sequence Tutor model学习到的distribution/policy。
 
+目标函数就是对于$$q(\tau)$$，最大化下面函数：
+
+$$
+L(q) = \mathbb{E}_{q(\tau)} [r(\tau)]/c - D_{KL}[q(\tau)||p(\tau)]
+$$
+
+其中$$D_{KL}$$是KL divergence，$$D_{KL}[q(\tau)||p(\tau)] = \int q(\tau) \log{\frac{q(\tau)}{p(\tau)}} d\tau $$。
+
 # Appendix
 
 DQN的paper：Mnih et al. Playing atari with deep reinforcement learning
