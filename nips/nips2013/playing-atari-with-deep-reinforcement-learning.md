@@ -7,3 +7,8 @@ DeepMind
 # Intro
 
 对于sensory data，如果使用DL的话，不用进行人工的feature representation，直接能够使用raw data and extract high-level features。
+
+DL和RL有这么几个不同：
++ DL都使用人工标记的label和data，RL则是学习了一个scalar reward signal，通常是sparse，noisy，delayed。delayed是因为选择的action和收到的reward通常要在很多步之后才匹配到。
++ DL假设数据是相互独立的，而RL则是有连续关系的。
++ RL的data distribution/policy是变换的，而DL是假设有一个固定的data distribution。
