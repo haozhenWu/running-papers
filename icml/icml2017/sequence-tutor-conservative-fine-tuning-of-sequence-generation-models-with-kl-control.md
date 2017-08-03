@@ -61,7 +61,7 @@ $$
 L(q) = \mathbb{E}_{q(\tau)} [r(\tau)]/c - D_{KL}[q(\tau)||p(\tau)]
 $$
 
-其中$$D_{KL}$$是KL divergence，$$D_{KL}[q(\tau)||p(\tau)] = \int q(\tau) \log{\frac{q(\tau)}{p(\tau)}} d\tau $$。我们把$$q(\tau)$$通过参数化的recurrent policy $$\pi_\theta(a_t|s_t)$$表示，也就是$$q(\tau) = \prod_{t=1}^T \pi_\theta(a_t|s_t) $$。
+其中$$D_{KL}$$是KL divergence，$$D_{KL}[q(\tau)||p(\tau)] = \int q(\tau) \log{\frac{q(\tau)}{p(\tau)}} d\tau $$。我们把$$q(\tau)$$通过参数化的recurrent policy $$\pi_\theta(a_t|s_t)$$表示，也就是$$q(\tau) = \prod_{t=1}^T \pi_\theta(a_t|s_t) $$，其中$$s_t = \{ a_1, a_2, ..., a_{t-1}\}$$表示整个系统是non-Markovian。
 
 # Appendix
 
