@@ -9,3 +9,11 @@ Natasha Jaques, Shixiang Gu, DzmitryBahdanau, JoseMiguelHernande-Lobato, Richard
 使用MLE进行训练RNN一直都有问题，比如在生成的序列上，noise会有叠加影响：前一个时刻的generated text shift，会影响到后面时刻。
 
 这里提出了Sequence Tutor，通过task-specific reward，来使得RL和sequence generation RNN结合起来。通过将pre-trained RNN转换成Reward RNN来实现。不仅仅使用Reward RNN，还要使用KL-control中的想法，用KL-divergence作为penalize。
+
+# Background
+
+agent的目标是为了最小化sequence of action的reward，使用$$\gamma$$作为discount factor。最有的策略$$\pi^*$$符合Bellman optimality equation：
+
+$$
+Q(s_t, a_t; \pi^*) = r(s_t, a_t) + \gamma \mathbb{E}_{p(s_{t+1}|s_t,a_t)} [max\, Q(s_{t+1}, a_{t+1}; \pi^*)]
+$$
