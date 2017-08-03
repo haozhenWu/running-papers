@@ -69,6 +69,8 @@ $$
 L(\theta) = \mathbb{E}_\pi[\sum_t r(s_t, a_t) / c + log \, p(a_t|s_t) - log \, \pi_\theta (a_t | s_t)]
 $$
 
+对比这个loss function和上一节，从Q learning得到的结果，这个狮子包含了entropy regularizer，因此它的optimal policy不再是deterministic。
+
 # Appendix
 
 DQN的paper：Mnih et al. Playing atari with deep reinforcement learning
