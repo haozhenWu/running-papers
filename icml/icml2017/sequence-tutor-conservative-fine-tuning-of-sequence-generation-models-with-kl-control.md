@@ -15,5 +15,5 @@ Natasha Jaques, Shixiang Gu, DzmitryBahdanau, JoseMiguelHernande-Lobato, Richard
 agent的目标是为了最小化sequence of action的reward，使用$$\gamma$$作为discount factor。最有的策略$$\pi^*$$符合Bellman optimality equation：
 
 $$
-Q(s_t, a_t; \pi^*) = r(s_t, a_t) + \gamma \mathbb{E}_{p(s_{t+1}|s_t,a_t)} [max\, Q(s_{t+1}, a_{t+1}; \pi^*)]
+Q(s_t, a_t; \pi^*) = r(s_t, a_t) + \gamma \mathbb{E}_{p(s_{t+1}|s_t,a_t)} [\underset{a_{t+1}}{max} \, Q(s_{t+1}, a_{t+1}; \pi^*)]
 $$
