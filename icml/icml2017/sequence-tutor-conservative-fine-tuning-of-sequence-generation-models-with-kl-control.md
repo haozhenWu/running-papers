@@ -26,8 +26,10 @@ $$L(\theta) = \mathbb{E}_\beta [ (r(s,a) + \gamma \, \underset{a'}{max} Q(s',a';
 
 # Sequence Tutor
 
-给定已经训练好的sequence generation RNN，把pre-trained model当作黑箱的prior policy。Reward 
-RNN在训练的时候是固定的，并且当作prior policy。
+给定已经训练好的sequence generation RNN，把pre-trained model当作黑箱的prior policy。
+
+一共有三种LSTM模型，图1展示了流程。Reward RNN在训练的时候是固定的，并且当作prior policy。
 
 # Appendix
 
+DQN的paper：Mnih et al. Playing atari with deep reinforcement learning
