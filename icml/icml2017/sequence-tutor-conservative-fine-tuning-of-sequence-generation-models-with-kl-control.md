@@ -71,6 +71,12 @@ $$
 
 对比这个loss function和上一节，从Q learning得到的结果，这个狮子包含了entropy regularizer，因此它的optimal policy不再是deterministic。下面会得到TF based method for KL control。
 
+## Recurrent Generalized $$\Psi$$-learning
+
+定义$$V^\pi(s_t)$$为recurrent value function，表示为
+
+$$V^\pi(s_t) = \mathbb{E}_\pi [ \sum_{t'=t}^\infty r(s_{t'}, a_{t'})/c + log \, p(a_{t'}|s_{t'}) - log \, \pi(a_{t'}|s_{t'}) ] $$
+
 # Appendix
 
 DQN的paper：Mnih et al. Playing atari with deep reinforcement learning
