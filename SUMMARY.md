@@ -82,7 +82,7 @@
     * [Weight Normalization: A Simple Reparameterization to Accelerate Training of Deep Neural Network](nips/nips2016/weight_normalization_a_simple_reparameterization_t.md)
     * [Value Iteration Networks](nips/nips2016/value-iteration-networks.md)
     * [LightRNN: Memory and Computation-Efficient Recurrent Neural Networks](nips/nips2016/lightrnn-memory-and-computation-efficient-recurrent-neural-networks.md)
-    * [Generating Music by Fine-Tuning Recurrent Neural Networks with Reinforcement Learning](nips/nips2016/generating-music-by-fine-tuning-recurrent-neural-networks-with-reinforcement-learning.md)
+    * [Generating Music by Fine-Tuning Recurrent Neural Networks with Reinforcement Learning](icml/icml2017/sequence-tutor-conservative-fine-tuning-of-sequence-generation-models-with-kl-control.md)
   * [2015](nips/nips2015/2015.md)
     * [Introduction to Reinforcement Learning with Function Approximation](nips/nips2015/introduction-to-reinforcement-learning-with-function-approximation.md)
   * [2014](nips/nips2014/nips2014.md)
