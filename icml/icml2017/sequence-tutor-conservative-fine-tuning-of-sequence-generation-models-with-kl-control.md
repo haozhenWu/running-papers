@@ -36,9 +36,13 @@ $$
 
 在本来应有的reward上，再算上prior：
 
-$$r(s,a) = log p(a|s) + r_T(a,s)/c$$
+$$r(s,a) = log \, p(a|s) + r_T(a,s)/c$$
 
-其中c是一个常数，控制task-specific reward的重要性。给定前面的
+其中c是一个常数，控制task-specific reward的重要性。给定前面的DQN目标函数，和修改之后的reward function，可以有
+
+$$
+L(\theta) = \mathbb{E}_\beta [ ( log \, p(a|s) + r(s,a)/c + \gamma \, \underset{a'}{max} Q(s',a'; \theta^-) - Q(s,a;\theta))^2 ]
+$$
 
 # Appendix
 
