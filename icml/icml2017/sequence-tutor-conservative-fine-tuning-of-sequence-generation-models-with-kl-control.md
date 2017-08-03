@@ -47,6 +47,10 @@ $$
 
 如同最后一个式子展示的，DQN学习的是一个deterministic policy，对于sequence generator不理想，最佳的应该是stochastic。因此，在模型训练完之后，我们通过预测的Q-value，成指数级地进行抽样。
 
+## KL Control for Sequence Generation
+
+如果能把这个问题变成sequential decision-making problem，而生产的序列性质是由target reward决定的，那么这个问题可以被认为是non-Markovian system的KL control问题。
+
 # Appendix
 
 DQN的paper：Mnih et al. Playing atari with deep reinforcement learning
