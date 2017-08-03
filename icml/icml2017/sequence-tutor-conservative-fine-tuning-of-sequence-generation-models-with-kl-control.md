@@ -20,7 +20,9 @@ $$
 
 其中$$Q^\pi(s_t, a_t) = \mathbb{E}_\pi[\sum_{t'=t}^\infty \gamma^{t'-t}r(s_{t'}, a_{t'})]$$是policy的Q function。在Deep Q-Network中，就是使用下面的loss function来估计Q function：
 
-$$L(\theta) = \mathbb{E}_\beta [ (r(s,a) + \gamma \, \underset{a'}{max} Q(s',a'; \theta^-) - Q(s,a;\theta))^2 ]$$
+$$
+L(\theta) = \mathbb{E}_\beta [ (r(s,a) + \gamma \, \underset{a'}{max} Q(s',a'; \theta^-) - Q(s,a;\theta))^2 ]
+$$
 
 其中$$\beta$$是exploration policy，或者说是behavior policy，而$$\theta^-$$是target policy。说off－policy，是因为在训练的时候，只更新behavior policy，而固定target policy。
 
@@ -36,7 +38,7 @@ $$L(\theta) = \mathbb{E}_\beta [ (r(s,a) + \gamma \, \underset{a'}{max} Q(s',a';
 
 $$r(s,a) = log p(a|s) + r_T(a,s)/c$$
 
-其中c是一个常数，控制task-specific reward的重要性。
+其中c是一个常数，控制task-specific reward的重要性。给定前面的
 
 # Appendix
 
