@@ -81,4 +81,4 @@ $$V^\pi(s_t) = \mathbb{E}_\pi [ \sum_{t'=t}^\infty r(s_{t'}, a_{t'})/c + log \, 
 
 DQN的paper：Mnih et al. Playing atari with deep reinforcement learning
 
-这篇paper到目前有七个版本，最开始的叫Generating Music by Fine-Tuning Recurrent Neural Networks with Reinforcement Learning，收录于Deep Reinforcement Learning Workshop, NIPS 2016。当时到了KL control就结束了。
+这篇paper到目前有七个版本，最开始的叫Generating Music by Fine-Tuning Recurrent Neural Networks with Reinforcement Learning，收录于Deep Reinforcement Learning Workshop, NIPS 2016。当时到了KL control就结束了。4.3节之后都是新添加内容。
