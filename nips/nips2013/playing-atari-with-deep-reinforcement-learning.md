@@ -27,7 +27,7 @@ $$ \bigtriangledown_{\theta_i} L_i(\theta_i) = \mathbb{E}_{s,a\sim \rho(\cdot); 
 
 DL使用raw inputs，配合lightweight updates，能够学习到更好的representation。
 
-
+我们使用experience relay，在每一步都存储agent的经验，$$e_t = (s_t, a_t, s_{t+1}, a_{t+1})$$。每一个episode都是一系列的step。在进行训练的时候，将所有的episode和step打乱，抽样，进行训练。算法1描述了整个流程。
 
 # Appendix
 
