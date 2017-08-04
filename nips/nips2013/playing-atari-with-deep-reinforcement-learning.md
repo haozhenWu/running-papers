@@ -48,7 +48,7 @@ DL使用raw inputs，配合lightweight updates，能够学习到更好的represe
 与online Q-learning相比，这个方法有这么几个优势：
 1. 充分利用了数据，因为可以反复利用来更新模型
 2. 使用了experience relay，避免使用连续的数据进行训练，从模型的角度，训练更加的高效
-3. 在online learning中，看内层循环，刚刚更新到的模型会立即对下一个time step的取样产生影响；而通过使用expeirence relay，间接地起到了off-policy的作用，smoothing out learning
+3. 在online learning中，看内层循环，刚刚更新到的模型会立即对下一个time step的取样产生影响；而通过使用expeirence relay，间接地起到了off-policy的作用，smoothing out learning让训练更加的平滑
 
 # Appendix
 
