@@ -22,3 +22,10 @@ $$Q^*(s,a) = \mathbb{E}_{s' \sim \epsilon} [r + \gamma \underset{a'}{max} Q^*(s'
 $$L_i(\theta_i) = \mathbb{E}_{s,a\sim \rho(\cdot)} [ ( y_i - Q(s,a;\theta_i) )^2 ] $$
 
 $$ \bigtriangledown_{\theta_i} L_i(\theta_i) = \mathbb{E}_{s,a\sim \rho(\cdot); s' \sim \epsilon } [ (r + \gamma \underset{a'}{max} Q^*(s',a') - Q(s,a;\theta_i) \bigtriangledown_{\theta_i} Q(s,a;\theta_i) ] $$
+
+# Deep Reinforcement Learning
+
+
+
+# Appendix
+
