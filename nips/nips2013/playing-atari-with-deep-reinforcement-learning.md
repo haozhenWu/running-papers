@@ -25,7 +25,9 @@ $$ \bigtriangledown_{\theta_i} L_i(\theta_i) = \mathbb{E}_{s,a\sim \rho(\cdot); 
 
 # Deep Reinforcement Learning
 
-DL使用raw inputs，配合lightweight updates，能够学习到更好的representation，.
+DL使用raw inputs，配合lightweight updates，能够学习到更好的representation。
+
+
 
 # Appendix
 
