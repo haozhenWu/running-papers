@@ -29,5 +29,21 @@ DL使用raw inputs，配合lightweight updates，能够学习到更好的represe
 
 我们使用experience relay，在每一步都存储agent的经验，$$e_t = (s_t, a_t, s_{t+1}, a_{t+1})$$。每一个episode都是一系列的step。在进行训练的时候，将所有的episode和step打乱，抽样，进行训练。算法1描述了整个流程。
 
+> 
++ 初始化relay memory $$D$$, 大小为 $$N$$
++ 初始化 action-value function，随机的weight
++ episode = 1 to $$M$$
+    + 初始化序列，并且
+    + for t = 1 to $$T$$
+        + 有$$\epsilon$$的概率随机选一个action
+        + 否则选择$$a_t = max_a Q^*(\phi(s_t), a; \theta)$$
+        + 在模拟器执行行为a，并且得到观测到reward $$r_t$$和image $$x_{t+1}$$
+        + 设置$$s_{t+1} = s_t, a_t, x_{t+1}$$，并且preprocess $$\phi_{t+1} = \phi(s_{t+1})$$
+        + 将transition $$(\phi_t, a_t, r_t, \phi_{t+1})$$保存到$$D$$
+        + 从D中，随机抽样一个transition minibatch $$(\phi_j, a_j, r_j, \phi_{j+1})$$
+        + 如果$$\phi_{j+1}$$是终止，那么$$y_j=r_j$$
+        + 否则,$$y_j = r_j + \gamma max_{a'} Q(\phi_{j+1}, a_j; \theta)$$
+        + 进行一次gradient update
+
 # Appendix
 
