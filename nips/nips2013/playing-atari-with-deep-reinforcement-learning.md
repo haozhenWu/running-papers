@@ -44,6 +44,10 @@ DL使用raw inputs，配合lightweight updates，能够学习到更好的represe
         + 如果$$\phi_{j+1}$$是终止，那么$$y_j=r_j$$
         + 否则,$$y_j = r_j + \gamma max_{a'} Q(\phi_{j+1}, a_j; \theta)$$
         + 进行一次gradient update
+        
+与online Q-learning相比，这个方法有这么几个优势：
+1. 充分利用了数据，因为可以反复利用来更新模型
+2. 使用了experience relay，避免使用连续的数据进行训练，从模型的角度，训练更加的高效
 
 # Appendix
 
