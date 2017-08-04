@@ -33,7 +33,7 @@ DL使用raw inputs，配合lightweight updates，能够学习到更好的represe
 + 初始化relay memory $$D$$, 大小为 $$N$$
 + 初始化 action-value function，随机的weight
 + episode = 1 to $$M$$
-    + 初始化序列，并且preprocess $$\phi_1 = \phi(s_1)$$
+    + 初始化序列$$s_1=\{x_1\}$$，并且preprocess $$\phi_1 = \phi(s_1)$$
     + for t = 1 to $$T$$
         + 有$$\epsilon$$的概率随机选一个action
         + 否则选择$$a_t = max_a Q^*(\phi(s_t), a; \theta)$$
