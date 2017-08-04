@@ -52,7 +52,7 @@ DL使用raw inputs，配合lightweight updates，能够学习到更好的represe
 
 ## Preprocessing and Model Architecture
 
-210×160 pixel image，每一个像素有128种颜色，计算量太大。所以先使用preprocessing step来减小输入数据的维度。首先是把RGB表示转换成grey-scale，并且压缩到110×84 image。最终的输入是84×84的一个中心区域，能够抓取大部分的playing area。
+210×160 pixel image，每一个像素有128种颜色，计算量太大。所以先使用preprocessing step来减小输入数据的维度。首先是把RGB表示转换成grey-scale，并且压缩到110×84 image。最终的输入是84×84的一个中心区域，能够抓取大部分的playing area。这个实验中，$$\phi$$函数会把这个preprocessing步骤沿用到最后四个frame，stack起来，并作为Q-function的输入。
 
 # Appendix
 
