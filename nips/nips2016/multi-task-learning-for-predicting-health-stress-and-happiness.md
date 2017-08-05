@@ -25,7 +25,7 @@ multi-task learning是一种transfer learning，模型能够同时训练多个�
 
 ## Hierarchical Bayes with Dirichlet Process Priors (HBDPP)
 
-hierarchical bayesian learning使用一个共享的prior，
+hierarchical bayesian learning使用一个共享的prior。这里使用了non-parametric Bayesian hierarchical模型来将相关用户进行聚类，同时进行MTL通过joint logistic regression。
 
 ## Neural Networks (NNs)
 
