@@ -34,3 +34,7 @@ hierarchical bayesian learning使用一个共享的prior。这里使用了non-pa
 ## Single task learning (STL) techniques
 
 对应的三个模型，分别实现single-task版本。
+
+# Results
+
+使用AUC和accuracy证明了，multi-task结果比相对应的single-task要好。
