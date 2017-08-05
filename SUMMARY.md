@@ -140,6 +140,7 @@
     * [Adam: A Method For Stochastic Optimization](iclr/iclr2015/adam_a_method_for_stochastic_optimization.md)
     * [A Unified Perspective on Multi-Domain And Multi-Task Learning](iclr/iclr2015/a-unified-perspective-on-multi-domain-and-multi-task-learning.md)
   * [2014](iclr/iclr2014/iclr2014.md)
+    * [Auto-Encoding Variational Bayes](iclr/iclr2014/iclr2014/auto-encoding-variational-bayes.md)
 * [Scalable ML](scalable-ml/scalable-ml.md)
   * 2016
 * [SGDKDD](sgdkdd/sgdkdd.md)
