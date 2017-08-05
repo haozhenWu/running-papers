@@ -11,3 +11,5 @@ multi-task learning是一种transfer learning，模型能够同时训练多个�
 # Dataset and Classification Problem
 
 数据是自己收集，叫SNAPSHOT。收集了三十天，包含health，stress，和happiness，在早晨和晚上，标记的数值从0到100。
+
+一共有343个特征，来自传感器，手机，调研和天气信息。
