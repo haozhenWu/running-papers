@@ -32,3 +32,5 @@ hierarchical bayesian learning使用一个共享的prior。这里使用了non-pa
 一个NN，共享前面几层layer的参数。
 
 ## Single task learning (STL) techniques
+
+对应的三个模型，分别实现single-task版本。
