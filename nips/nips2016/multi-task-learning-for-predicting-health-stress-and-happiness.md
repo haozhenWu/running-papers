@@ -3,3 +3,6 @@
 Natasha Jaques, Sara Taylor, Ehimwenma Nosakhare, Akane Sano, Rosalind Picard
 
 MIT Media Lab Affective Computing Group
+
+# Intro
+
