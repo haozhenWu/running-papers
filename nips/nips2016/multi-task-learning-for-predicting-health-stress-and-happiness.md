@@ -16,3 +16,11 @@ multi-task learning是一种transfer learning，模型能够同时训练多个�
 
 1. 将每一个wellbeing标签当作task
 2. 将每一个用户的wellbeing预测当作task
+
+# Models
+
+## Multi-Task Multi-Kernel Learning (MTMKL)
+
+## Hierarchical Bayes with Dirichlet Process Priors (HBDPP)
+
+## Neural Networks (NNs)
