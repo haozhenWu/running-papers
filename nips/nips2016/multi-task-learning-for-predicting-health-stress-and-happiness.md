@@ -25,6 +25,8 @@ multi-task learning是一种transfer learning，模型能够同时训练多个�
 
 ## Hierarchical Bayes with Dirichlet Process Priors (HBDPP)
 
+hierarchical bayesian learning使用一个共享的prior，
+
 ## Neural Networks (NNs)
 
 ## Single task learning (STL) techniques
