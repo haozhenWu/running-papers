@@ -10,7 +10,14 @@ variational Bayesian(VB)方法可以处理intractable posterior的approximation�
 
 # Method
 
-这一章节是为了得到有向图模型上的lower bound estimator。这里做了一些限制，在更一般化的情况（iid的数据集和连续的latent space），对global parameter inference使用MLE或者MAP。
+这一章节是为了得到有向图模型上的lower bound estimator。这里做了一些限制，在更一般化的情况（iid的数据集和连续的latent space），对global parameter inference使用MLE或者MAP，已经latent variable进行variational inference。
+
+## Problem Scenario
+
+假设$$X$$是iid的数据集，数据是有随机过程产生，包括一些没有观测到的连续随即数据$$z$$。随机过程包括两个部分：
+
+1. 从某个prior distribution $$p_{\theta^*}(z)$$产生$$z$$
+2. 从某些条件概率$$p_{\theta^*}(x|z)$$产生$$x$$
 
 # Appendix
 
