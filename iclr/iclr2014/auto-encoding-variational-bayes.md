@@ -36,6 +36,10 @@ $$p_{\theta^*}(z)$$和$$p_{\theta^*}(x|z)$$都是来自于parametric families of
 
 ## The SGVB estimator and AEVB algorithm
 
+$$\mathcal{L}(\theta, \phi; x^{(i)}) = -D_{KL} (q_\phi(z|x^{(i)}) || p_\theta(x)) + \mathbb{E}_{q_\phi(z|x^{(i)})} [log \, p_\theta(x^{(i)}|z)] $$
+
+其中 $$KL(q||p) = \int q(t) log \frac{q(t)}{p(t)} dt = \mathbb{E}_q (log \, q - log \, p) = \mathbb{E}_q [log \, q] - \mathbb{E}_q [log \, p]$$
+
 ## Reparameterization Trick
 
 直接举例子，在univariate Gaussian的情况下，$$z \sim p(z|x) = \mathcal{N}(\mu, \sigma^2)$$，这时候可以假设$$\mu, \sigma$$已知，然后$$z=\mu + \sigma \cdot \epsilon$$，其中$$\epsilon \sim \mathcal{N}(0,1)$$，从而得到的函数对$$\epsilon$$可导。
