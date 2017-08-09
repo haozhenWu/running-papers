@@ -32,6 +32,8 @@ $$p_{\theta^*}(z)$$和$$p_{\theta^*}(x|z)$$都是来自于parametric families of
 2. 对于隐藏变量 $$z$$高效的posterior inference
 3. 对于变量$$x$$高效的marginal inference
 
+为了解决这类问题，提出了recognition model $$q_\phi(z|x)$$，是对于真实posterior $$p_\theta(z|x)$$的估计。
+
 # Appendix
 
 [slides](http://dpkingma.com/wordpress/wp-content/uploads/2014/05/2014-03_talk_iclr.pdf)
