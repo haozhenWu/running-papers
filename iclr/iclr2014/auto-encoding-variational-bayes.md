@@ -45,3 +45,9 @@ $$p_{\theta^*}(z)$$和$$p_{\theta^*}(x|z)$$都是来自于parametric families of
 [slides](http://dpkingma.com/wordpress/wp-content/uploads/2014/05/2014-03_talk_iclr.pdf)
 
 这篇[CSDN博客](http://blog.csdn.net/u011534057/article/details/55045470)介绍很好
+
+这里顺带做一些补充：
+
+1. MLE
+
+根据贝叶斯原理，我们有
