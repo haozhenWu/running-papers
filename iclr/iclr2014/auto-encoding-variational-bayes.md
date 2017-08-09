@@ -50,4 +50,8 @@ $$p_{\theta^*}(z)$$和$$p_{\theta^*}(x|z)$$都是来自于parametric families of
 
 1. MLE
 
-根据贝叶斯原理，我们有
+首先likelihood的定义为$$L(p_\theta(x)) = \prod_i p_\theta(x_i)$$
+
+因为乘积难易计算，不妨取对数，只要能找到我们需要的$$\theta$$，从而有$$log \, L(p_\theta(x)) = \sum_i log \, p_\theta(x_i)$$
+
+同时根据贝叶斯原理，我们有$$p(\theta|X) = \frac{p(\theta) p(X|\theta)}{p(X)} \propto p(\theta) p(X|\theta)$$
