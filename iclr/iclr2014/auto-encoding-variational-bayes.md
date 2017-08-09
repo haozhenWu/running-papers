@@ -24,7 +24,9 @@ $$p_{\theta^*}(z)$$和$$p_{\theta^*}(x|z)$$都是来自于parametric families of
 这里并不加税任何关于marginal或者posterior probability信息，这里更关心更加一般化的算法，能够在下面两个问题上有效：
 
 1. Intractability： marginal likelihood的积分难以计算 $$p(x) = \int p(x|z) p(z) dz$$，和真实的posterior density难以计算 $$p(z|x) = \frac{p(x|z) p(z)}{p(x)}$$，所有VB算法的mean-field也难以计算。
-2. Large dataset： 
+2. Large dataset： 当数据量大，每一个batch optimization耗费太大，我们想在小数据集上进行parameter updates。
+
+
 
 # Appendix
 
