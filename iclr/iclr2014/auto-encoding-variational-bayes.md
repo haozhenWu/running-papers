@@ -36,7 +36,9 @@ $$p_{\theta^*}(z)$$和$$p_{\theta^*}(x|z)$$都是来自于parametric families of
 
 ## The SGVB estimator and AEVB algorithm
 
+## Reparameterization Trick
 
+直接举例子，在univariate Gaussian的情况下，$$z \sim p(z|x) = \mathcal{N}(\mu, \sigma^2)$$，这时候可以假设$$\mu, \sigma$$已知，然后$$z=\mu + \sigma \cdot \epsilon$$，其中$$\epsilon \sim \mathcal{N}(0,1)$$，从而得到的函数对$$\epsilon$$可导。
 
 # Appendix
 
