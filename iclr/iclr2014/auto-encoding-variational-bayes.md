@@ -34,6 +34,12 @@ $$p_{\theta^*}(z)$$和$$p_{\theta^*}(x|z)$$都是来自于parametric families of
 
 为了解决这类问题，提出了recognition model $$q_\phi(z|x)$$，是对于真实posterior $$p_\theta(z|x)$$的估计。
 
+## The SGVB estimator and AEVB algorithm
+
+
+
 # Appendix
 
 [slides](http://dpkingma.com/wordpress/wp-content/uploads/2014/05/2014-03_talk_iclr.pdf)
+
+这篇[CSDN博客](http://blog.csdn.net/u011534057/article/details/55045470)介绍很好
