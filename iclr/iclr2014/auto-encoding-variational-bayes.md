@@ -10,7 +10,7 @@ variational Bayesian(VB)方法可以处理intractable posterior的approximation�
 
 # Method
 
-这一章节是为了得到有向图模型上的lower bound estimator 
+这一章节是为了得到有向图模型上的lower bound estimator。这里做了一些限制，在更一般化的情况（iid的数据集和连续的latent space），对global parameter inference使用MLE或者MAP。
 
 # Appendix
 
