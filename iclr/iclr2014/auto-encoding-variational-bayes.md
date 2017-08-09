@@ -21,6 +21,11 @@ variational Bayesian(VB)方法可以处理intractable posterior的approximation�
 
 $$p_{\theta^*}(z)$$和$$p_{\theta^*}(x|z)$$都是来自于parametric families of distributions $$p_{\theta}(z)$$和$$p_{\theta}(x|z)$$。并且假设概率都是可导的，对于$$\theta, z$$。问题是$$\theta^*$$和$$z$$对我们都是未知的。
 
+这里并不加税任何关于marginal或者posterior probability信息，这里更关心更加一般化的算法，能够在下面两个问题上有效：
+
+1. Intractability： marginal likelihood的积分难以计算 $$p(x) = \int p(x|z) p(z) dz$$，和真实的posterior density难以计算 $$p(z|x) = \frac{p(x|z) p(z)}{p(x)}$$，所有VB算法的mean-field也难以计算。
+2. Large dataset： 
+
 # Appendix
 
 [slides](http://dpkingma.com/wordpress/wp-content/uploads/2014/05/2014-03_talk_iclr.pdf)
