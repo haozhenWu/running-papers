@@ -48,10 +48,16 @@ $$p_{\theta^*}(z)$$和$$p_{\theta^*}(x|z)$$都是来自于parametric families of
 
 这里顺带做一些补充：
 
-1. MLE
+1. MLE和MAP
 
 首先likelihood的定义为$$L(p_\theta(x)) = \prod_i p_\theta(x_i)$$
 
 因为乘积难易计算，不妨取对数，只要能找到我们需要的$$\theta$$，从而有$$log \, L(p_\theta(x)) = \sum_i log \, p_\theta(x_i)$$
 
 同时根据贝叶斯原理，我们有$$p(\theta|X) = \frac{p(\theta) p(X|\theta)}{p(X)} \propto p(\theta) p(X|\theta)$$
+
+所以同样的道理，只要能找到我们需要的$$\theta$$，我们可以将目标进行再一次的转换
+
+$$arg \, \underset{\theta}{max} \, [log \, p(\theta|X)] = arg \, \underset{\theta}{max} [ log\, p(\theta) + log \, p(X|\theta)]$$
+
+这个就是MAP
