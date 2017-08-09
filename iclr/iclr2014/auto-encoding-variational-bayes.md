@@ -8,6 +8,10 @@ variational Bayesian(VB)方法可以处理intractable posterior的approximation�
 
 对于iid数据集和连续的latent variables，我们提出Auto-Encoding VB(AEVB)算法。在AEVB算法中，使用SGVB estimator来优化recognition model。当使用neural network当作recognition model，就得到了variational auto-encoder。
 
+# Method
+
+这一章节是为了得到有向图模型上的lower bound estimator 
+
 # Appendix
 
 [slides](http://dpkingma.com/wordpress/wp-content/uploads/2014/05/2014-03_talk_iclr.pdf)
