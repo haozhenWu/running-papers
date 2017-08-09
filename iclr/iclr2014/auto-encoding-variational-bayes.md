@@ -26,7 +26,11 @@ $$p_{\theta^*}(z)$$和$$p_{\theta^*}(x|z)$$都是来自于parametric families of
 1. Intractability： marginal likelihood的积分难以计算 $$p(x) = \int p(x|z) p(z) dz$$，和真实的posterior density难以计算 $$p(z|x) = \frac{p(x|z) p(z)}{p(x)}$$，所有VB算法的mean-field也难以计算。
 2. Large dataset： 当数据量大，每一个batch optimization耗费太大，我们想在小数据集上进行parameter updates。
 
+这篇paper解决了如下：
 
+1. 对于$$\theta$$高效的ML或者MAP estimation
+2. 对于隐藏变量 $$z$$高效的posterior inference
+3. 对于变量$$x$$高效的marginal inference
 
 # Appendix
 
