@@ -6,4 +6,4 @@ Liang Lu, Lingpeng Kong, Chris Dyer, Noah A. Smith
 
 segmental conditional random fields（SCRFs）和connectionist temporal classification（CTC）是两个给序列end-to-end labeling方法。这篇paper就是将两者结合起来进行优化，共享RNN encoder。
 
-recurrent neural network acoustic model和language model是非常常用的模型，但是HMM还是有它的优势。
+TBC
