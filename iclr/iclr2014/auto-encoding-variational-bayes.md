@@ -19,6 +19,8 @@ variational Bayesian(VB)方法可以处理intractable posterior的approximation�
 1. 从某个prior distribution $$p_{\theta^*}(z)$$产生$$z$$
 2. 从某些条件概率$$p_{\theta^*}(x|z)$$产生$$x$$
 
+这里假设概率都是可导的，对于$$\theta, z$$。
+
 # Appendix
 
 [slides](http://dpkingma.com/wordpress/wp-content/uploads/2014/05/2014-03_talk_iclr.pdf)
