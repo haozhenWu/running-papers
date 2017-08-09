@@ -10,4 +10,4 @@ multi-task learning作为一种transfer learning方法，经常会观测到negat
 
 # Learning Task Grouping and Overlap
 
-假设是linear classifier，$$\hat y=W X$$，然后使用implicit factorization，假设$$W = s L$$。
+假设是linear classifier，$$\hat y=W^T X$$，然后使用implicit factorization，假设$$W = L S$$。
