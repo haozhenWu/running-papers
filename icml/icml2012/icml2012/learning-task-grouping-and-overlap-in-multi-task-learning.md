@@ -10,4 +10,4 @@ multi-task learning作为一种transfer learning方法，经常会观测到negat
 
 # Learning Task Grouping and Overlap
 
-假设是linear classifier，$$\hat y=W^T X$$，然后使用implicit factorization，假设$$W = L S$$。
+假设是linear classifier，$$\hat y=W^T X$$，然后使用implicit factorization，假设$$W = L S$$。其中$$L \in \mathbb{R}^{d \times k}$$，表示有k个latent task，d是每一个task的feature dimension（也是data point的个数）；$$S \in \mathbb{R}^{k \times T}$$，是对应T个task，每一个latent task都能通过$$k \times 1$$的向量，linear组合成task representation。
