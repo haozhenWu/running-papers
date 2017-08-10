@@ -7,3 +7,5 @@ CMU
 # Intro
 
 self-paced learning，是有教育学激发的学习方式。在教育学中，教授的课程并不是由老师预先设定，而是由学生动态的选择。就好比是先选择更加容易训练的instance，然后再训练难的instance。但简单地将self-paced learning延伸到multitask的领域，会使得学习参数过大，从而难以获得性能的提升。
+
+一个问题是，不是所有的task都相等。难易有差别，而且可以有其他已经学习的模型来帮助解决。
