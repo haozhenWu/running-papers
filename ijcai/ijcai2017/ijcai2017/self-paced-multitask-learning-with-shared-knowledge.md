@@ -47,7 +47,7 @@ $$\mathcal{E}_\lambda\{\hat W, \hat \Theta\} = argmin \sum_t \frac{1}{N_t} \sum_
 
 为了解决这个问题，只考虑task-level的权重。
 
-$$\mathcal{E}_\lambda\{\hat W, \hat \Theta\} = argmin \sum_t \tau_t [\mathcal{L} (y_t, f(X_t, w_t))]   + P_\gamma(W, \Theta) + \lambda r(\tau)$$
+$$\mathcal{E}_\lambda\{\hat W, \hat \Theta\} = argmin \sum_t \tau_t [\mathcal{L} (y_t, f(X_t, w_t)) + P_\gamma(W, \Theta)] + \lambda r(\tau)$$
 
 # Appendix
 
