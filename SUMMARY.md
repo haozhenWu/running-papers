@@ -145,6 +145,7 @@
     * [Auto-Encoding Variational Bayes](iclr/iclr2014/auto-encoding-variational-bayes.md)
 * [IJCAI](ijcai/ijcai.md)
   * [2017](ijcai/ijcai2017/ijcai2017.md)
+    * [Self-Paced Multitask Learning with Shared Knowledge](ijcai/ijcai2017/ijcai2017/self-paced-multitask-learning-with-shared-knowledge.md)
 * [Scalable ML](scalable-ml/scalable-ml.md)
   * 2016
 * [SGDKDD](sgdkdd/sgdkdd.md)
