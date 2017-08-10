@@ -13,3 +13,4 @@ relative similarity learning (RSL)的目标是为了在一定的限制条件下�
 
 # Online Multi-Task Relative Similarity Learning (OMTRSL)
 
+这里同时学习K个similarity function，对应K个相互关联的tasks。
