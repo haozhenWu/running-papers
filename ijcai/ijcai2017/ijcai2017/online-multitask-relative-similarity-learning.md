@@ -18,3 +18,7 @@ relative similarity learning (RSL)的目标是为了在一定的限制条件下�
 $$S^k(x, x') = x^T M^k x'$$
 
 对于online multi-task relative similarity learning，我们收到了triplet data，分别有三个部分：三个sample组成的training data，相关的label，已经task的index。label是1 表示$$x_t$$和$$x_t^1$$比$$x_t^2$$更加相近；否则如果是-1 表示与$$x_t^2$$更加相近。online multi-task relative similarity learning的目的是为了同时学习K个similarity matrices $$M^k$$，从而给相近的实例更高的score。
+
+## Proposed Method
+
+上面描述的就类似self-paced的步骤，不过对象换成了triplet。loss function定义在论文中。
