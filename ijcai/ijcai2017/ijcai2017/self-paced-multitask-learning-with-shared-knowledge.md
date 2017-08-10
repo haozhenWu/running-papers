@@ -28,10 +28,10 @@ $$\mathcal{E}_\lambda\{\hat w, \hat \tau\} = arg \, min \sum_i \tau_i \ell(y_i, 
 
 假设有T个任务。loss就是
 
-$$\epsilon{L}_\lambda\{\hat W, \hat \Theta\} = argmin \sum_t \mathcal{L} (y_t, f(X_t, w_t)) + P_\gamma(W, \Theta)$$
+$$\mathcal{E}_\lambda\{\hat W, \hat \Theta\} = argmin \sum_t \mathcal{L} (y_t, f(X_t, w_t)) + P_\gamma(W, \Theta)$$
 
 其中
 
 $$\mathcal{L} (y_t, f(X_t, w_t)) = \frac{1}{N_t} \sum_i \ell (y_i^t, f(x_i^t, w_t))$$
 
-$$\Theta$$是task之间共享的knowledge。我们假设$$P_\gamma(W, \Theta) = \sum_t P_\gamma(w_t, \Theta)$$，也就是separable。这就是给定了一个scoring function。
+$$\Theta$$是task之间共享的knowledge。我们假设$$P_\gamma(W, \Theta) = \sum_t P_\gamma(w_t, \Theta)$$，也就是separable。这就是给定了一个scoring function，判断当前task学习的难易。很多MTL问题都能归化到这个问题。
