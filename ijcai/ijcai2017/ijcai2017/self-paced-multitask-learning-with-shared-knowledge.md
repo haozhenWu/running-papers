@@ -51,6 +51,14 @@ $$\mathcal{E}_\lambda\{\hat W, \hat \Theta\} = argmin \sum_t \tau_t [\mathcal{L}
 
 同样的道理，将task-level的residual和$$\lambda$$进行比较，来判断一个task是否简单。
 
+## Motivating Examples
+
+**Self-paced Mean Regularized Multitask Learning(spMMTL)**
+
+**Self-paced Multitask Feature Learning (spMTFL)**
+
+**Self-paced Multitask learning with Alternative Structure Optimization (spMTASO)**
+
 # Appendix
 
 总的就是利用residual，进行判断，一个task是否简单，以及是否使用这个task进行gradient update。
