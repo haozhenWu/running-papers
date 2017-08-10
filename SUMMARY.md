@@ -143,6 +143,8 @@
     * [A Unified Perspective on Multi-Domain And Multi-Task Learning](iclr/iclr2015/a-unified-perspective-on-multi-domain-and-multi-task-learning.md)
   * [2014](iclr/iclr2014/iclr2014.md)
     * [Auto-Encoding Variational Bayes](iclr/iclr2014/auto-encoding-variational-bayes.md)
+* [IJCAI](nips/ijcai.md)
+  * [2017](nips/ijcai/ijcai2017.md)
 * [Scalable ML](scalable-ml/scalable-ml.md)
   * 2016
 * [SGDKDD](sgdkdd/sgdkdd.md)
@@ -172,11 +174,6 @@
     * [Efficient Distributed Estimation of Inverse Covariance Matrices](ieee/ieee2016/efficient-distributed-estimation-of-inverse-covariance-matrices.md)
   * [1993](ieee/ieee1993/ieee1993.md)
     * [Universal Approximation Bounds for Superpositions of a Sigmoidal Function](ieee/ieee1993/universal-approximation-bounds-for-superpositions-of-a-sigmoidal-function.md)
-* [JMLR](jmlr/jmlr.md)
-  * [2016](jmlr/jmlr2016/jmlr2016.md)
-    * [Benefits of depth in neural networks](jmlr/jmlr2016/benefits-of-depth-in-neural-networks.md)
-  * [2002](jmlr/jmlr2002/jmlr2002.md)
-    * [Stability and Generalization](jmlr/jmlr2002/stability-and-generalization.md)
 
 ## NLP
 
