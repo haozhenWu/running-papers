@@ -57,7 +57,7 @@ $$\mathcal{E}_\lambda\{\hat W, \hat \Theta\} = argmin \sum_t \tau_t [\mathcal{L}
 
 **Self-paced Multitask Feature Learning (spMTFL)** 学习的是不同相关task直接的feature representation $$D$$。同时还能学习到$$\tau$$来选择那些任务简单，那些人物复杂。
 
-**Self-paced Multitask learning with Alternative Structure Optimization (spMTASO)**
+**Self-paced Multitask learning with Alternative Structure Optimization (spMTASO)** 
 
 # Appendix
 
