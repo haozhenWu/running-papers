@@ -53,9 +53,9 @@ $$\mathcal{E}_\lambda\{\hat W, \hat \Theta\} = argmin \sum_t \tau_t [\mathcal{L}
 
 ## Motivating Examples
 
-**Self-paced Mean Regularized Multitask Learning(spMMTL)**假设所以的任务参数都接近于某一个固定的参数$$w_0$$， spMMTL学习 $$\tau$$ 通过每一个task参数和$$w_0$$的距离。但是要求提前知道$$w_0$$。
+**Self-paced Mean Regularized Multitask Learning(spMMTL)** 假设所以的任务参数都接近于某一个固定的参数$$w_0$$， spMMTL学习 $$\tau$$ 通过每一个task参数和$$w_0$$的距离。但是要求提前知道$$w_0$$。
 
-**Self-paced Multitask Feature Learning (spMTFL)**
+**Self-paced Multitask Feature Learning (spMTFL)** 
 
 **Self-paced Multitask learning with Alternative Structure Optimization (spMTASO)**
 
