@@ -20,4 +20,4 @@ self-paced learning，是有教育学激发的学习方式。在教育学中，�
 
 self-paced learning能够先学习简单的模型，然后学习比较复杂的模型。我们假设是一个linear模型。self-paced learning的目标是:
 
-$$\mathcal{E}_\lambda\{\hat w, \hat \tau\} = arg \, min \sum_i \tau_i \mathcal{} $$
+$$\mathcal{E}_\lambda\{\hat w, \hat \tau\} = arg \, min \sum_i \tau_i \ell(y_i, f(x_i, w)) + \rho_\gamma(w) + \lambda r(\tau) $$
