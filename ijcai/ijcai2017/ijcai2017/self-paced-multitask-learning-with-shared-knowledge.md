@@ -49,7 +49,8 @@ $$\mathcal{E}_\lambda\{\hat W, \hat \Theta\} = argmin \sum_t \frac{1}{N_t} \sum_
 
 $$\mathcal{E}_\lambda\{\hat W, \hat \Theta\} = argmin \sum_t \tau_t [\mathcal{L} (y_t, f(X_t, w_t)) + P_\gamma(W, \Theta)] + \lambda r(\tau)$$
 
-同样的道理，将task-level的residual和$$\lambda$$进行比较，来判断一个模型是否简单。
+同样的道理，将task-level的residual和$$\lambda$$进行比较，来判断一个task是否简单。
 
 # Appendix
 
+总的就是利用residual，进行判断，一个task是否简单，以及是否使用这个task进行gradient update。
