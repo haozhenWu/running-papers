@@ -40,5 +40,10 @@ $$\Theta$$是task之间共享的knowledge。我们假设$$P_\gamma(W, \Theta) = 
 
 $$\mathcal{E}_\lambda\{\hat W, \hat \Theta\} = argmin \sum_t \frac{1}{N_t} \sum_i \tau_{ti} \ell (y_i^t, f(x_i^t, w_t))+ P_\gamma(W, \Theta) + \lambda r(\tau)$$
 
+有两个问题
+
+1. 没有充分利用knowledge shared among tasks
+2. $$\tau$$随着instance数目增加而增加
+
 # Appendix
 
