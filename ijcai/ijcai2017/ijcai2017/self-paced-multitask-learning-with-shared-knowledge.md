@@ -15,3 +15,9 @@ self-paced learning，是有教育学激发的学习方式。在教育学中，�
 1. 将task selection嵌入到了模型选择中
 2. 逐渐学习了shared knowledge
 3. 一般化到更多的MTL训练上
+
+# Background: Self-Paced Learning
+
+self-paced learning能够先学习简单的模型，然后学习比较复杂的模型。我们假设是一个linear模型。self-paced learning的目标是:
+
+$$\mathcal{E}_\lambda\{\hat w, \hat \tau\} = arg \, min \sum_i \tau_i \mathcal{} $$
