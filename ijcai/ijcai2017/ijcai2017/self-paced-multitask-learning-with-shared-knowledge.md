@@ -22,7 +22,7 @@ self-paced learning能够先学习简单的模型，然后学习比较复杂的�
 
 $$\mathcal{E}_\lambda\{\hat w, \hat \tau\} = arg \, min \sum_i \tau_i \ell(y_i, f(x_i, w)) + \rho_\gamma(w) + \lambda r(\tau) $$
 
-而后使用residual作为判断，判断$$\tau_i$$的重要性。见式子(3)。
+而后使用residual作为判断，判断$$\tau_i$$的重要性。见式子(3)。直观的解释就是，当residual比较小的时候，这个instance训练起来比较简单，就用于训练。
 
 # Self-Paced Multitask Learning with Shared Knowledge
 
