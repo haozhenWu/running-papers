@@ -10,4 +10,8 @@ self-paced learning，是有教育学激发的学习方式。在教育学中，�
 
 一个问题是，不是所有的task都相等。难易有差别，而且可以有其他已经学习的模型来帮助解决。
 
-我们提出了一个MTL的学习框架来解决前面提到的问题。他先是从简单的task set开始训练，然后逐渐引入更加复杂的
+我们提出了一个MTL的学习框架来解决前面提到的问题。他先是从简单的task set开始训练，然后逐渐引入更加复杂的任务，来构建shared knowledge base。我们提出的self-paced learning解决了三个问题
+
+1. 将task selection嵌入到了模型选择中
+2. 逐渐学习了shared knowledge
+3. 一般化到更多的MTL训练上
