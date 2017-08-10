@@ -33,3 +33,6 @@ $$\epsilon{L}_\lambda\{\hat W, \hat \Theta\} = argmin \sum_t \mathcal{L} (y_t, f
 其中
 
 $$\mathcal{L} (y_t, f(X_t, w_t)) = \frac{1}{N_t} \sum_i \ell (y_i^t, f(x_i^t, w_t))$$
+
+$$\Theta$$是task之间共享的knowledge。
+
