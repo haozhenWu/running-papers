@@ -26,3 +26,10 @@ $$\mathcal{E}_\lambda\{\hat w, \hat \tau\} = arg \, min \sum_i \tau_i \ell(y_i, 
 
 # Self-Paced Multitask Learning with Shared Knowledge
 
+假设有T个任务。loss就是
+
+$$\epsilon{L}_\lambda\{\hat W, \hat \Theta\} = argmin \sum_t \mathcal{L} (y_t, f(X_t, w_t)) + P_\gamma(W, \Theta)$$
+
+其中
+
+$$\mathcal{L} (y_t, f(X_t, w_t)) = \frac{1}{N_t} \sum_i \ell (y_i^t, f(x_i^t, w_t))$$
