@@ -16,3 +16,5 @@ relative similarity learning (RSL)的目标是为了在一定的限制条件下�
 这里同时学习K个similarity function，对应K个相互关联的tasks。定义为：$$S^k (x,x') , k\in [K]$$，其中 $$x,x' \in \mathbb{R}^d$$，是第k个task的两个instance。假设有一个bi-linear form的similarity function
 
 $$S^k(x, x') = x^T M^k x'$$
+
+对于online multi-task relative similarity learning，我们收到了triplet data，分别有三个部分：三个sample组成的training data，相关的label，已经task的index。
