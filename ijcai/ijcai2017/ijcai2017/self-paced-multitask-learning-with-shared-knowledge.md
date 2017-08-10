@@ -36,7 +36,9 @@ $$\mathcal{L} (y_t, f(X_t, w_t)) = \frac{1}{N_t} \sum_i \ell (y_i^t, f(x_i^t, w_
 
 $$\Theta$$是task之间共享的knowledge。我们假设$$P_\gamma(W, \Theta) = \sum_t P_\gamma(w_t, \Theta)$$，也就是separable。这就是给定了一个scoring function，判断当前task学习的难易。很多MTL问题都能归化到这个问题。比如Multitask Feature Learning, Regularized Multitask Learning, Multitask Learning with Manifold Regularization, Multitask Learning via Alternating Structure Optimization, Sparse Coding for Multitask Learning。
 
+有了这些设定，可以将SPL框架沿用到MTL下，通过给每一个task设定权重
 
+$$\mathcal{E}_\lambda\{\hat W, \hat \Theta\} = argmin \sum_t \frac{1}{N_t} \sum_i \tau_{ti} \ell (y_i^t, f(x_i^t, w_t))+ P_\gamma(W, \Theta) + \lambda r(\tau)$$
 
 # Appendix
 
