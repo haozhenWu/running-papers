@@ -27,3 +27,4 @@ loss function定义在论文中。定义一个task similarity matrix $$A \in \ma
 
 ## Active Learning Extension
 
+使用stochastic active sampling scheme来觉得是否要采用当前这个triplet用来update。
