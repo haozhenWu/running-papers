@@ -24,3 +24,6 @@ $$S^k(x, x') = x^T M^k x'$$
 上面描述的就类似self-paced的步骤，不过对象换成了triplet。
 
 loss function定义在论文中。定义一个task similarity matrix $$A \in \mathbb{R}^{K \times K}$$，$$A$$的逆就是$$M$$的learning rate。
+
+## Active Learning Extension
+
