@@ -54,3 +54,5 @@ $$\mathcal{E}_\lambda\{\hat W, \hat \Theta\} = argmin \sum_t \tau_t [\mathcal{L}
 # Appendix
 
 总的就是利用residual，进行判断，一个task是否简单，以及是否使用这个task进行gradient update。
+
+然后在linear的情况下，loss function对于$$W$$和$$\tau$$都是convex，因此可以迭代的进行update。
