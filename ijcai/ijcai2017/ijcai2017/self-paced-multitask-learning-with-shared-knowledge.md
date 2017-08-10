@@ -59,6 +59,12 @@ $$\mathcal{E}_\lambda\{\hat W, \hat \Theta\} = argmin \sum_t \tau_t [\mathcal{L}
 
 **Self-paced Multitask learning with Alternative Structure Optimization (spMTASO)** 学习的是共享的low dimensional structure $$U$$，在一个multiple-related tasks的hypothesis space上。
 
+# Related Work
+
+提到了一个很有意思的curriculum learning，是一种sequential learning方法。
+
+$$\mathcal{E}_{CL} = argmin \sum_t \mathcal{L}(y_{\pi(t)}, f(X_{\pi(t)}, w_{\pi(t)})) + \gamma \sum_t \| w_{\pi(t)} - w_{\pi(t-1)} \|^2 $$
+
 # Appendix
 
 总的就是利用residual，进行判断，一个task是否简单，以及是否使用这个task进行gradient update。
