@@ -65,6 +65,8 @@ $$\mathcal{E}_\lambda\{\hat W, \hat \Theta\} = argmin \sum_t \tau_t [\mathcal{L}
 
 $$\mathcal{E}_{CL} = argmin \sum_t \mathcal{L}(y_{\pi(t)}, f(X_{\pi(t)}, w_{\pi(t)})) + \gamma \sum_t \| w_{\pi(t)} - w_{\pi(t-1)} \|^2 $$
 
+这里的$$\pi$$可以认为是一种学习策略，是task的order。
+
 # Appendix
 
 总的就是利用residual，进行判断，一个task是否简单，以及是否使用这个task进行gradient update。
