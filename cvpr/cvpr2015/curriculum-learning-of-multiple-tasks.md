@@ -31,3 +31,14 @@ Anastasia Pentina, Viktoriia Sharmanska, Christoplh H. Lampert
 $$\ell (w_1, ..., w_n) = \frac{1}{n} \sum_i \mathbb{E} [ y \ne sign \langle w_i, x \rangle ] $$
 
 n是task的个数。
+
+## Learning in a fixed order
+
+假设在顺序$$\pi$$下，前一个task的参数是$$\hat w$$，当前的task就是
+
+$$ \underset{w}{min} \| w - \hat w \|^2 + \frac{C}{m} \sum_j \xi_j $$, where $$y_j \langle w, x_j \rangle \ge 1 - \xi_j, \xi_j \ge 0$$
+
+对于第一个task，假设$$\hat w = 0$$
+
+# Appendix
+
