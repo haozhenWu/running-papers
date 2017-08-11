@@ -168,6 +168,7 @@
   * [2017](aaai/aaai2017/aaai2017.md)
     * [Deep MIML Network](aaai/aaai2017/deep-miml-network.md)
     * [SeqGAN: Sequence Generative Adversarial Nets with Policy Gradient](aaai/aaai2017/seqgan-sequence-generative-adversarial-nets-with-policy-gradient.md)
+    * [Self-Paced Multi-Task Learning](aaai/aaai2017/self-paced-multi-task-learning.md)
 * [CVPR](cvpr/cvpr.md)
   * [2016](cvpr/cvpr2016/cvpr2016.md)
     * [Deep Residual Learning for Image Recognition](cvpr/cvpr2016/deep-residual-learning-for-image-recognition.md)
