@@ -10,4 +10,4 @@ Anastasia Pentina, Viktoriia Sharmanska, Christoph H. Lampert
 
 将euclidean distance进行regularization也是另外一种常用的方法，learner有很多task，但是只关注其中一个，剩余的都当作额外信息。
 
-我们的方法就是将multi-task learning降解成了许多domain adaptation问题。由教育领域启发，学习是一个线性的过程。
+我们的方法就是将multi-task learning降解成了许多domain adaptation问题。由教育领域启发，学习是一个顺序的过程。通过将任务进行排序，逐渐学习更多的知识，并且重复利用前面的知识。
