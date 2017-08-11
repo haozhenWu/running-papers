@@ -26,4 +26,4 @@ Anastasia Pentina, Viktoriia Sharmanska, Christoplh H. Lampert
 
 # Method
 
-假设每一个task的训练还是linear的情况，$$f(x) = sign \langle w, x \rangle $$。
+假设每一个task的训练还是linear的情况，$$f(x) = sign \langle w, x \rangle $$，而后使用0-1 loss。
