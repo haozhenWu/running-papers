@@ -13,4 +13,4 @@ Changsheng Li, etc.
 
 # Self-Paced Multi-Task Learning
 
-类似Learning Task Grouping and Overlap in Multi-task Learning这篇论文中的，使用线性模型和k个basis task。然后更换一下regularizer。
+类似Learning Task Grouping and Overlap in Multi-task Learning这篇论文中的，使用线性模型和k个basis task。然后为了体现self-paced的想法，换一种regularizer。
