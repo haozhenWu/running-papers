@@ -16,4 +16,6 @@ latent variable model 这种算法，很容易卡在了bad local optimum。为�
 
 **EM for Likelihood Maximization:** refer了这篇文章 Maximum likelihood from incomplete data via the EM algorithm
 
-**CCCP Algorithm for Risk Minimization:** 
+**CCCP Algorithm for Risk Minimization:** 损失函数是
+
+$$min \frac{1}{2} \|w\|^2 + \frac{C}{n} \sum_i \xi_i$$
