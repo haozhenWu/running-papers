@@ -42,5 +42,9 @@ $$ \underset{w}{min} \| w - \hat w \|^2 + \frac{C}{m} \sum_j \xi_j $$, where $$y
 
 注意这个方法并没有依靠所有task都是等价的假设。但是他的性能要求task得是相关的，从而进行sequential训练。
 
+## Learning a data-dependent order
+
+
+
 # Appendix
 
