@@ -25,6 +25,11 @@ $$S^k(x, x') = x^T M^k x'$$
 
 loss function定义在论文中。定义一个task similarity matrix $$A \in \mathbb{R}^{K \times K}$$，$$A$$的逆就是$$M$$的learning rate。
 
+$$
+w_{t+1} = w + y_t \tau_t A_{I}^{-1} \phi_t \\
+M_{t+1}^k = M_t^k + y_t \tau_t A_{k,t_k}^{-1} X_t
+$$
+
 ## Active Learning Extension
 
 使用stochastic active sampling scheme来觉得是否要采用当前这个triplet用来update。
