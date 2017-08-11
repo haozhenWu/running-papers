@@ -56,5 +56,7 @@ $$\frac{1}{m_k} \sum_{j=1}^{m_k} \bar \Phi (\frac{ y_j^k \langle w_k, x_j^k \ran
 
 也提到了如果有多个group，那么在每一个group上进行sequence learning。如果放在一起训练，会有问题。
 
+因此提出了SeqMT的模型，允许tasks形成subsequences，信息只在同一个group的task之间传递。
+
 # Appendix
 
