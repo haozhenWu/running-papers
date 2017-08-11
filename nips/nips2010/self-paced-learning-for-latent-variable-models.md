@@ -12,4 +12,8 @@ latent variable model 这种算法，很容易卡在了bad local optimum。为�
 
 # Preliminaries
 
-对于图像中识别汽车的任务，$$x$$表示图像，$$y$$表示是否有汽车的label，$$h$$是包含汽车的一个框架。
+对于图像中识别汽车的任务，$$x$$表示图像，$$y$$表示是否有汽车的label，$$h$$是包含汽车的一个框架。之后通常是在数据上最大化likelihood，或者最小化risk。解决这个问题可以分为两个迭代过程，有两类算法：
+
+**EM for Likelihood Maximization**
+
+**CCCP Algorithm for Risk Minimization**
