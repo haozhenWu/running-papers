@@ -12,3 +12,4 @@ latent variable model 这种算法，很容易卡在了bad local optimum。为�
 
 # Preliminaries
 
+对于图像中识别汽车的任务，$$x$$表示图像，$$y$$表示是否有汽车的label，$$h$$是包含汽车的一个框架。
