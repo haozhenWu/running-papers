@@ -22,3 +22,7 @@ $$min \frac{1}{2} \|w\|^2 + \frac{C}{n} \sum_i \xi_i$$
 
 # Self-Paced Learning for Latent Variable Models
 
+两种方法判断easiness
+
+1. 一个sample是easy，如果我们很相信hidden variable的价值
+2. 一个sample是easy，如果很容易预测真的output
