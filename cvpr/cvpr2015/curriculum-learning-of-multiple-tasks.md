@@ -1,6 +1,6 @@
 # Curriculum Learning of Multiple Tasks
 
-Anastasia Pentina, Viktoriia Sharmanska, Christoph H. Lampert
+Anastasia Pentina, Viktoriia Sharmanska, Christoplh H. Lampert
 
 # Intro
 
@@ -26,3 +26,4 @@ Anastasia Pentina, Viktoriia Sharmanska, Christoph H. Lampert
 
 # Method
 
+假设每一个task的训练还是linear的情况，$$f(x) = sign \langle w, x \rangle $$。
