@@ -16,4 +16,6 @@ Anastasia Pentina, Viktoriia Sharmanska, Christoph H. Lampert
 
 # Related Work
 
+这篇论文的想法是给所有的task设定一个权重向量。
+
 一种常见的方法是将latent task通过linear combination结合起来。
