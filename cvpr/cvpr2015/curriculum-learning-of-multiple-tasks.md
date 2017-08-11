@@ -58,5 +58,9 @@ $$\frac{1}{m_k} \sum_{j=1}^{m_k} \bar \Phi (\frac{ y_j^k \langle w_k, x_j^k \ran
 
 因此提出了SeqMT的模型，允许tasks形成subsequences，信息只在同一个group的task之间传递。新的模型是Multi-SeqMT，也就是在每个stage，允许让learner觉得是否继续当前的sequence还是重新开一个新的sequence。
 
+# Experiments
+
+使用了两个数据集，Animals with Attributes（AwA）和Shoes（被特征进行增强）。
+
 # Appendix
 
