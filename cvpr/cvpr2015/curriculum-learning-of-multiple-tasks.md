@@ -48,7 +48,7 @@ $$ \underset{w}{min} \| w - \hat w \|^2 + \frac{C}{m} \sum_j \xi_j $$, where $$y
 
 利用PAC-Bayesian来证明error bound。
 
-然后在决定第i个task的时候，已经确定了$$\pi(1), ..., \pi(i-1)$$，我们要找task $$t_k$$能够最小化下面的函数，并且前面没有计算过
+然后在决定第i个task的时候，已经确定了$$\pi(1), ..., \pi(i-1)$$，我们要找task $$t_k$$能够最小化下面的函数，并且前面没有用于计算$$w$$
 
 $$\frac{1}{m_k} \sum_{j=1}^{m_k} \bar \Phi (\frac{ y_j^k \langle w_k, x_j^k \rangle }{\| x_j^k \|}) + \frac{\| w_k - w_{(i-1)} \|^2}{2 \sqrt{\bar m}} $$
 
