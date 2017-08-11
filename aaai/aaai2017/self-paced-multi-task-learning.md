@@ -9,3 +9,4 @@ Changsheng Li, etc.
 1. 假设所有的人物都共享low－rank feature representation
 2. task的model parameters相互关联
 
+这篇paper提出了在训练MTL的同时，考虑到了instance和task的复杂性。
