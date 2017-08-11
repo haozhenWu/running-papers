@@ -31,5 +31,9 @@ $$min \frac{1}{2} \|w\|^2 + \frac{C}{n} \sum_i \xi_i$$
 
 我们定义easy samples是output能够很容易的被预测。
 
+$$w_{t+1} = \underset{w}{argmin} (r(w) + \sum_i f(x_i, y_i; w))$$
+
+$$(w_{t+1}, v_{t+1}) = \underset{w, v}{argmin} (r(w) + \sum_i f(x_i, y_i; w) - \frac{1}{K} \sum_i v_i)$$
+
 # Appendix
 
