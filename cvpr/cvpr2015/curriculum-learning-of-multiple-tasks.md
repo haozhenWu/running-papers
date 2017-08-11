@@ -52,5 +52,9 @@ $$ \underset{w}{min} \| w - \hat w \|^2 + \frac{C}{m} \sum_j \xi_j $$, where $$y
 
 $$\frac{1}{m_k} \sum_{j=1}^{m_k} \bar \Phi (\frac{ y_j^k \langle w_k, x_j^k \rangle }{\| x_j^k \|}) + \frac{\| w_k - w_{(i-1)} \|^2}{2 \sqrt{\bar m}} $$
 
+## Learning with multiple subsequences
+
+也提到了如果有多个group，那么在每一个group上进行sequence learning。如果放在一起训练，会有问题。
+
 # Appendix
 
