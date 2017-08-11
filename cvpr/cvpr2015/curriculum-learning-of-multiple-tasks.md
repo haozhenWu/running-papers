@@ -26,4 +26,8 @@ Anastasia Pentina, Viktoriia Sharmanska, Christoplh H. Lampert
 
 # Method
 
-假设每一个task的训练还是linear的情况，$$f(x) = sign \langle w, x \rangle $$，而后使用0-1 loss。
+假设每一个task的训练还是linear的情况，$$f(x) = sign \langle w, x \rangle $$，而后使用0-1 loss。目标是为了找到一个对应于不同task的权重向量，目标是为了最终能在所有的task上有最小的average expected error。
+
+$$\ell (w_1, ..., w_n) = \frac{1}{n} \sum_i \mathbb{E} [ y \ne sign \langle w_i, x \rangle ] $$
+
+n是task的个数。
