@@ -20,3 +20,5 @@ Changsheng Li, etc.
 使用了两个真实的数据集，OHSUMED和Isolet。
 
 第一个是regressional dataset，有106个queries，每一个query当作一个task。
+
+第二个是150个speaker，每一个人都将英文字母说两遍。每一个英文字母作为一个task，当作一个regression value。所有的用户分成五个大类，通过speaking similarity。
