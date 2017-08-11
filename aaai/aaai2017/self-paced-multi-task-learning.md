@@ -14,3 +14,9 @@ Changsheng Li, etc.
 # Self-Paced Multi-Task Learning
 
 类似Learning Task Grouping and Overlap in Multi-task Learning这篇论文中的，使用线性模型和k个basis task。然后为了体现self-paced的想法，换一种regularizer。
+
+# Experiment
+
+使用了两个真实的数据集，OHSUMED和Isolet。
+
+第一个是regressional dataset，有106个queries，每一个query当作一个task。
