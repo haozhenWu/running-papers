@@ -23,3 +23,6 @@ Anastasia Pentina, Viktoriia Sharmanska, Christoph H. Lampert
 其余几个关于使用权重向量的做法，都需要domain knowledge。
 
 以前关于sequence learning的想法，更多的是在single-task的情况下，如何将sample进行排序。这里就是multi-task的情况下，如何将task进行排序。Kumar在10年的NIPS中，提出的self-paced learning也是如何对sample进行排序，不过后来在17年的AAAI上就已经延伸到了multi-task设定。
+
+# Method
+
