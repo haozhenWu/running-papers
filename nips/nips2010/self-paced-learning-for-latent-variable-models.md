@@ -19,3 +19,6 @@ latent variable model 这种算法，很容易卡在了bad local optimum。为�
 **CCCP Algorithm for Risk Minimization:** 损失函数是
 
 $$min \frac{1}{2} \|w\|^2 + \frac{C}{n} \sum_i \xi_i$$
+
+# Self-Paced Learning for Latent Variable Models
+
