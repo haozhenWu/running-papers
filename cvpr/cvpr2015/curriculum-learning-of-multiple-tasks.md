@@ -44,7 +44,7 @@ $$ \underset{w}{min} \| w - \hat w \|^2 + \frac{C}{m} \sum_j \xi_j $$, where $$y
 
 ## Learning a data-dependent order
 
-
+使用算法$$A(w_{\pi(i-1)}, S_{\pi(i)})$$，根据前面已经解决的task参数$$w_{\pi(i-1)}$$和训练数据$$S_{\pi(i)}$$，返回$$w_{\pi(i)}$$。
 
 # Appendix
 
