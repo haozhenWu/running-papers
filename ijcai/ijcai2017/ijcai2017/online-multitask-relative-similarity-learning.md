@@ -32,7 +32,7 @@ $$
 
 ## Active Learning Extension
 
-使用stochastic active sampling scheme来觉得是否要采用当前这个triplet用来update。简单地说，就是使用伯努利分布，如果$$Z_t=1$$来确定是否要在第t步，使用true label $$y_t$$。
+使用stochastic active sampling scheme来觉得是否要采用当前这个triplet用来update。简单地说，就是使用伯努利分布，如果$$Z_t=1$$来确定是否要在第t步，使用true label $$y_t$$；否则$$Z_t=0$$就不采用。
 
 # Appendix
 
