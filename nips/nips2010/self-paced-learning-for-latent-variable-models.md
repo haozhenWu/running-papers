@@ -33,6 +33,8 @@ $$min \frac{1}{2} \|w\|^2 + \frac{C}{n} \sum_i \xi_i$$
 
 $$w_{t+1} = \underset{w}{argmin} (r(w) + \sum_i f(x_i, y_i; w))$$
 
+然后引入向量$$v$$来判断，第i个sample是否简单。大部分情况只考虑简单的sample用于update weight。
+
 $$(w_{t+1}, v_{t+1}) = \underset{w, v}{argmin} (r(w) + \sum_i f(x_i, y_i; w) - \frac{1}{K} \sum_i v_i)$$
 
 # Appendix
