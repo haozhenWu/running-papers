@@ -37,5 +37,7 @@ $$w_{t+1} = \underset{w}{argmin} (r(w) + \sum_i f(x_i, y_i; w))$$
 
 $$(w_{t+1}, v_{t+1}) = \underset{w, v}{argmin} (r(w) + \sum_i f(x_i, y_i; w) - \frac{1}{K} \sum_i v_i)$$
 
+
+
 # Appendix
 
