@@ -109,7 +109,7 @@
   * [2000](nips/nips2000/nips2000.md)
     * [Policy Gradient Methods for Reinforcement Learning with Function Approximation](nips/nips2000/policy-gradient-methods-for-reinforcement-learning-with-function-approximation.md)
   * [1995](nips/nips1995/nips1995.md)
-    * [An Actor/Critic Algorithm that is Equivalent to Q-Learning](nips/nips1995/nips1995/an-actorcritic-algorithm-that-is-equivalent-to-q-learning.md)
+    * [An Actor/Critic Algorithm that is Equivalent to Q-Learning](nips/nips1995/an-actorcritic-algorithm-that-is-equivalent-to-q-learning.md)
 * [ICML](icml/icml.md)
   * [2017](icml/icml2017/icml2017.md)
     * [Grammar Variational Autoencoder](icml/icml2017/grammar-variational-autoencoder.md)
