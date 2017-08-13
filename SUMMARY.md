@@ -107,7 +107,7 @@
   * [2002](nips/nips2002/nips2002.md)
     * [An Impossibility Theorem for Clustering](nips/nips2002/an-impossibility-theorem-for-clustering.md)
   *	[2000](nips/nips2000/nips2000.md)
-	* [Policy Gradient Methods for Reinforcement Learning with Function Approximation](ni[nips/nips2000/policy-gradient-methods-for-reinforcement-learning-with-function-approximation.md)
+	* [Policy Gradient Methods for Reinforcement Learning with Function Approximation](nips/nips2000/policy-gradient-methods-for-reinforcement-learning-with-function-approximation.md)
 * [ICML](icml/icml.md)
   * [2017](icml/icml2017/icml2017.md)
     * [Grammar Variational Autoencoder](icml/icml2017/grammar-variational-autoencoder.md)
