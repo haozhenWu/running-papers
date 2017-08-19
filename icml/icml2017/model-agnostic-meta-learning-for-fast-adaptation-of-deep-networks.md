@@ -9,3 +9,4 @@ Chelsea Finn, Pieter Abbeel, Sergey Levine
 # Model-Agnostic Meta-Learning
 
 few-shot meta-learning的目的是能够快速的adapt到新的task，而且只依靠很少的训练数据和迭代次数。
+
