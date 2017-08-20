@@ -10,3 +10,5 @@ Chelsea Finn, Pieter Abbeel, Sergey Levine
 
 few-shot meta-learning的目的是能够快速的adapt到新的task，而且只依靠很少的训练数据和迭代次数。
 
+few-shot learning中，假设T个任务符合某种分别$$p(\tau)$$。
+
