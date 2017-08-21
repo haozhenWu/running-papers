@@ -26,4 +26,12 @@ $$min_\theta \sum_{\tau_i} \mathcal{L}_{\tau_i} ( f_{\theta_i'} ) = \sum_{\tau_i
 
 在这里主要还是在一个task上通过少量数据学习到了一些有用信息。而且也是包含了一个假设条件，就是task之间有类似的信息。
 
-使用$$p(\tau)$$产生K个iid的观察，然后task loss就是使用这个observation得到的loss。s
+使用$$p(\tau)$$产生K个iid的观察，然后task loss就是使用这个observation得到的loss。
+
+一些说明：
+
+1. 这里对应于2.1节，将一个episode值设定为训练一个data set，也就是$$H=1$$，这个设定更加符合few-shot learning；不过对于其他设定，需要将episode设定更大一些。
+2. 
+
+# Appendix
+
