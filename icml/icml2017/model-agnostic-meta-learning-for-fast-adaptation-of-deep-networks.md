@@ -31,7 +31,7 @@ $$min_\theta \sum_{\tau_i} \mathcal{L}_{\tau_i} ( f_{\theta_i'} ) = \sum_{\tau_i
 一些说明：
 
 1. 这里对应于2.1节，将一个episode值设定为训练一个data set，也就是$$H=1$$，这个设定更加符合few-shot learning；不过对于其他设定，需要将episode设定更大一些。
-2. 
+2. 这里假设已经知道task的分布，并没有动态的更新$$p(\tau)$$。
 
 # Appendix
 
