@@ -23,3 +23,4 @@ $$\theta_{t+1} = \theta_t + g_t(\bigtriangledown f(\theta_t), \phi)$$
 
 # Learning to learn with recurrent neural networks
 
+直接将optimizer参数化，目标函数是$$f$$，而optimizer 函数/参数是$$\phi$$，最终的优化目标是$$\theta^*$$。
