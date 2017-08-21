@@ -14,3 +14,10 @@ few-shot learning中，假设T个任务符合某种分别$$p(\tau)$$。
 
 为了能够达到快速的transfer learning，会侧重于找到general-purpose representation。会找到对于task changes非常敏感的模型参数。也就是原来loss gradient更新相比，参数中很小的改变会引起$$p(\tau)$$中的task性能的极大提升。
 
+提出了一个meta-objective，就
+
+$$min_\theta \sum_{\tau_i} \mathcal{L}_{\tau_i} ( f_{\theta_i'} ) = \sum_{\tau_i} \mathcal{L}_{\tau_i} (f_\theta - \alpha \bigtriangledown_\theta \mathcal{L}_{\tau_i} (f_\theta)) $$
+
+# Species of MAML
+
+讨论了meta-learning的几种变形，在监督式学习和增强式学习上。
