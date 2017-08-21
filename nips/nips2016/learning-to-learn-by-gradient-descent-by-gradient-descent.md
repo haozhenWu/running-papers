@@ -12,3 +12,14 @@ Marcin Andrychowicz, etc
 
 $$\theta_{t+1} = \theta_t + g_t(\bigtriangledown f(\theta_t), \phi)$$
 
+## Related Work
+
+有一些有意思的相关工作。
+
++ 学习一个base learner
++ 通过RL训练一个controller，来选择step-size
++ 使用parametric rules，而非SGD
++ 使用RNN学习step-size
+
+# Learning to learn with recurrent neural networks
+
