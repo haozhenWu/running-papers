@@ -39,7 +39,8 @@ $$min_\theta \sum_{\tau_i} \mathcal{L}_{\tau_i} ( f_{\theta_i'} ) = \sum_{\tau_i
 
 一些说明：
 
-1. 这里同样假设已知task的分布，并且也已知transition的分别分布。
+1. 这里同样假设已知task的分布，并且也已知transition的分布。
 
 # Appendix
 
+MAML的算法也是meat-learning的一种，不同的是它并没有引入额外的参数或者说额外的meta learner model。
