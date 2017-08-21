@@ -22,7 +22,7 @@ $$min_\theta \sum_{\tau_i} \mathcal{L}_{\tau_i} ( f_{\theta_i'} ) = \sum_{\tau_i
 
 讨论了meta-learning的几种变形，在监督式学习和增强式学习上。
 
-## 监督式问题
+## Supervised Learning
 
 在这里主要还是在一个task上通过少量数据学习到了一些有用信息。而且也是包含了一个假设条件，就是task之间有类似的信息。
 
@@ -32,6 +32,14 @@ $$min_\theta \sum_{\tau_i} \mathcal{L}_{\tau_i} ( f_{\theta_i'} ) = \sum_{\tau_i
 
 1. 这里对应于2.1节，将一个episode值设定为训练一个data set，也就是$$H=1$$，这个设定更加符合few-shot learning；不过对于其他设定，需要将episode设定更大一些。
 2. 这里假设已经知道task的分布，并没有动态的更新$$p(\tau)$$。
+
+## RL
+
+目标函数就是negative reward function，从而变成一个supervised问题。
+
+一些说明：
+
+1. 这里同样假设已知task的分布，并且也已知transition的分别分布。
 
 # Appendix
 
