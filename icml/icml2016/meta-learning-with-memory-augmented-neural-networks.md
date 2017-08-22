@@ -19,3 +19,6 @@ $$\theta^* = argmin_\theta \, \mathbb{E}_{D \sim p(D)} [\mathcal{L}(D; \theta)] 
 # Memory-Augmented Model
 
 使用一个controller来进行memory存储。controller也就是一个前向网络或者是LSTM。controller会和外部的一个memory module进行交互，而memory module能够存储重要的长期和短期记忆，在表现形式上就是能够将$$x_t$$作为输入，输出一个key $$k_t$$，key可以直接是memory matrix的某一项，或者是memory matrix的index。
+
+使用基于cosine similarity将模型取出。
+
