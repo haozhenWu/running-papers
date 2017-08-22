@@ -19,5 +19,7 @@ model-based方法，就是使用某个模拟源来模拟真实的数据，能够
 
 source和target分别用$$M$$和$$W$$表示，目标是为了学习$$W$$的最优策略。
 
+
+
 # Appendix
 
