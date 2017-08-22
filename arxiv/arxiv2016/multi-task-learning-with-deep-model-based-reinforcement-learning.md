@@ -20,6 +20,10 @@ Zurich, Switzerland
 
 将每一个time step进行featurize和labelize，从而进行supervised learning。
 
+然后引入了一个residual unit作为RNN的hidden unit。如果公式写下来，大概是
+
+$$h_{t+1} = f( \sigma_{normalize}(h_t); x_t)$$
+
 # Appendix
 
 抛开作者的写作能力不谈，这篇paper的想法，使用RNN在RL上做MTL，似乎不是特别新的想法。等将来看了更多的paper再补充。
