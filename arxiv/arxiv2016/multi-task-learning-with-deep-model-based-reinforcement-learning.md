@@ -18,7 +18,7 @@ Zurich, Switzerland
 
 # Predictive Reinforcement Learning
 
-意思是在每一个time step，并不是使用on-policy的方法直接让程序跑下去，而是先跑一个类似look-ahead的步骤。
+将每一个time step进行featurize和labelize，从而进行supervised learning。
 
 # Appendix
 
