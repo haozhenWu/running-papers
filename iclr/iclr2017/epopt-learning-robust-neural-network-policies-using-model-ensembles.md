@@ -17,7 +17,13 @@ model-based方法，就是使用某个模拟源来模拟真实的数据，能够
 
 # Problem Formulation
 
-source和target分别用$$M$$和$$W$$表示，目标是为了学习$$W$$的最优策略。假设在source domain存在某个分布$$D$$，能够拟合$$W$$。
+source和target domain分别用$$M$$和$$W$$表示，目标是为了学习$$W$$的最优策略。假设在source domain存在某个分布$$D$$，能够拟合$$W$$。
+
+# Learning Protocol and EPOpt Algorithm
+
+和target domain进行交互的时候，使用round；和simulator交互的时候，使用episode。
+
+每一个round，在当前模拟的source distribution上计算robust policy之后，和target进行交互。然后，使用通过target domain产生的
 
 # Appendix
 
