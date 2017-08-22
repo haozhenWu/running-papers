@@ -27,3 +27,6 @@ $$\theta_{t+1} = \theta_t + g_t(\bigtriangledown f(\theta_t), \phi)$$
 
 使用RNN，输入的特征是$$\bigtriangledown_t, h_t, \phi$$，而输出是下一步RNN(m)的参数$$h_{t+1}$$和optimizer的参数$$g_t$$。之后使用$$\theta_{t+1} = \theta_t + g_t$$进行更新。
 
+# Appendix
+
+简单的说，就是让model能够学习gradient history，从而学习到下一步的gradient。
