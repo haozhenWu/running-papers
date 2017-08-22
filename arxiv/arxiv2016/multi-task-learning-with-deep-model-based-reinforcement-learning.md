@@ -26,5 +26,5 @@ $$h_{t+1} = f( \sigma_{normalize}(h_t); x_t)$$
 
 # Appendix
 
-抛开作者的写作能力不谈，这篇paper的想法，使用RNN在RL上做MTL，似乎不是特别新的想法。等将来看了更多的paper再补充。
+抛开作者的写作能力不谈，这篇paper的想法，使用RRNN在RL上做MTL，似乎不是特别新的想法。等将来看了更多的paper再补充。
 投了ICLR 2017，被拒。（竟然还有一个是strong rejection，ICLR的reviewer杀气重重啊 LOL）
