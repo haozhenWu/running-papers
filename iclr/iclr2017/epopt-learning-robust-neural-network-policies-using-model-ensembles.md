@@ -14,3 +14,10 @@ model-based方法，就是使用某个模拟源来模拟真实的数据，能够
 2. 从这个robust policy来收集数据，并且来调整distribution
 
 另外这里为了体现robust，使用了adversarial training。也就是将那些performance比较差的sample point更多的进行训练，从而使得最终的generalize更好。
+
+# Problem Formulation
+
+source和target分别用$$M$$和$$W$$表示，目标是为了学习$$W$$的最优策略。
+
+# Appendix
+
