@@ -30,3 +30,5 @@ $$\theta_{t+1} = \theta_t + g_t(\bigtriangledown f(\theta_t), \phi)$$
 # Appendix
 
 简单的说，就是让model能够学习gradient history，从而学习到下一步的gradient。
+
+然后在训练meta-learner，RNN的时候，用了一些trick。
