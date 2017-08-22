@@ -26,3 +26,5 @@ $$\theta^* = argmin_\theta \, \mathbb{E}_{D \sim p(D)} [\mathcal{L}(D; \theta)] 
 
 1. 放到rarely-used location，保存recently encoded information
 2. 放到last-used location，同时将memory内容更新，比如newer，more relevant info
+
+而后就是考虑某种权重，将representation取出。
