@@ -22,4 +22,4 @@ $$\theta^* = argmin_\theta \, \mathbb{E}_{D \sim p(D)} [\mathcal{L}(D; \theta)] 
 
 使用基于cosine similarity将模型取出。是一种基于location和content的方法。
 
-这个NTM的方法对于sequence-based task十分有效，但对于独立于序列的聚合信息不是特别最优。
+这个NTM的方法对于sequence-based task十分有效，但对于独立于序列的聚合信息不是特别最优。就此提出了Least Recently Used Access(LRUA)。
