@@ -22,4 +22,7 @@ $$\theta^* = argmin_\theta \, \mathbb{E}_{D \sim p(D)} [\mathcal{L}(D; \theta)] 
 
 使用基于cosine similarity将模型取出。是一种基于location和content的方法。
 
-这个NTM的方法对于sequence-based task十分有效，但对于独立于序列的聚合信息不是特别最优。就此提出了Least Recently Used Access(LRUA)。
+这个NTM的方法对于sequence-based task十分有效，但对于独立于序列的聚合信息不是特别最优。就此提出了Least Recently Used Access(LRUA)。大致想法就是将内容和访问次数联系起来，新的信息有两种加入memory的方式
+
+1. 放到rarely-used location，保存recently encoded information
+2. 放到last-used location，同时将memory内容更新，比如newer，more relevant info
