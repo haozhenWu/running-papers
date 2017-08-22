@@ -28,3 +28,9 @@ $$\theta^* = argmin_\theta \, \mathbb{E}_{D \sim p(D)} [\mathcal{L}(D; \theta)] 
 2. 放到last-used location，同时将memory内容更新，比如newer，more relevant info
 
 而后就是考虑某种权重，将representation取出。
+
+# Appendix
+
+智能单元 [最前沿：百家争鸣的Meta Learning/Learning to learn](https://zhuanlan.zhihu.com/p/28639662)
+
+> 我们可以看到，网络的输入把上一次的y label也作为输入，并且添加了external memory存储上一次的x输入，这使得下一次输入后进行反向传播时，可以让y label和x建立联系，使得之后的x能够通过外部记忆获取相关图像进行比对来实现更好的预测。
