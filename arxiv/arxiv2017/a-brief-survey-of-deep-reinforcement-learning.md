@@ -70,7 +70,7 @@ $$A = V - Q$$
 
 使用一个actor(policy)，从critic(value function)中得到反馈，从而优化策略。而actor critic使用value function作为policy gradient的baseline。
 
-[智能单元](https://zhuanlan.zhihu.com/p/26882898)的解释非常到位。再按照我的理解说一下：如果我们有了某种oracle，知道reward，不需要进行计算，那么就变成了一个仅仅依靠gradient来优化policy的算法，这就是gradient policy。但是，再更多的情况下，我们并不知道真实的reward，就要用各种方法来模拟$$Q$$-value，那么这就是Actor Critic。
+[智能单元](https://zhuanlan.zhihu.com/p/26882898)的解释非常到位。再按照我的理解说一下：如果我们有了某种oracle，知道reward，不需要进行计算，那么就变成了一个仅仅依靠gradient来优化policy的算法，这就是gradient policy。但是，再更多的情况下，我们并不知道真实的reward，就要用各种方法来模拟$$Q$$-value，那么这就是Actor Critic。Critic (value network)预测的值会指导Actor (policy network)的更新。
 
 # Appendix
 
