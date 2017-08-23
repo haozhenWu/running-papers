@@ -40,11 +40,21 @@ state-value $$V$$是expected return。
 
 ## Sampling (MC)
 
-Monte Carlo通过averaging the return from multiple rollouts of a policy的方法来估计expected return。
+Monte Carlo通过averaging the return from multiple rollouts of a policy的方法来估计expected return。也就是sample多条路径，然后取平均。
 
 最开始的MC只能解决episodic problem。而且因为是从start time step，通过sampling，直接走到底，或者说直接走到end time step，所以不存在通过t时刻的policy improvement，来帮助优化t之后时刻的policy。从而不存在bootstrapping。
 
 $$TD(\lambda)$$就是1-step TD和纯MC之间的缓冲带。
+
+另外一个主要的value-based方法是使用advantage function $$A(s,a)$$，而不是$$Q$$-function。advantage表示的是采取某个action比某个baseline要好，也就是一种relative value function。
+
+$$A = V - Q$$
+
+## Policy Search
+
+直接搜索最优的policy，不需要通过value function。将policy进行参数化 $$\pi_\theta$$，然后目标是为了最大化 $$E[R|\theta]$$。
+
+对于连续的特征，可以用gaussian distribution，而参数是mean和deviation。对于离散的特征，那么就是相互独立的。
 
 # Appendix
 
