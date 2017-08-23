@@ -23,7 +23,7 @@ source和target domain分别用$$M$$和$$W$$表示，目标是为了学习$$W$$�
 
 和target domain进行交互的时候，使用round；和simulator交互的时候，使用episode。
 
-每一个round，在当前模拟的source distribution上计算robust policy之后，和target进行交互。然后，使用通过target domain产生的
+每一个round，在当前模拟的source distribution上计算robust policy之后，和target进行交互。然后，使用通过target domain产生的数据来update source distribution。因此，每一个round，我们进行两次更新：一个是真的robust policy的$$\theta_i$$，另外一个是source distribution $$\psi_i$$；而关键步骤就是根据source distribution来更新robust policy，在根据target domain产生的数据更新source distribution。
 
 # Appendix
 
