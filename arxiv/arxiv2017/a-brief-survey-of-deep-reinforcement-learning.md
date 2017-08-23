@@ -54,7 +54,19 @@ $$A = V - Q$$
 
 直接搜索最优的policy，不需要通过value function。将policy进行参数化 $$\pi_\theta$$，然后目标是为了最大化 $$E[R|\theta]$$。
 
-对于连续的特征，可以用gaussian distribution，而参数是mean和deviation。对于离散的特征，那么就是相互独立的。
+对于连续的特征，可以用gaussian distribution，而参数是mean和deviation。对于离散的特征，那么就是相互独立的。结果就是能够产生一个stochastic policy，从而能够sample actions。
+
+如果使用gradient-free方法，那么找到更好的policy就需要一些heuristic search，比如hill-climbing。
+
+## Policy Gradient
+
+紧接着上面，如果使用基于gradient的方法，为了得到$$argmax_{\pi} \, E[R|\pi_\theta]$$，要么使用deterministic policy，要么使用stochastic policy配合sampling。
+
+对于更一般的stochastic情况，使用MC来估计expected return。这会带来一个问题：有随机分布产生的action sample，相互之间的gradient无法传递。因此引入了REINFORCE rule。核心想法就是我们对gradient进行估计，一个被函数$$f$$（大部分情况下是return）加权的log-likelihood。
+
+## Actor-critic Method
+
+
 
 # Appendix
 
