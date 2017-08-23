@@ -29,7 +29,13 @@ state-value $$V$$是expected return。
 
 因为state transition未知，所以引入了state-action-value，或者也叫$$Q$$-function。这样方便使用遍历的方法将$$V$$和$$Q$$-函数联系起来。
 
+## DP
 
+引入了Bellman equation。
+
+我认为这里介绍的不是特别好，将TD放在了DP里面介绍，和后面的sampling(MC)没有做很好的区分。所以这里补充几点：
+
+1. bootstrapping，自助抽样法。
 
 # Appendix
 
