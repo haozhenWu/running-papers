@@ -24,6 +24,7 @@
     * [Not Just A Black Box: Learning Important Features Through Propagating Activation Differences](arxiv/arxiv2016/not_just_a_black_box_learning_important_features_t.md)
     * [Massively Multilingual Word Embeddings](arxiv/arxiv2016/massively-multilingual-word-embeddings.md)
     * [Multi-task Learning with Deep Model Based Reinforcement Learning](arxiv/arxiv2016/multi-task-learning-with-deep-model-based-reinforcement-learning.md)
+    * [RL^2: Fast Reinforcement Learning via Slow Reinforcement Learning](arxiv/arxiv2016/rl2-fast-reinforcement-learning-via-slow-reinforcement-learning.md)
   * [2015](arxiv/arxiv2015/arxiv2015.md)
     * [Visualizing and Understanding Recurrent Networks](arxiv/arxiv2015/visualizing_and_understanding_recurrent_networks.md)
     * [Why M Heads are Better than One: Training a Diverse Ensemble of Deep Networks](arxiv/arxiv2015/why_m_heads_are_better_than_one_training_a_diverse.md)
