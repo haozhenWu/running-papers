@@ -44,6 +44,8 @@ Monte Carlo通过averaging the return from multiple rollouts of a policy的方�
 
 最开始的MC只能解决episodic problem。而且因为是从start time step，通过sampling，直接走到底，或者说直接走到end time step，所以不存在通过t时刻的policy improvement，来帮助优化t之后时刻的policy。从而不存在bootstrapping。
 
+$$TD(\lambda)$$就是1-step TD和纯MC之间的缓冲带。
+
 # Appendix
 
 收录于IEEE Signal Processing Magazine
