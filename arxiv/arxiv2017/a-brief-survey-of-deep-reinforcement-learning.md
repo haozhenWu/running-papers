@@ -33,9 +33,14 @@ state-value $$V$$是expected return。
 
 引入了Bellman equation。
 
-我认为这里介绍的不是特别好，将TD放在了DP里面介绍，和后面的sampling(MC)没有做很好的区分。所以这里补充几点：
+我认为这里介绍的不是特别好，划分有点混乱。将TD放在了DP里面介绍，和后面的sampling(MC)没有做很好的区分。所以这里补充几点：
 
-1. bootstrapping，自助抽样法。
+1. bootstrapping，自助抽样法。在这里的作用是，每当我在时间t的时候，通过某些方法优化了policy，在t+1的时候，可以用这个优化过的policy接着进行预测。
+2. TD方法，既包含了DP，也包含了抽样的想法。
+
+## Sampling (MC)
+
+Monte Carlo通过averaging the return from multiple rollouts of a policy的方法来估计expected return。
 
 # Appendix
 
