@@ -62,11 +62,15 @@ $$A = V - Q$$
 
 紧接着上面，如果使用基于gradient的方法，为了得到$$argmax_{\pi} \, E[R|\pi_\theta]$$，要么使用deterministic policy，要么使用stochastic policy配合sampling。
 
-对于更一般的stochastic情况，使用MC来估计expected return。这会带来一个问题：有随机分布产生的action sample，相互之间的gradient无法传递。因此引入了REINFORCE rule。核心想法就是我们对gradient进行估计，一个被函数$$f$$（大部分情况下是return）加权的log-likelihood。
+对于更一般的stochastic情况，使用MC来估计expected return。这会带来一个问题：有随机分布产生的action sample，相互之间的gradient无法传递。因此引入了REINFORCE rule。核心想法就是我们对gradient进行估计，一个被函数$$f$$（可以是很多，比如reward，state-action value，state value等等）加权的log-likelihood。
 
 ## Actor-critic Method
 
+将value-function和policy representation结合起来。
 
+使用一个actor(policy)，从critic(value function)中得到反馈，从而优化策略。而actor critic使用value function作为policy gradient的baseline。
+
+[智能单元](https://zhuanlan.zhihu.com/p/26882898)的解释非常到位。再按照我的理解说一下：如果我们有了某种oracle，知道reward，不需要进行计算，那么就变成了一个仅仅依靠gradient来优化policy的算法，这就是gradient policy。但是，再更多的情况下，我们并不知道真实的reward，就要用各种方法来模拟$$Q$$-value，那么这就是Actor Critic。
 
 # Appendix
 
