@@ -104,7 +104,7 @@ DQN有一个可能的缺陷，是single estimator会overestimate expected return
 
 ## Actor-Critic Methods
 
-
+最新的相关发现是deterministic policy gradients，将stochastic policy上才能用的policy gradient理论进行了延伸。
 
 # Appendix
 
