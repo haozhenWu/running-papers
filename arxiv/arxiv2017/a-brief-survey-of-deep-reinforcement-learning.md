@@ -88,6 +88,8 @@ DQN使用了两个技术，experience relay和target network。experience relay�
 
 DQN有一个可能的缺陷，是single estimator会overestimate expected return，因为使用maximum action value作为expected action value。所以引入了Double-Q Learning。
 
+另外调整DQN的方法有，将Q－function分解为有意义的函数，比如将state-value function和advantage function加到一起。这个duelling DQN比单独使用state-value function和advantage function效果要好。
+
 # Appendix
 
 收录于IEEE Signal Processing Magazine
