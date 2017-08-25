@@ -18,4 +18,4 @@ Yan Duan, John Schulman, Xi Chen, Peter L. Bartlett, Ilya Sutskever, Pieter Abbe
 
 # Append
 
-这也是2017 ICLR被拒的一篇文章。
+这也是2017 ICLR被拒的一篇文章。我看了一下open review，的确是没有formally describe the algorithm，然后analysis上可能欠缺了一点。
