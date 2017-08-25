@@ -10,3 +10,8 @@ Yan Duan, John Schulman, Xi Chen, Peter L. Bartlett, Ilya Sutskever, Pieter Abbe
 
 # Method
 
+问题的设定是discrete-time finite-horizon discounted MDP。
+
+# Append
+
+这也是2017 ICLR被拒的一篇文章。
