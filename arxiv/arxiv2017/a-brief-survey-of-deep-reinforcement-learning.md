@@ -92,6 +92,16 @@ DQN有一个可能的缺陷，是single estimator会overestimate expected return
 
 对于continuous action，使用一个convex advantage layer对DQN调整，就有了normalised advantage function(NAF)，是continuous control上最新的方法之一。
 
+# Policy Search
+
+使用gradient－free或者gradient－based方法来找到policy。
+
+## Bachpropogation through Stochastic Functions
+
+从REINFORCE rule开始，提出了可以用gradient对policy进行更新。
+
+最近提出来了trust region policy optimization (TRPO)，能够保证策略的提升是单调的。前面也有人使用natural gradient update和KL divergence来对应policy gradient update进行限制。TRPO是将更新的policy和当前的policy，给定一个固定的KL divergence，并且引入了action conditional $$p(a|s)$$，对于network更加容易得到。
+
 # Appendix
 
 收录于IEEE Signal Processing Magazine
