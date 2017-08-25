@@ -80,7 +80,9 @@ value function认为是隐藏于environment下的一种表达方式。现在很�
 
 DQN就是将image或者frame作为输入，来预测输出。很多Atari游戏都可以使用这种方法。
 
-DQN使用了两个技术，experience relay和target network。experience relay是通过内存，将$$(s_t, a_t, s_{t+1}, r_{t+1})$$的循环存储下来，使得RL agent可以从中sample，并使用前面的数据进行训练。（offline）
+DQN使用了两个技术，experience relay和target network。experience relay是通过内存，将$$(s_t, a_t, s_{t+1}, r_{t+1})$$的循环存储下来，使得RL agent可以从中sample，并使用前面的数据进行训练。（offline） 最开始使用的是uniformly sample，但后来发现prioritising sample based on TD error对于学习更加有效。也就是偏向于选择那些TD error更加小的。
+
+第二种训练的trick就是设置一个target network。也就是on-policy learning，[这里](https://chao1224.github.io/reinforcement_learning/)有更详细的讲解。就是将当前的model或者target network固定几个time step，或者固定几个episode，然后使用这个固定的target network来计算TD error。类似baseline的想法。
 
 # Appendix
 
