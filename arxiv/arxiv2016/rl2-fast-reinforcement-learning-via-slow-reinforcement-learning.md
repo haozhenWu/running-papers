@@ -14,6 +14,8 @@ Yan Duan, John Schulman, Xi Chen, Peter L. Bartlett, Ilya Sutskever, Pieter Abbe
 
 使用n来表示总共的episode数量，而跑完所有的episode叫做一次trial。
 
+在训练policy的时候，将$$s_{t+1}, a_t, r_t, d_t$$作为输入，其中$$d_t$$是表示当前这个episode是否执行完。
+
 # Append
 
 这也是2017 ICLR被拒的一篇文章。
