@@ -90,6 +90,8 @@ DQN有一个可能的缺陷，是single estimator会overestimate expected return
 
 另外调整DQN的方法有，将Q－function分解为有意义的函数，比如将state-value function和advantage function加到一起。这个duelling DQN比单独使用state-value function和advantage function效果要好。将duelling DQN和prioritised experience relay结合扫目前discrete action上最新的方法。
 
+对于continuous action，使用一个convex advantage layer对DQN调整，就有了normalised advantage function(NAF)，是continuous control上最新的方法之一。
+
 # Appendix
 
 收录于IEEE Signal Processing Magazine
