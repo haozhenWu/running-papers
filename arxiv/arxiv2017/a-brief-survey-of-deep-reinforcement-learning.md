@@ -104,7 +104,7 @@ DQN有一个可能的缺陷，是single estimator会overestimate expected return
 
 ## Actor-Critic Methods
 
-最新的相关发现是deterministic policy gradients，将stochastic policy上才能用的policy gradient理论进行了延伸。
+最新的相关发现是deterministic policy gradients (DPG)，将stochastic policy上才能用的policy gradient理论进行了延伸。标准的stochastic policy gradient需要对于state和action space同时进行积分，而DPG只需要对state space就行。后面又介绍了deep DPG，是能够操作与高纬度的state space。
 
 # Appendix
 
