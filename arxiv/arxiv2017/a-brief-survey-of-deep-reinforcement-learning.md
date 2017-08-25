@@ -74,7 +74,11 @@ $$A = V - Q$$
 
 # Value Functions
 
+value function认为是隐藏于environment下的一种表达方式。现在很多方法都是使用DL来讲state作为输入，从而输出某种value function。
 
+## DQN
+
+DQN就是将image或者frame作为输入，来预测输出。很多Atari游戏都可以使用这种方法。
 
 # Appendix
 
