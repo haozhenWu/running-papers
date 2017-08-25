@@ -84,6 +84,10 @@ DQN使用了两个技术，experience relay和target network。experience relay�
 
 第二种训练的trick就是设置一个target network。也就是on-policy learning，[这里](https://chao1224.github.io/reinforcement_learning/)有更详细的讲解。就是将当前的model或者target network固定几个time step，或者固定几个episode，然后使用这个固定的target network来计算TD error。这里的target network类似baseline的想法。
 
+## Q-Function Modifications
+
+DQN有一个可能的缺陷，是single estimator会overestimate expected return，因为使用maximum action value作为expected action value。所以引入了Double-Q Learning。
+
 # Appendix
 
 收录于IEEE Signal Processing Magazine
