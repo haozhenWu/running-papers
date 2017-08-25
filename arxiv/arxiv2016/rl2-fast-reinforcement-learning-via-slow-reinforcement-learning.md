@@ -12,6 +12,8 @@ Yan Duan, John Schulman, Xi Chen, Peter L. Bartlett, Ilya Sutskever, Pieter Abbe
 
 问题的设定是discrete-time finite-horizon discounted MDP。
 
+使用n来表示总共的episode数量，而跑完所有的episode叫做一次trial。
+
 # Append
 
 这也是2017 ICLR被拒的一篇文章。
