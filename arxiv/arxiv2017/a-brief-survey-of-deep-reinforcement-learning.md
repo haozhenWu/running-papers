@@ -80,6 +80,8 @@ value function认为是隐藏于environment下的一种表达方式。现在很�
 
 DQN就是将image或者frame作为输入，来预测输出。很多Atari游戏都可以使用这种方法。
 
+DQN使用了两个技术，experience relay和target network。experience relay是通过内存，将$$(s_t, a_t, s_{t+1}, r_{t+1})$$的循环存储下来，使得RL agent可以从中sample，并使用前面的数据进行训练。（offline）
+
 # Appendix
 
 收录于IEEE Signal Processing Magazine
