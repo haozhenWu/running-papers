@@ -17,6 +17,7 @@
     * [Consistent Multitask Learning with Nonlinear Output Relations](arxiv/arxiv2017/consistent-multitask-learning-with-nonlinear-output-relations.md)
     * [Objective-Reinforced Generative Adversarial Networks \(ORGAN\) for Sequence Generation Models](arxiv/arxiv2017/objective-reinforced-generative-adversarial-networks-organ-for-sequence-generation-models.md)
     * [A Brief Survey of Deep Reinforcement Learning](arxiv/arxiv2017/a-brief-survey-of-deep-reinforcement-learning.md)
+    * [An Overview of Multi-Task Learning in Deep Neural Networks](arxiv/arxiv2017/an-overview-of-multi-task-learning-in-deep-neural-networks.md)
   * [2016](arxiv/arxiv2016/arxiv2016.md)
     * [automatic chemical design using a data-driven continuous representation of molecules](arxiv/arxiv2016/automatic_chemical_design_using_a_data-driven_cont.md)
     * [achieving human parity in conversational speech recognition](arxiv/arxiv2016/achieving_human_parity_in_conversational_speech_re.md)
