@@ -133,7 +133,7 @@
     * [Deterministic Policy Gradient Algorithms](icml/icml2014/deterministic-policy-gradient-algorithms.md)
   * [2012](icml/icml2012/icml2012.md)
     * [Learning Task Grouping and Overlap in Multi-Task Learning](icml/icml2012/icml2012/learning-task-grouping-and-overlap-in-multi-task-learning.md)
-  * [2011](icml/icml2017/icml2011.md)
+  * [2011](icml/icml2011/icml2011.md)
   * [2006](icml/icml2006/icml2006.md)
   * [2003](icml/icml2003/icml2003.md)
     * [Reinforcement Learning as Classification: Leveraging Moder Classifiers](icml/icml2003/reinforcement-learning-as-classification-leveraging-moder-classifiers.md)
