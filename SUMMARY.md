@@ -147,6 +147,7 @@
     * [Understanding Deep Learning Requires Rethinking Generalization](iclr/iclr2017/understanding-deep-learning-requires-rethinking-generalization.md)
     * [On Large-Batch Training for Deep Learning: Generalization Gap and Sharp Minima](iclr/iclr2017/on-large-batch-training-for-deep-learning-generalization-gap-and-sharp-minima.md)
     * [EPOpt: Learning Robust Neural Network Policies Using Model Ensembles](iclr/iclr2017/epopt-learning-robust-neural-network-policies-using-model-ensembles.md)
+    * [Learning To Optimize](iclr/iclr2017/learning-to-optimize.md)
   * [2016](iclr/iclr2016/iclr2016.md)
     * [Segmental Recurrent Neural Networks](iclr/iclr2016/segmental-recurrent-neural-networks.md)
     * [Order Matters: Sequence To Sequence For Sets](iclr/iclr2016/order_matters_sequence_to_sequence_for_sets.md)
