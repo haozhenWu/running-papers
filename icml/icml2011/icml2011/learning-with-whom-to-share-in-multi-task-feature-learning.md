@@ -34,6 +34,10 @@ $$\theta_t^T u_n = \theta^T U^T x_n = w^T_t x_n$$
 
 $$S^* = argmin \sum \mathcal{L}(D_t; w_t) + \gamma \| W_g \|_F^2$$
 
+# Experiment
+
+实验分别在synthetic data， digit， animal recognition上进行。除了第一个在人工合成上的实验，其他三个实验都是这篇论文提供的最为有效。
+
 # Appendix
 
 Jacob, Clustered multi-task learning: A convex formulation, NIPS 2009
