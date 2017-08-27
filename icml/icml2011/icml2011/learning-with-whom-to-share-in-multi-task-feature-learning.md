@@ -12,7 +12,27 @@ MTL有一个条件是，所有的task都indeed related，并且适合做joint tr
 
 在这篇论文里，我们也是在一个clustered MTL背景下，但是不同的是relatedness被当作是task之间shared features，来作为学习的目标。也就是让模型自己学习哪些task是相关的。
 
+# Multi-task Feature Learning
 
+首先，第t个task有参数$$w_t$$, 和数据$$D_t$$。hard sharing parameter。
+
+$$S^* = argmin \sum \mathcal{L}(D_t; w_t) + \gamma \| W \|_F^2$$
+
+在MTFL中，假设存在某个shared feature subspace。我们的目的是找出这个subspace。这里先假设从input feature通过某种linear transform 到了feature space
+
+$$u_n = U^T x_n$$
+
+然后再假设从feature space通过linear transform到了最终的output space
+
+$$\theta_t^T u_n = \theta^T U^T x_n = w^T_t x_n$$
+
+为了保证结果唯一，再引入了low-rank constraint。
+
+# Learning to Group Tasks
+
+引入了G，表示有多少个不同的group。对于第g个group，$$W_g$$表示这个group的sharing parameters。
+
+$$S^* = argmin \sum \mathcal{L}(D_t; w_t) + \gamma \| W_g \|_F^2$$
 
 # Appendix
 
