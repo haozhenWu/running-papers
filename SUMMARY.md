@@ -134,6 +134,7 @@
   * [2012](icml/icml2012/icml2012.md)
     * [Learning Task Grouping and Overlap in Multi-Task Learning](icml/icml2012/icml2012/learning-task-grouping-and-overlap-in-multi-task-learning.md)
   * [2011](icml/icml2011/icml2011.md)
+    * [Learning with Whom to Share in Multi-task Feature Learning](icml/icml2011/icml2011/learning-with-whom-to-share-in-multi-task-feature-learning.md)
   * [2006](icml/icml2006/icml2006.md)
   * [2003](icml/icml2003/icml2003.md)
     * [Reinforcement Learning as Classification: Leveraging Moder Classifiers](icml/icml2003/reinforcement-learning-as-classification-leveraging-moder-classifiers.md)
