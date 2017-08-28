@@ -8,3 +8,5 @@ Yongxi Lu, Abhishek Kumar, Shuangfei Zhai, Yu Cheng, Tara Javidi, Rogerio Feris
 
 在person attribute classification上进行，每一个人脸或者穿衣特征就当作一个task。
 
+# Methodology
+
