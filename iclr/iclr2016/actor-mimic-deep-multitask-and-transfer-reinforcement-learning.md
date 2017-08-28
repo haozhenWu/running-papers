@@ -20,5 +20,17 @@ DRL在高纬度的任务上展现比较惊人的成功。DQN最开始就是在�
 
 使用DQN中的neural network来取feature，取的是最后一个activation来作为feature input。然后定义某个feature regression network，$$f_i$$，使用MTL的特征作为输入，输出是expert STL的特征。
 
+## Actor-Mimic Objective
+
+将上述两个regression求和即为Actor-Mimic objective
+
+$$\mathcal{L}_{ActorMimic}^i(\theta, \theta_{f_i}) = \mathcal{L}_{policy}^i(\theta) + \beta * \mathcal{L}_{FeatureRegression}^i (\theta, \theta_{f_i})$$
+
+从直观上进行理解：policy regression作为一个teacher (expert network)，告诉学生 (AMN) 如何act（模仿expert的行为）；feature regression objective作为老师，就告诉学生为什么要这么想（模仿expert思考的过程）。
+
+## Transfering Knowledge: Actor-Mimic as Pretraining
+
+将前面几层作为mapping to feature/latent space，新的任务训练就会现在related task上进行训练充当一个warm-start。
+
 # Appendix
 
