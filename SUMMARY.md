@@ -186,7 +186,7 @@
     * [Deep MIML Network](aaai/aaai2017/deep-miml-network.md)
     * [SeqGAN: Sequence Generative Adversarial Nets with Policy Gradient](aaai/aaai2017/seqgan-sequence-generative-adversarial-nets-with-policy-gradient.md)
     * [Self-Paced Multi-Task Learning](aaai/aaai2017/self-paced-multi-task-learning.md)
-  * [aaai2016](aaai/aaai2017/aaai2016.md)
+  * [2016](aaai/aaai2017/aaai2016.md)
     * [SVVAMP: Simulator of Various Voting Algorithms in Manipulating Populations](aaai/aaai2017/aaai2016/svvamp-simulator-of-various-voting-algorithms-in-manipulating-populations.md)
 * [CVPR](cvpr/cvpr.md)
   * [2017](cvpr/cvpr2017/cvpr2017.md)
