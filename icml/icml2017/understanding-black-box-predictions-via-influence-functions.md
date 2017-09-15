@@ -12,4 +12,14 @@ Pang Wei Koh, Percy Liang
 
 # Approach
 
+**Upweighting a training point**
+
 首先是如果将一个datapoint的权重增加很小的$$\epsilon$$，定义了influence of upweighting，在supplement中，推导并不复杂。
+
+然后可以发现，如果要去除某一个datapoint，直接另$$\epsilon=-\frac{1}{n}$$即可。
+
+下一步是利用chain rule测量upweighting z如何改变$$\theta$$。
+
+**Perturbing a training input**
+
+定义$$z_\delta = (x+\delta, y)$$。
