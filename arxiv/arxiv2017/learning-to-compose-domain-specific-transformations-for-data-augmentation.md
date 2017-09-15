@@ -22,3 +22,9 @@ Alexander J. Ratner, etc.
 
 按照文中的标记，在每一个时间点$$t$$结束之后，$$s_t$$记录了所有从第一个时刻到现在的transform function和生成的datapoint。然后将$$s_t, \tau_t$$放入LSTM中进行训练。可以看出这是一个incremental过程。
 
+既然是incremental过程，那么可以得到一个非常reasonable的reward，将当前时刻的loss减去上一个时刻的loss。
+
+所以如公式6，就有一个非常优雅的accumulative loss表达，即为第一个时刻（也就是每一个epoch，G生成的datapoint）的loss，然后一直累加后面t时刻的rewards。
+
+通常第一个时刻的loss会忽略。所以gradient policy表达就如公式7。
+
