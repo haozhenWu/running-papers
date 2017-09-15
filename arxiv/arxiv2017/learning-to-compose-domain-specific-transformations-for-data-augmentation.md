@@ -33,3 +33,7 @@ $$\bigtriangledown_\theta \mathbb{E}_{\tau \sim G_\theta} \mathbb{E}_{x \sim \ma
 # Experiment
 
 在MNIST，CIFAR-10，ACE和DDSM上测试。表1展示了mean field和LSTM两中方法在不同的数据集上，不同的eval方法都有提升。
+
+# Appendix
+
+这应该是最近读到的第二篇用RL和GAN的paper。RL这个框架的适应力太强，也的确很方便。
