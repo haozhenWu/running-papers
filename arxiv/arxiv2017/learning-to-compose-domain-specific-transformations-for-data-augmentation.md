@@ -28,4 +28,8 @@ Alexander J. Ratner, etc.
 
 通常第一个时刻的loss会忽略。所以policy gradient表达就如公式7。这里简单的推一波，主要是根据REINFORCE，[Karpathy's blog](http://karpathy.github.io/2016/05/31/rl/)
 
-$$\bigtriangledown_\theta \mathbb{E}_{\tau \sim G_\theta} \mathbb{E}_{x \sim \mathcal{U}} [ \sum_t R(s_t)] = \mathbb{E}_{\tau \sim G_\theta} \mathbb{E}_{x \sim \mathcal{U}} [\sum_t R(s_t) \bigtriangledown_\theta log \pi_\theta(\tau_t)] $$
+$$\bigtriangledown_\theta \mathbb{E}_{\tau \sim G_\theta} \mathbb{E}_{x \sim \mathcal{U}} [ \sum_t R(s_t)] = \mathbb{E}_{\tau \sim G_\theta} \mathbb{E}_{x \sim \mathcal{U}} [\sum_t R(s_t) \bigtriangledown_\theta log \, \pi_\theta(\tau_t)] $$
+
+# Experiment
+
+在MNIST，CIFAR-10，ACE和DDSM上测试。表1展示了mean field和LSTM两中方法在不同的数据集上，不同的eval方法都有提升。
