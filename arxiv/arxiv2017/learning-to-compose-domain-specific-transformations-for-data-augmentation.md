@@ -26,5 +26,6 @@ Alexander J. Ratner, etc.
 
 所以如公式6，就有一个非常优雅的accumulative loss表达，即为第一个时刻（也就是每一个epoch，G生成的datapoint）的loss，然后一直累加后面t时刻的rewards。
 
-通常第一个时刻的loss会忽略。所以gradient policy表达就如公式7。
+通常第一个时刻的loss会忽略。所以policy gradient表达就如公式7。这里简单的推一波，主要是根据REINFORCE，[Karpathy's blog](http://karpathy.github.io/2016/05/31/rl/)
 
+$$\bigtriangledown_\theta \mathbb{E}_{\tau \sim G_\theta} \mathbb{E}_{x \sim \mathcal{U}} [ \sum_t R(s_t)] = \mathbb{E}_{\tau \sim G_\theta} \mathbb{E}_{x \sim \mathcal{U}} [\sum_t R(s_t) \bigtriangledown_\theta log \pi_\theta(\tau_t)] $$
