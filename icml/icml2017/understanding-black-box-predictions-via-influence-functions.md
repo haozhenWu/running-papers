@@ -22,4 +22,4 @@ Pang Wei Koh, Percy Liang
 
 **Perturbing a training input**
 
-定义$$z_\delta = (x+\delta, y)$$。
+定义$$z_\delta = (x+\delta, y)$$。得到公式3。
