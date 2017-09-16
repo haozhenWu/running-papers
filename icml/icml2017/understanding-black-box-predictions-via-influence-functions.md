@@ -42,6 +42,8 @@ $$\bigtriangledown_\theta L(z_\delta, \hat \theta) - \bigtriangledown_\theta L(z
 
 能够检测domain mismatch：training set和test set的分布不一样。这有可能发生在一些以时间作为cross validation的问题上，或者如论文中说的，不同医院的病人情况。这里测试了20k个病人的重新接纳情况，从100多个医院，127个特征。具体举了四个在test set中孩子的例子，使用influence function能够更加好的找到这四个孩子，并且最重要的几个特征都和孩子相关。
 
+类似的应用，在training set上，进行随机划分，然后利用influence function找到重要的datapoint。
+
 # Appendix
 
 从理论到实验都非常不错的论文。ICML 2017 best paper。
