@@ -9,3 +9,10 @@ Maithra Raghu
 这篇paper的目的是为了构造一个lower bound，基于手动设置的权重参数，这个lower bound在shallow和deep network有区别。
 
 这篇paper的一个贡献是定义并且分析了一系列相互联系的measure和experssivity。
+
+# Measures of Expressivity
+
+给定一个network的参数A，$$F_A(x;W)$$是network的输出。我们想要研究随着A改变，$$F_A(x;W)$$会如何变化。
+
+追踪整个input space在高维的特征情况下很难实现。这里先从1维开始。假设两个点$$x_0$$,$$x_1$$之间存在某一个trajectory $$x(t)$$。
+
