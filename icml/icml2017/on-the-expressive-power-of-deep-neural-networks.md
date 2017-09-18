@@ -6,4 +6,6 @@ Maithra Raghu
 
 在shallow network上，已经有很多研究从理论和实验证明了模型的表达性。最近一些研究depth特性的paper，也都考虑了模型的架构；但是只展示了如果对模型使用特定的weight，可以实现使用shallow network无法达到的性能。
 
-这篇paper的目的是为了构造一个lower bound，基于手动设置的权重参数，在shallow和deep network的区别。
+这篇paper的目的是为了构造一个lower bound，基于手动设置的权重参数，这个lower bound在shallow和deep network有区别。
+
+这篇paper的一个贡献是定义并且分析了一系列相互联系的measure和experssivity。
