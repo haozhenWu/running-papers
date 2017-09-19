@@ -199,6 +199,7 @@
     * [Deep Residual Learning for Image Recognition](cvpr/cvpr2016/deep-residual-learning-for-image-recognition.md)
   * [2015](cvpr/cvpr2015/cvpr2015.md)
     * [Curriculum Learning of Multiple Tasks](cvpr/cvpr2015/curriculum-learning-of-multiple-tasks.md)
+    * [Going Deeper with Convolutions](cvpr/cvpr2015/going-deeper-with-convolutions.md)
 * [IEEE](ieee/ieee.md)
   * [2016](ieee/ieee2016.md)
     * [Efficient Distributed Estimation of Inverse Covariance Matrices](ieee/ieee2016/efficient-distributed-estimation-of-inverse-covariance-matrices.md)
