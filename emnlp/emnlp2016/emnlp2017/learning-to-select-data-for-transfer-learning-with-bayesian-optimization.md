@@ -13,3 +13,9 @@ domain similarity measure $$S$$，$$X$$是训练样本，$$D$$是source domains�
 $$S = \phi(X) \cdot w^T$$
 
 其中$$\phi(X)$$是similarity和diversity features。$$w$$通过bayesian optimization学习。
+
+## Bayesian Optimization for data selection
+
+因为measure $$S$$应该不知道objective function的信息，所以我们不使用gradient-based method。
+
+对于一个black-box function $$f:X \to R$$，Bayesian Optimization能够找到一个输入$$x$$，使得$$f$$最小。同时需要prior $$p(f)$$和acquisition function $$a_{p(f)}: X \to R$$。
