@@ -37,3 +37,7 @@ $$l(x(t)) = \int_t \| \frac{dx(t)}{dt} \| dt$$
 # Insights from Network Expressivity
 
 利用trajectory作为一个trajectory regularization。粗略一想也有l1 regularizer的味道。
+
+说明了这么几件事情
+
+1. 前面几层layer的pertubation，哪怕只发生了很小的改变，也会引起后续更深layer的改变，并且这种改变的关系是呈现exponential。
