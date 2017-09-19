@@ -1,6 +1,14 @@
 # On the Expressive Power of Deep Neural Networks
 
-Maithra Raghu
+Maithra Raghu, Cornell, Google Brain
+
+Ben Poole, Stanford
+
+Jon Kleinberg, Cornell
+
+Surya Gangli, Stanford
+
+Jascha Sohl Dickstein, Google Brain
 
 # Intro
 
