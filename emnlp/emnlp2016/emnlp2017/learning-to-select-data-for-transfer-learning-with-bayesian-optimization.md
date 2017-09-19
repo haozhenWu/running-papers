@@ -19,3 +19,9 @@ $$S = \phi(X) \cdot w^T$$
 因为measure $$S$$应该不知道objective function的信息，所以我们不使用gradient-based method。
 
 对于一个black-box function $$f:X \to R$$，Bayesian Optimization能够找到一个输入$$x$$，使得$$f$$最小。同时需要prior $$p(f)$$和acquisition function $$a_{p(f)}: X \to R$$。
+
+算法流程：
+1. 给定一组输入，是weight $$w$$
+2. 所有source domain的training examples都被评估和排序，排序是按照上面的公式(1)进行的
+3. 每一个task的模型在top n sample上进行训练
+4. 模型在validation set上进行评估
