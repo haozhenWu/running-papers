@@ -38,3 +38,4 @@ $$S = \phi(X) \cdot w^T$$
 
 # Experiments
 
+实验在sentiment analysis，POS tagging，parsing，并且证明比baseline有很大的提升。
