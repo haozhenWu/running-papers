@@ -1,6 +1,6 @@
 # Going Deeper with Convolutions
 
-Christian Szegedy, etc.
+Christian Szegedy, etc
 
 # Intro
 
@@ -19,3 +19,11 @@ Inception的主要目标是考虑一个optimal local sparse structure能够被�
 假设每一层每一个unit都对应image中的某一个区域，并且这些units被分配到了filter banks。
 
 因为计算资源过于昂贵，所以引入另外一个概念：dimensionality reduction。这是受到了embedding的启发，将sparse的信息非常密集的存储起来。
+
+# GoogLeNet
+
+是在ILSVRC上使用的Inception模型的专门名称。具体参数在表1中。
+
+# Appendix
+
+这篇paper在15年发表，当时使用的还是DistBelief，这几年就已经更新到TensorFlow，MXNet，PyTorch。
