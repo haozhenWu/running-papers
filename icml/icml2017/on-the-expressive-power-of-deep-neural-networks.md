@@ -22,3 +22,6 @@ Maithra Raghu
 
 > 对于给定的参数，我们说一个包含piecewise linear region的neuron会在input $$x$$和$$x+\delta$$之间的变换，如果它的activation function在$$x$$和$$x+\delta$$之间的linear region。
 
+对于更加一般化的trajectory定义有$$\tau(F_A(x(t); W))$$，来表示output neurons中的transition个数，当我们改变输入$$x(t)$$的时候。
+
+如果我们把这个定义放到整个网络上，那么就有activation pattern。
