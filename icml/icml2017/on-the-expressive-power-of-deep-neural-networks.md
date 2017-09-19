@@ -24,4 +24,4 @@ Maithra Raghu
 
 对于更加一般化的trajectory定义有$$\tau(F_A(x(t); W))$$，来表示output neurons中的transition个数，当我们改变输入$$x(t)$$的时候。
 
-如果我们把这个定义放到整个网络上，那么就有activation pattern。
+如果我们把这个定义放到整个网络上，那么就有activation pattern。简单的理解，就是activation函数激活的个数。
