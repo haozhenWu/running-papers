@@ -27,3 +27,7 @@ Maithra Raghu
 如果我们把这个定义放到整个网络上，那么就有activation pattern。简单的理解，就是activation函数激活的个数。
 
 比较shallow network和deep network，根据Zaslavsky's theorem，发现在parameter个数相同的情况下，shallow network的linear regions个数比deep的少。
+
+**Trajectory Length**: 给定一个trajectory $$x(t)$$，它的长度定义为arc的长度
+
+$$l(x(t)) = \int_t \| \frac{dx(t)}{dt} \| dt$$
