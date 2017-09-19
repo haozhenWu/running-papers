@@ -31,3 +31,9 @@ Maithra Raghu
 **Trajectory Length**: 给定一个trajectory $$x(t)$$，它的长度定义为arc的长度
 
 $$l(x(t)) = \int_t \| \frac{dx(t)}{dt} \| dt$$
+
+然后证明了bound和stability。
+
+# Insights from Network Expressivity
+
+利用trajectory作为一个trajectory regularization。粗略一想也有l1 regularizer的味道。
