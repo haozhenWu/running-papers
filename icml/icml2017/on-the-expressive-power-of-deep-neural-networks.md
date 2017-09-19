@@ -25,3 +25,5 @@ Maithra Raghu
 对于更加一般化的trajectory定义有$$\tau(F_A(x(t); W))$$，来表示output neurons中的transition个数，当我们改变输入$$x(t)$$的时候。
 
 如果我们把这个定义放到整个网络上，那么就有activation pattern。简单的理解，就是activation函数激活的个数。
+
+比较shallow network和deep network，根据Zaslavsky's theorem，发现在parameter个数相同的情况下，shallow network的linear regions个数比deep的少。
