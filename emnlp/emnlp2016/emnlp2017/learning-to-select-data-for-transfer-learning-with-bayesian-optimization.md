@@ -25,3 +25,9 @@ $$S = \phi(X) \cdot w^T$$
 2. 所有source domain的training examples都被评估和排序，排序是按照上面的公式(1)进行的
 3. 每一个task的模型在top n sample上进行训练
 4. 模型在validation set上进行评估
+
+## Features
+
+使用一系列similarity metric作为特征。
+
+定义$$P$$是source training的representation，$$Q$$是target domain的representation。$$M = \frac{1}{2} (P+Q)$$是average distribution，$$D_{KL}(P\|Q)$$是KL divergence。由此使用了这么几个特征：Jensen-Shannon divergence，Renyi divergence，Bhattacharyya distance，cosine similarity，euclidean distance，variational dist。
