@@ -33,3 +33,5 @@ $$S = \phi(X) \cdot w^T$$
 定义$$P$$是source training的representation，$$Q$$是target domain的representation。$$M = \frac{1}{2} (P+Q)$$是average distribution，$$D_{KL}(P\|Q)$$是KL divergence。由此使用了这么几个特征：Jensen-Shannon divergence，Renyi divergence，Bhattacharyya distance，cosine similarity，euclidean distance，variational dist。
 
 然后考虑三种不同的representation：term distribution，topic distribution，word embedding。这里的representation指的是从feature encode到latent space的过程。
+
+对于每一个training data，计算几种diversity。
