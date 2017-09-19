@@ -53,3 +53,4 @@ $$l(x(t)) = \int_t \| \frac{dx(t)}{dt} \| dt$$
 
 # Appendix
 
+最近进行deep understanding的paper越来越多，这里利用activation pattern作为切入点，感觉还有很多东西可以挖掘。
