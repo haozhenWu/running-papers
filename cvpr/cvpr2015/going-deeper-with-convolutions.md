@@ -17,3 +17,5 @@ Christian Szegedy, etc.
 Inception的主要目标是考虑一个optimal local sparse structure能够被估计，并且被dense components覆盖。
 
 假设每一层每一个unit都对应image中的某一个区域，并且这些units被分配到了filter banks。
+
+因为计算资源过于昂贵，所以引入另外一个概念：dimensionality reduction。这是受到了embedding的启发，将sparse的信息非常密集的存储起来。
