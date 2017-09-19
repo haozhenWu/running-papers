@@ -41,3 +41,7 @@ $$l(x(t)) = \int_t \| \frac{dx(t)}{dt} \| dt$$
 说明了这么几件事情
 
 1. 前面几层layer的pertubation，哪怕只发生了很小的改变，也会引起后续更深layer的改变，并且这种改变的关系是呈现exponential。
+2. 可以用来解释batch normalization。实验证明它能够减少trajectory length，从而保证更高的stability。
+
+# Appendix
+
