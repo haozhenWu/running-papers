@@ -20,6 +20,7 @@
     * [An Overview of Multi-Task Learning in Deep Neural Networks](arxiv/arxiv2017/an-overview-of-multi-task-learning-in-deep-neural-networks.md)
     * [A Study on Neural Network Language Modeling](arxiv/arxiv2017/a-study-on-neural-network-language-modeling.md)
     * [Learning to Compose Domain-Specific Transformations for Data Augmentation](arxiv/arxiv2017/learning-to-compose-domain-specific-transformations-for-data-augmentation.md)
+    * [Autonomous Extracting a Hierarchical Structure of Tasks in reinforcement Learning and Multi-task Reinforcement Learning](arxiv/arxiv2017/autonomous-extracting-a-hierarchical-structure-of-tasks-in-reinforcement-learning-and-multi-task-reinforcement-learning.md)
   * [2016](arxiv/arxiv2016/arxiv2016.md)
     * [automatic chemical design using a data-driven continuous representation of molecules](arxiv/arxiv2016/automatic_chemical_design_using_a_data-driven_cont.md)
     * [achieving human parity in conversational speech recognition](arxiv/arxiv2016/achieving_human_parity_in_conversational_speech_re.md)
