@@ -35,3 +35,6 @@ $$S = \phi(X) \cdot w^T$$
 然后考虑三种不同的representation：term distribution，topic distribution，word embedding。这里的representation指的是从feature encode到latent space的过程。
 
 对于每一个training data，计算几种diversity。
+
+# Experiments
+
