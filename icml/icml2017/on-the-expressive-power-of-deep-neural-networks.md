@@ -16,3 +16,9 @@ Maithra Raghu
 
 追踪整个input space在高维的特征情况下很难实现。这里先从1维开始。假设两个点$$x_0$$,$$x_1$$之间存在某一个trajectory $$x(t)$$。
 
+有提到过使用linear region的概念。给定一个neural network和piecewise linear activation（比如ReLU和tanh），linear region计算的也是一个piecewise函数。一种测量experssive power的方法就是计算linear pieces/regions的个数，也决定了nonlinear function。
+
+实际上linear region的改变是有neuron transition引起的。更加具体的说：
+
+> 对于给定的参数，我们说一个包含piecewise linear region的neuron会在input $$x$$和$$x+\delta$$之间的变换，如果它的activation function在$$x$$和$$x+\delta$$之间的linear region。
+
