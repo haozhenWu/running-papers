@@ -195,6 +195,7 @@
 * [CVPR](cvpr/cvpr.md)
   * [2017](cvpr/cvpr2017/cvpr2017.md)
     * [Fully-adaptive Feature Sharing in Multi-Task Networks with Applications in Person Attribute Classification](cvpr/cvpr2017/fully-adaptive-feature-sharing-in-multi-task-networks-with-applications-in-person-attribute-classification.md)
+    * [Scene Graph Generation by Iterative Message Passing](cvpr/cvpr2017/scene-graph-generation-by-iterative-message-passing.md)
   * [2016](cvpr/cvpr2016/cvpr2016.md)
     * [Deep Residual Learning for Image Recognition](cvpr/cvpr2016/deep-residual-learning-for-image-recognition.md)
   * [2015](cvpr/cvpr2015/cvpr2015.md)
