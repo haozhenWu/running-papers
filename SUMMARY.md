@@ -127,6 +127,7 @@
     * [Model-Agnostic Meta-Learning for Fast Adaptation of Deep Networks](icml/icml2017/model-agnostic-meta-learning-for-fast-adaptation-of-deep-networks.md)
     * [Understanding Black-box Predictions via Influence Functions](icml/icml2017/understanding-black-box-predictions-via-influence-functions.md)
     * [On the Expressive Power of Deep Neural Networks](icml/icml2017/on-the-expressive-power-of-deep-neural-networks.md)
+    * [Neural Episodic Control](icml/icml2017/neural-episodic-control.md)
   * [2016](icml/icml2016/icml2016.md)
     * [Learning Relational Sum-Product Networks](icml/icml2016/learning_relational_sum-product_networks.md)
     * [Towards an Empirical Foundation for Assessing Bayesian Optimization of Hyperparameters](icml/icml2016/towards-an-empirical-foundation-for-assessing-bayesian-optimization-of-hyperparameters.md)
